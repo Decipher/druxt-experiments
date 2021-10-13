@@ -1,0 +1,19 @@
+<template>
+  <div v-html="entity.attributes.body.processed" />
+</template>
+
+<script>
+export default {
+  props: {
+    component: {
+      type: Object,
+      require: true,
+    },
+
+    entity: {
+      type: Object,
+      require: true,
+    }
+  }
+}
+</script>
