@@ -77,6 +77,11 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "patches": {
+            "drupal/core": {
+                "https://www.drupal.org/project/drupal/issues/2942975": "https://git.drupalcode.org/project/drupal/-/merge_requests/1131/diffs.patch"
+            }
         }
     }
 }
