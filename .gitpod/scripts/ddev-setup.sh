@@ -2,6 +2,7 @@
 
 # Set up ddev for use on gitpod
 
+DRUPAL_DIR="${GITPOD_REPO_ROOT}/drupal"
 DDEV_DIR="${GITPOD_REPO_ROOT}/drupal/.ddev"
 # Generate a config.gitpod.yaml that adds the gitpod
 # proxied ports so they're known to ddev.
@@ -39,3 +40,5 @@ COMPOSEEND
 
 # Misc housekeeping before start
 ddev config global --instrumentation-opt-in=true --omit-containers=ddev-router
+
+cd "$DRUPAL_DIR" && ddev start
