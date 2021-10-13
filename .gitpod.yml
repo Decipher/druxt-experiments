@@ -6,8 +6,10 @@ tasks:
       .gitpod/scripts/ddev-download-images.sh
       .gitpod/scripts/ddev-setup.sh
       .gitpod/scripts/drupal-setup.sh
+      .gitpod/scripts/nuxt-setup.sh
     command: |
       .gitpod/scripts/ddev-setup.sh
+      cd nuxt && yarn dev
 
 ports:
   # DDev - direct-bind https port
