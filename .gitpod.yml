@@ -1,0 +1,41 @@
+image:
+  file: .gitpod/Dockerfile
+
+tasks:
+  - init: |
+      .gitpod/scripts/ddev-download-images.sh
+      .gitpod/scripts/ddev-setup.sh
+      .gitpod/scripts/drupal-setup.sh
+    command: |
+      .gitpod/scripts/ddev-setup.sh
+
+ports:
+  # Used by ddev - direct-bind https port
+  - port: 2222
+    onOpen: ignore
+  # Used by ddev - local db clients
+  - port: 3306
+    onOpen: ignore
+  # Used by MailHog
+  - port: 8025
+    onOpen: ignore
+  # Used by phpMyAdmin
+  - port: 8036
+    onOpen: ignore
+  # Direct-connect ddev-webserver port that is the main port
+  - port: 8080
+    onOpen: ignore
+  # xdebug port
+  - port: 9000
+    onOpen: ignore
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addCheck: true
+    addComment: false
+    addBadge: true
+    addLabel: true
