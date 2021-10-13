@@ -1,5 +1,7 @@
 #ddev-generated: Automatically generated ddev .gitignore.
 # You can remove the above line if you want to edit and maintain this file yourself.
+/.gitignore
+
 /**/*.example
 /.dbimageBuild
 /.dbimageExtra
@@ -25,4 +27,3 @@
 /sequelpro.spf
 /xhprof
 /**/README.*
-/docker-compose.host-docker-internal.yaml
