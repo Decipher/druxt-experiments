@@ -10,22 +10,27 @@ tasks:
       .gitpod/scripts/ddev-setup.sh
 
 ports:
-  # Used by ddev - direct-bind https port
+  # DDev - direct-bind https port
   - port: 2222
     onOpen: ignore
-  # Used by ddev - local db clients
+  # Nuxt - Web
+  - port: 3000
+    onOpen: open-preview
+    visibility: public
+  # DDev - local db clients
   - port: 3306
     onOpen: ignore
-  # Used by MailHog
+  # DDev - MailHog
   - port: 8025
     onOpen: ignore
-  # Used by phpMyAdmin
+  # DDev - phpMyAdmin
   - port: 8036
     onOpen: ignore
-  # Direct-connect ddev-webserver port that is the main port
+  # DDev - Web
   - port: 8080
     onOpen: ignore
-  # xdebug port
+    visibility: public
+  # DDev - xdebug port
   - port: 9000
     onOpen: ignore
 
