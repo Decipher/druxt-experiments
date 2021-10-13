@@ -1,5 +1,3 @@
-console.log(process.env.GITPOD_WORKSPACE_ID)
-
 export default {
   buildModules: [
     '@nuxtjs/eslint-module',
