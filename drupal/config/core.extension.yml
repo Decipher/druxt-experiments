@@ -27,6 +27,8 @@ module:
   jsonapi_menu_items: 0
   jsonapi_resources: 0
   jsonapi_views: 0
+  layout_builder: 0
+  layout_discovery: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
