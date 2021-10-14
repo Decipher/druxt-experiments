@@ -1,0 +1,108 @@
+{
+    "uuid": [
+        {
+            "value": "f7ebcad0-2806-4050-a94b-806bfc1a5e30"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "e7e57fbf-8a72-4764-816a-01f83df75836"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-10-14T23:44:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "cd3d7d7f-4527-44f8-a1da-a816385d1cb1"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "cd3d7d7f-4527-44f8-a1da-a816385d1cb1"
+        }
+    ],
+    "title": [
+        {
+            "value": "Test content"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-10-14T23:40:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-10-14T23:44:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>This is a test piece of content with some Paragraphs attached to test the Paragraph View Mode module with a Decoupled Druxt site.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ],
+    "field_paragraphs": [
+        {
+            "target_type": "paragraph",
+            "target_uuid": "c8bbac53-9e99-49e4-8ca8-fc61a0a2109a"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "cfcd4aea-56db-4b75-9b8b-33578c3238ad"
+        },
+        {
+            "target_type": "paragraph",
+            "target_uuid": "96cefa25-c983-45a7-a2ed-ca0b999f2210"
+        }
+    ]
+}

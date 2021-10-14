@@ -1,0 +1,10 @@
+uuid: e6392371-7fc9-48ce-9591-bed8f08f03ae
+langcode: en
+status: true
+dependencies: {  }
+id: nested_paragraphs
+label: 'Nested paragraphs'
+icon_uuid: null
+icon_default: null
+description: 'A nested paragraphs paragraph'
+behavior_plugins: {  }

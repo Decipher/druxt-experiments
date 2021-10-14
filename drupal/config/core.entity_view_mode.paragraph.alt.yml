@@ -1,0 +1,10 @@
+uuid: ad60ff6b-3662-4142-856d-386cd00ca2ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.alt
+label: Alt
+targetEntityType: paragraph
+cache: true

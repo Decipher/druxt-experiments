@@ -1,0 +1,56 @@
+{
+    "uuid": [
+        {
+            "value": "c8bbac53-9e99-49e4-8ca8-fc61a0a2109a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "text",
+            "target_type": "paragraphs_type",
+            "target_uuid": "01b6e460-9ec0-4054-b608-564de9f4c088"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-10-14T23:41:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>This is a Text paragraph on the first level using the Default view mode.<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "paragraph_view_mode": [
+        {
+            "value": "default"
+        }
+    ]
+}

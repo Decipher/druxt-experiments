@@ -1,0 +1,37 @@
+uuid: 8b199c2c-25e7-443a-a3c7-3b1c5bc4f41d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text.field_text
+    - field.field.paragraph.text.paragraph_view_mode
+    - paragraphs.paragraphs_type.text
+  module:
+    - paragraph_view_mode
+    - text
+id: paragraph.text.default
+targetEntityType: paragraph
+bundle: text
+mode: default
+content:
+  field_text:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  paragraph_view_mode:
+    type: paragraph_view_mode
+    weight: 1
+    region: content
+    settings:
+      view_modes:
+        default: Default
+        alt: Alt
+      default_view_mode: default
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,15 @@
+uuid: 01b6e460-9ec0-4054-b608-564de9f4c088
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraph_view_mode
+third_party_settings:
+  paragraph_view_mode:
+    enabled: true
+id: text
+label: Text
+icon_uuid: null
+icon_default: null
+description: 'A basic text paragraph'
+behavior_plugins: {  }

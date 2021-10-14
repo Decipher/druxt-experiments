@@ -1,0 +1,25 @@
+uuid: 27b24094-9ec5-4aa8-b2f6-74fad7701003
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.alt
+    - field.field.paragraph.text.field_text
+    - field.field.paragraph.text.paragraph_view_mode
+    - paragraphs.paragraphs_type.text
+  module:
+    - text
+id: paragraph.text.alt
+targetEntityType: paragraph
+bundle: text
+mode: alt
+content:
+  field_text:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  paragraph_view_mode: true

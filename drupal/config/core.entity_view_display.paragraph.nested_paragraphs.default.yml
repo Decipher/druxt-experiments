@@ -1,0 +1,24 @@
+uuid: 2cd9df7b-0358-4a20-85c9-033084380e81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.nested_paragraphs.field_paragraphs
+    - paragraphs.paragraphs_type.nested_paragraphs
+  module:
+    - entity_reference_revisions
+id: paragraph.nested_paragraphs.default
+targetEntityType: paragraph
+bundle: nested_paragraphs
+mode: default
+content:
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }
