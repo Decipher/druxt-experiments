@@ -1,4 +1,4 @@
-uuid: 79d3a989-3276-4796-804f-a1a65b10788b
+uuid: c127bcf4-abac-4a8f-9bcc-765e8c198de8
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - node
     - taxonomy
 _core:
-  default_config_hash: WpOE_bs8Bs_HY2ns7n2r__de-xno0-Bxkqep5-MsHAs
+  default_config_hash: EzN3GMKU-N9JEBmscfyqCphWJ7ZG4-hSdGEz1eU-JM4
 id: node.field_tags
 field_name: field_tags
 entity_type: node
@@ -15,8 +15,8 @@ settings:
   target_type: taxonomy_term
 module: core
 locked: false
-cardinality: -1
+cardinality: 3
 translatable: true
 indexes: {  }
-persist_with_no_fields: false
+persist_with_no_fields: true
 custom_storage: false

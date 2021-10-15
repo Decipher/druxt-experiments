@@ -1,0 +1,25 @@
+uuid: a961a64d-5e52-4b50-919f-de2a9992c7e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_link
+    - paragraphs.paragraphs_type.related_links
+  module:
+    - link
+_core:
+  default_config_hash: '-ycTbjXVvX2eozqXDopkMZqqfFgAWMXamPlBf58VM5U'
+id: paragraph.related_links.field_paragraph_link
+field_name: field_paragraph_link
+entity_type: paragraph
+bundle: related_links
+label: Link
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

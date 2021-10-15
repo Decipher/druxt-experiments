@@ -1,0 +1,46 @@
+uuid: b22a1896-ff06-4e67-acc1-a3129fb8594b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.call_to_action.field_paragraph_body
+    - field.field.paragraph.call_to_action.field_paragraph_cta
+    - field.field.paragraph.call_to_action.field_paragraph_cta_style
+    - field.field.paragraph.call_to_action.field_paragraph_media
+    - field.field.paragraph.call_to_action.field_paragraph_title
+    - paragraphs.paragraphs_type.call_to_action
+  module:
+    - link
+_core:
+  default_config_hash: 5i5LOPRNavsOP0dQU3drKNs7kEAB2rM3-5Q72ZVbAO8
+id: paragraph.call_to_action.preview
+targetEntityType: paragraph
+bundle: call_to_action
+mode: preview
+content:
+  field_paragraph_cta:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_paragraph_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_paragraph_body: true
+  field_paragraph_cta_style: true
+  field_paragraph_media: true
+  search_api_excerpt: true

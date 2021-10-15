@@ -1,0 +1,21 @@
+uuid: 6808adb4-5712-49ac-bb32-f98644b5bc7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_title
+    - paragraphs.paragraphs_type.call_to_action
+_core:
+  default_config_hash: QWWSSbCdH1bWTdUyb1ngHeiclegFJCvoV2Ugna9AIQ8
+id: paragraph.call_to_action.field_paragraph_title
+field_name: field_paragraph_title
+entity_type: paragraph
+bundle: call_to_action
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

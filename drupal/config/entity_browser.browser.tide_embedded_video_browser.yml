@@ -1,0 +1,44 @@
+uuid: dbffb01c-78fb-4352-8169-22966f391e9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tide_media_browser
+  module:
+    - entity_browser_entity_form
+    - views
+_core:
+  default_config_hash: AYYfF-5o4-3w3UmOZTCsAcLCL2yXqeU0HMK2ZNkqAxs
+name: tide_embedded_video_browser
+label: 'Embedded Video browser'
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select embedded videos'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  efc897bb-7ec4-42f2-b0bb-f713d29ec50d:
+    settings:
+      view: tide_media_browser
+      view_display: embedded_video_browser
+      submit_text: 'Select embedded videos'
+      auto_select: false
+    uuid: efc897bb-7ec4-42f2-b0bb-f713d29ec50d
+    weight: 1
+    label: Library
+    id: view
+  9d07a32a-dccb-4fc1-96c3-cd1ec422bdf7:
+    settings:
+      entity_type: media
+      bundle: embedded_video
+      form_mode: default
+      submit_text: 'Save embedded video'
+    uuid: 9d07a32a-dccb-4fc1-96c3-cd1ec422bdf7
+    weight: 2
+    label: 'Add embedded video'
+    id: entity_form

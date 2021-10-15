@@ -1,0 +1,166 @@
+uuid: 0e80cb73-b6f0-47ac-977b-73ef2fa692de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_component
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.basic_text
+    - paragraphs.paragraphs_type.call_to_action
+    - paragraphs.paragraphs_type.card_carousel
+    - paragraphs.paragraphs_type.card_event
+    - paragraphs.paragraphs_type.card_event_auto
+    - paragraphs.paragraphs_type.card_keydates
+    - paragraphs.paragraphs_type.complex_image
+    - paragraphs.paragraphs_type.data_table
+    - paragraphs.paragraphs_type.embedded_webform
+    - paragraphs.paragraphs_type.featured_news
+    - paragraphs.paragraphs_type.form_embed_openforms
+    - paragraphs.paragraphs_type.latest_events
+    - paragraphs.paragraphs_type.media_gallery
+    - paragraphs.paragraphs_type.navigation_card
+    - paragraphs.paragraphs_type.news_listing
+    - paragraphs.paragraphs_type.promotion_card
+    - paragraphs.paragraphs_type.timelines
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: d0PvHjRaa2y43l9QhJ-65-SBv6Mjxnqm70_ihSocNaU
+id: node.landing_page.field_landing_page_component
+field_name: field_landing_page_component
+entity_type: node
+bundle: landing_page
+label: 'Content components'
+description: '<p>Add text, links, media and cards to build your page.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      basic_text: basic_text
+      accordion: accordion
+      promotion_card: promotion_card
+      navigation_card: navigation_card
+      card_keydates: card_keydates
+      card_carousel: card_carousel
+      embedded_webform: embedded_webform
+      form_embed_openforms: form_embed_openforms
+      media_gallery: media_gallery
+      complex_image: complex_image
+      timelines: timelines
+      call_to_action: call_to_action
+      latest_events: latest_events
+      news_listing: news_listing
+      data_table: data_table
+      card_event: card_event
+      card_event_auto: card_event_auto
+      featured_news: featured_news
+    target_bundles_drag_drop:
+      accordion:
+        enabled: true
+        weight: -31
+      accordion_content:
+        weight: -6
+        enabled: false
+      banner:
+        weight: -33
+        enabled: false
+      basic_text:
+        enabled: true
+        weight: -32
+      call_to_action:
+        enabled: true
+        weight: -12
+      call_to_action_image:
+        weight: 35
+        enabled: false
+      card_carousel:
+        enabled: true
+        weight: -21
+      card_event:
+        enabled: true
+        weight: -28
+      card_event_auto:
+        enabled: true
+        weight: -4
+      card_keydates:
+        enabled: true
+        weight: -22
+      card_promotion:
+        enabled: false
+        weight: -27
+      card_promotion_auto:
+        enabled: false
+        weight: -26
+      complex_image:
+        enabled: true
+        weight: -17
+      contact_us:
+        weight: 34
+        enabled: false
+      data_table:
+        enabled: true
+        weight: -8
+      embedded_search_form:
+        weight: 52
+        enabled: false
+      embedded_webform:
+        enabled: true
+        weight: -20
+      event_details:
+        weight: 46
+        enabled: false
+      form_embed_openforms:
+        enabled: true
+        weight: 23
+      grants_overview:
+        weight: 56
+        enabled: false
+      introduction_banner:
+        weight: 48
+        enabled: false
+      key_journeys:
+        weight: -25
+        enabled: false
+      keydates:
+        weight: -5
+        enabled: false
+      latest_events:
+        enabled: true
+        weight: -11
+      links:
+        weight: -23
+        enabled: false
+      media_gallery:
+        enabled: true
+        weight: -18
+      navigation_card:
+        enabled: true
+        weight: -29
+      news_listing:
+        enabled: true
+        weight: -10
+      phone:
+        weight: 38
+        enabled: false
+      promotion_card:
+        enabled: true
+        weight: -30
+      related_links:
+        weight: -24
+        enabled: false
+      social_link:
+        weight: 40
+        enabled: false
+      timeline:
+        weight: 67
+        enabled: false
+      timelines:
+        enabled: true
+        weight: -16
+field_type: entity_reference_revisions

@@ -1,0 +1,31 @@
+uuid: 99f84854-2515-4871-940f-6b6ec5882dcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_topic
+    - node.type.event
+    - taxonomy.vocabulary.topic
+_core:
+  default_config_hash: YRvdYG9A6Q2A1C8EU9QXoe-qqyxCVnL9CnlyxOd9Jww
+id: node.event.field_topic
+field_name: field_topic
+entity_type: node
+bundle: event
+label: Topic
+description: 'Use <em>Topic</em> field to categorise events by Topic.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topic: topic
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,47 @@
+uuid: c93b6993-f4b2-4f97-b0c3-fa0ce88b7070
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.banner.field_paragraph_cta
+    - field.field.paragraph.banner.field_paragraph_summary
+    - field.field.paragraph.banner.field_paragraph_title
+    - paragraphs.paragraphs_type.banner
+  module:
+    - link
+_core:
+  default_config_hash: AcV_EejVqA6T7CXIo_CWIVau1yiqOURdDnQLyP7yw0Y
+id: paragraph.banner.default
+targetEntityType: paragraph
+bundle: banner
+mode: default
+content:
+  field_paragraph_cta:
+    weight: 2
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_paragraph_summary:
+    type: basic_string
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_paragraph_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

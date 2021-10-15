@@ -1,0 +1,29 @@
+uuid: 5bb38af3-bb30-42e4-b5fc-7818e8989ca7
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: 5uw2AHUDNTf1E3cnKulLFlNYjXmh-2VVo5YvQmacLtI
+id: paragraph.field_paragraph_cta_style
+field_name: field_paragraph_cta_style
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: banner
+      label: Banner
+    -
+      value: card
+      label: Card
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

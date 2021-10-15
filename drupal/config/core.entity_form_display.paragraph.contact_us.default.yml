@@ -1,0 +1,104 @@
+uuid: 27cfc348-4f9c-424c-a339-bd572369d4ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.contact_us.field_paragraph_department_name
+    - field.field.paragraph.contact_us.field_paragraph_email
+    - field.field.paragraph.contact_us.field_paragraph_location
+    - field.field.paragraph.contact_us.field_paragraph_name
+    - field.field.paragraph.contact_us.field_paragraph_phones
+    - field.field.paragraph.contact_us.field_paragraph_postal_address
+    - field.field.paragraph.contact_us.field_paragraph_social_media
+    - field.field.paragraph.contact_us.field_paragraph_title
+    - paragraphs.paragraphs_type.contact_us
+  module:
+    - address
+    - paragraphs
+_core:
+  default_config_hash: IBe8zYw83WG1ZYhWisF0eIN1yEb6hTCAKgn7NjJD7Rk
+id: paragraph.contact_us.default
+targetEntityType: paragraph
+bundle: contact_us
+mode: default
+content:
+  field_paragraph_department_name:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_paragraph_email:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_paragraph_location:
+    weight: 5
+    settings:
+      default_country: null
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_paragraph_name:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_paragraph_phones:
+    type: entity_reference_paragraphs
+    weight: 7
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_paragraph_postal_address:
+    weight: 6
+    settings:
+      default_country: null
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_paragraph_social_media:
+    type: entity_reference_paragraphs
+    weight: 8
+    settings:
+      title: 'Social Media'
+      title_plural: 'Social Media'
+      edit_mode: closed
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+  field_paragraph_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 0
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

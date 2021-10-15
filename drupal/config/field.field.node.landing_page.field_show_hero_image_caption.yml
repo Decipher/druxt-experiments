@@ -1,0 +1,25 @@
+uuid: 80556abf-4c17-429d-84e7-486b3d4a53cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_hero_image_caption
+    - node.type.landing_page
+_core:
+  default_config_hash: Oa09cram6N1NgK20s5gcOTjbAt1loh_iM6ioGLK5Zo8
+id: node.landing_page.field_show_hero_image_caption
+field_name: field_show_hero_image_caption
+entity_type: node
+bundle: landing_page
+label: 'Show Full-with background image caption'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

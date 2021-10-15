@@ -1,0 +1,23 @@
+uuid: 8dd79486-4c3d-4a3c-8950-bbefa21cf22f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_search_block
+    - paragraphs.paragraphs_type.embedded_search_form
+  module:
+    - options
+_core:
+  default_config_hash: vczR7LrCu8oAuJqUKvBvE7x-r7ftmcV4kIaCi7j8dZo
+id: paragraph.embedded_search_form.field_paragraph_search_block
+field_name: field_paragraph_search_block
+entity_type: paragraph
+bundle: embedded_search_form
+label: 'Search Block'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

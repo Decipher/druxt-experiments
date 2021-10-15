@@ -1,0 +1,25 @@
+uuid: 20fe0dc9-4d85-464d-8760-6bc64479b29b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_topic_term_and_tags
+    - node.type.landing_page
+_core:
+  default_config_hash: n0Z8_4nLUHJHAQ8z10uPFLWBShkNdvcSi_TRdOSS0kQ
+id: node.landing_page.field_show_topic_term_and_tags
+field_name: field_show_topic_term_and_tags
+entity_type: node
+bundle: landing_page
+label: 'Show topic term and tags?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

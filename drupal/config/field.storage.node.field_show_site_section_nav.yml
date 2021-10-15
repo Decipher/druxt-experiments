@@ -1,0 +1,20 @@
+uuid: ec70dad3-a656-4d72-b312-12837646ceb0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: EYypWL_gBaTN77STx4MXGGdhslRpMfC4OaMMtD_SkW8
+id: node.field_show_site_section_nav
+field_name: field_show_site_section_nav
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: b46e06c9-ca60-4ee9-a454-bb1bdfdfbff3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_node_email
+    - node.type.event
+_core:
+  default_config_hash: uue_OkshD8oWpD7SWMjc5eqTgG4NQ6B32wlddf1KJaQ
+id: node.event.field_node_email
+field_name: field_node_email
+entity_type: node
+bundle: event
+label: 'Email address'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

@@ -1,0 +1,25 @@
+uuid: 8bebaeac-1548-4169-b777-1c2e17c54697
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_site_footer_menu
+    - taxonomy.vocabulary.sites
+_core:
+  default_config_hash: yijq1-wo3tGwT1PZB9gD7I0_m7i1FUnFhZyeRQh9A1U
+id: taxonomy_term.sites.field_site_footer_menu
+field_name: field_site_footer_menu
+entity_type: taxonomy_term
+bundle: sites
+label: 'Footer menu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:menu'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

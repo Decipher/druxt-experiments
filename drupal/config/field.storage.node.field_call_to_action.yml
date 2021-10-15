@@ -1,0 +1,21 @@
+uuid: f3fb4c24-aac3-4ddb-9e3f-4ca22f9b7ad3
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: WCATmIbzlQhTsAJlySDrI2QrnbzXwaYVr0CkHNqKsno
+id: node.field_call_to_action
+field_name: field_call_to_action
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

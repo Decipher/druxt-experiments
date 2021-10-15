@@ -1,0 +1,32 @@
+uuid: 208951b7-f765-4aea-8884-a91e5c4cc734
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - options
+_core:
+  default_config_hash: bdfxr_ATbgc_-U3XszgHLwc2KLlGX1uMJ6qhArN5lLc
+id: media.field_media_alignment
+field_name: field_media_alignment
+entity_type: media
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left
+      label: Left
+    -
+      value: center
+      label: Center
+    -
+      value: right
+      label: Right
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,199 @@
+uuid: d76c54ac-f67a-4562-b53e-c5a94ffc9baa
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.embedded_video
+_core:
+  default_config_hash: NUf_10AV6kBgw632BKUMck4EBUu8MDvaDVJvdsqGY7U
+id: media--embedded_video
+disabled: false
+path: media/embedded_video
+resourceType: media--embedded_video
+resourceFields:
+  mid:
+    fieldName: mid
+    publicName: mid
+    enhancer:
+      id: ''
+    disabled: false
+  uuid:
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+    disabled: false
+  vid:
+    fieldName: vid
+    publicName: vid
+    enhancer:
+      id: ''
+    disabled: false
+  langcode:
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+    disabled: false
+  bundle:
+    fieldName: bundle
+    publicName: bundle
+    enhancer:
+      id: ''
+    disabled: false
+  revision_created:
+    fieldName: revision_created
+    publicName: revision_created
+    enhancer:
+      id: ''
+    disabled: false
+  revision_user:
+    fieldName: revision_user
+    publicName: revision_user
+    enhancer:
+      id: ''
+    disabled: false
+  revision_log_message:
+    fieldName: revision_log_message
+    publicName: revision_log_message
+    enhancer:
+      id: ''
+    disabled: false
+  status:
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+    disabled: false
+  name:
+    fieldName: name
+    publicName: name
+    enhancer:
+      id: ''
+    disabled: false
+  thumbnail:
+    fieldName: thumbnail
+    publicName: thumbnail
+    enhancer:
+      id: ''
+    disabled: false
+  uid:
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+    disabled: false
+  created:
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+    disabled: false
+  changed:
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+    disabled: false
+  default_langcode:
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+    disabled: false
+  revision_default:
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+    disabled: false
+  revision_translation_affected:
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+    disabled: false
+  moderation_state:
+    fieldName: moderation_state
+    publicName: moderation_state
+    enhancer:
+      id: ''
+    disabled: false
+  metatag:
+    fieldName: metatag
+    publicName: metatag
+    enhancer:
+      id: ''
+    disabled: false
+  path:
+    fieldName: path
+    publicName: path
+    enhancer:
+      id: ''
+    disabled: false
+  field_license_type:
+    fieldName: field_license_type
+    publicName: field_license_type
+    enhancer:
+      id: ''
+    disabled: false
+  field_media_audience:
+    fieldName: field_media_audience
+    publicName: field_media_audience
+    enhancer:
+      id: ''
+    disabled: false
+  field_media_department:
+    fieldName: field_media_department
+    publicName: field_media_department
+    enhancer:
+      id: ''
+    disabled: false
+  field_media_length:
+    fieldName: field_media_length
+    publicName: field_media_length
+    enhancer:
+      id: ''
+    disabled: false
+  field_media_link:
+    fieldName: field_media_link
+    publicName: field_media_link
+    enhancer:
+      id: ''
+    disabled: false
+  field_media_restricted:
+    fieldName: field_media_restricted
+    publicName: field_media_restricted
+    enhancer:
+      id: ''
+    disabled: false
+  field_media_site:
+    fieldName: field_media_site
+    publicName: field_media_site
+    enhancer:
+      id: ''
+    disabled: false
+  field_media_summary:
+    fieldName: field_media_summary
+    publicName: field_media_summary
+    enhancer:
+      id: ''
+    disabled: false
+  field_media_topic:
+    fieldName: field_media_topic
+    publicName: field_media_topic
+    enhancer:
+      id: ''
+    disabled: false
+  field_media_transcript:
+    fieldName: field_media_transcript
+    publicName: field_media_transcript
+    enhancer:
+      id: ''
+    disabled: false
+  field_media_video_embed_field:
+    fieldName: field_media_video_embed_field
+    publicName: field_media_video_embed_field
+    enhancer:
+      id: embed_video_enhancer
+    disabled: false

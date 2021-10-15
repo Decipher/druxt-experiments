@@ -1,0 +1,60 @@
+uuid: 39b02321-f3fd-4f99-a14d-9d90a44db5b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_browser_preview
+    - field.field.media.audio.field_license_type
+    - field.field.media.audio.field_media_audience
+    - field.field.media.audio.field_media_department
+    - field.field.media.audio.field_media_file
+    - field.field.media.audio.field_media_length
+    - field.field.media.audio.field_media_restricted
+    - field.field.media.audio.field_media_show_transcript
+    - field.field.media.audio.field_media_site
+    - field.field.media.audio.field_media_summary
+    - field.field.media.audio.field_media_topic
+    - field.field.media.audio.field_media_transcript
+    - image.style.thumbnail
+    - media.type.audio
+  module:
+    - svg_image
+_core:
+  default_config_hash: caOjlyigcVra9mUD_I9sHNQXSewupUGr0EARlozczHk
+id: media.audio.media_browser_preview
+targetEntityType: media
+bundle: audio
+mode: media_browser_preview
+content:
+  name:
+    type: string
+    weight: 1
+    region: content
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  thumbnail:
+    type: image
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_license_type: true
+  field_media_audience: true
+  field_media_department: true
+  field_media_file: true
+  field_media_length: true
+  field_media_restricted: true
+  field_media_show_transcript: true
+  field_media_site: true
+  field_media_summary: true
+  field_media_topic: true
+  field_media_transcript: true
+  search_api_excerpt: true
+  uid: true

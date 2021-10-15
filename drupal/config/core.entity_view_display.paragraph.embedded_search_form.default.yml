@@ -1,0 +1,53 @@
+uuid: ba7bd20f-3e7b-4b61-b9e1-5e85541f21ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embedded_search_form.field_paragraph_search_block
+    - field.field.paragraph.embedded_search_form.field_paragraph_search_ph
+    - field.field.paragraph.embedded_search_form.field_paragraph_search_target
+    - field.field.paragraph.embedded_search_form.field_paragraph_search_url
+    - paragraphs.paragraphs_type.embedded_search_form
+  module:
+    - options
+_core:
+  default_config_hash: FOzQPGtrezKF8C5_MKm9X1leuCRIKY7T_qDCL9XHEjs
+id: paragraph.embedded_search_form.default
+targetEntityType: paragraph
+bundle: embedded_search_form
+mode: default
+content:
+  field_paragraph_search_block:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_paragraph_search_ph:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_paragraph_search_target:
+    weight: 3
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_paragraph_search_url:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  search_api_excerpt: true

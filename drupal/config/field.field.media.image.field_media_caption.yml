@@ -1,0 +1,21 @@
+uuid: 45be90b9-e95e-4171-99b3-02d73ff976ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_caption
+    - media.type.image
+_core:
+  default_config_hash: pNi1ABWUyEMpSgDn7QTnwStnIMc5z_G2dhOa6kMav2M
+id: media.image.field_media_caption
+field_name: field_media_caption
+entity_type: media
+bundle: image
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

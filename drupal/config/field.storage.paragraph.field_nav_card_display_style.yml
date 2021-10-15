@@ -1,0 +1,32 @@
+uuid: e3799d8d-8b7a-48c1-8634-ab1f9706107c
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: WNEekXJn5Sos-mN9ATpiOPzLvJKObXTXb4CoyJDXMQg
+id: paragraph.field_nav_card_display_style
+field_name: field_nav_card_display_style
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: noImage
+      label: 'No image'
+    -
+      value: thumbnail
+      label: Thumbnail
+    -
+      value: featured
+      label: Featured
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

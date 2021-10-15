@@ -1,0 +1,21 @@
+uuid: 87a1db53-86ad-4b47-a40e-4d935288450f
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - text
+_core:
+  default_config_hash: VPMRHWTEh3YQHNpEycpDPazr87yyOZp8SCOPBTMqx4I
+id: taxonomy_term.field_site_slogan
+field_name: field_site_slogan
+entity_type: taxonomy_term
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

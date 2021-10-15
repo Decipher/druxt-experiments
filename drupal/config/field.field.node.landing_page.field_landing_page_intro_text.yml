@@ -1,0 +1,21 @@
+uuid: 5226beba-10c7-4032-a698-adeba22f1c9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_intro_text
+    - node.type.landing_page
+_core:
+  default_config_hash: fcJkPSHibtXZ1UuzOKEA4WJuPHpSNupP263PjOJr0po
+id: node.landing_page.field_landing_page_intro_text
+field_name: field_landing_page_intro_text
+entity_type: node
+bundle: landing_page
+label: 'Introduction text'
+description: 'Add a brief summary of the page. This displays under the page title.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

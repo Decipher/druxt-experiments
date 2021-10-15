@@ -1,0 +1,12 @@
+uuid: 2d2a6b71-498f-4aec-8046-4ec7bf78e314
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hpybcPt6VbcwCi6g1yLFKbhGNBjFuQpjRFo9DSEqEj0
+id: timeline
+label: Timeline
+icon_uuid: null
+icon_default: null
+description: 'Used to display content in a style representing a timeline.'
+behavior_plugins: {  }

@@ -1,0 +1,78 @@
+uuid: d5f5fae0-0958-4240-865b-7f95e485dae2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_accordion
+    - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.accordion_content
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: RiV9bifKxNrfaWvu-BZBcJ4XhJRuALWd7XcQB8uLm_4
+id: paragraph.accordion.field_paragraph_accordion
+field_name: field_paragraph_accordion
+entity_type: paragraph
+bundle: accordion
+label: 'Accordion items'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      accordion_content: accordion_content
+    target_bundles_drag_drop:
+      accordion:
+        weight: 17
+        enabled: false
+      accordion_content:
+        enabled: true
+        weight: 18
+      banner:
+        weight: 19
+        enabled: false
+      basic_text:
+        weight: 20
+        enabled: false
+      card_event:
+        weight: 21
+        enabled: false
+      card_keydates:
+        weight: 22
+        enabled: false
+      card_navigation:
+        weight: 23
+        enabled: false
+      card_navigation_auto:
+        weight: 24
+        enabled: false
+      card_navigation_featured:
+        weight: 25
+        enabled: false
+      card_navigation_featured_auto:
+        weight: 26
+        enabled: false
+      card_promotion:
+        weight: 27
+        enabled: false
+      card_promotion_auto:
+        weight: 28
+        enabled: false
+      key_journeys:
+        weight: 30
+        enabled: false
+      keydates:
+        weight: 29
+        enabled: false
+      links:
+        weight: 31
+        enabled: false
+      related_links:
+        weight: 32
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,21 @@
+uuid: 22808d84-223f-46d4-9ef6-7cd70317c029
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_summary
+    - node.type.landing_page
+_core:
+  default_config_hash: 8RwgL-w0CIyDqnw-76EJtR7pmufXecy0aJ_KUwW8S14
+id: node.landing_page.field_landing_page_summary
+field_name: field_landing_page_summary
+entity_type: node
+bundle: landing_page
+label: Summary
+description: 'This is the meta description that appears in Google search results. Recommended length <156 characters. Use keywords.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

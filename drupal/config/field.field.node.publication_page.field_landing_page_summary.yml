@@ -1,0 +1,21 @@
+uuid: 00742b02-80fe-4942-8ab9-832dc3e16930
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_summary
+    - node.type.publication_page
+_core:
+  default_config_hash: xXRUEj6rT62aOi7xmHD_Y3sezz9Q9nlxZ83dMiLkfE0
+id: node.publication_page.field_landing_page_summary
+field_name: field_landing_page_summary
+entity_type: node
+bundle: publication_page
+label: Summary
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

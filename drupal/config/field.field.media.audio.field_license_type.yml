@@ -1,0 +1,31 @@
+uuid: 446e4423-7917-4603-8f4a-13e111a037b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_license_type
+    - media.type.audio
+    - taxonomy.vocabulary.license_type
+_core:
+  default_config_hash: yra5iWGlO3yvS5EEKUE2690wb5e1fgls5UENU_V80bQ
+id: media.audio.field_license_type
+field_name: field_license_type
+entity_type: media
+bundle: audio
+label: 'License Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      license_type: license_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

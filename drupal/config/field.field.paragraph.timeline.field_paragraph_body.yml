@@ -1,0 +1,29 @@
+uuid: d19889ec-4061-4ffa-9714-793326830421
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_body
+    - paragraphs.paragraphs_type.timeline
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    rich_text: '0'
+    admin_text: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: U_V7HpX8zQOc_fabFHrVopSgKxU6bCck9UgpHLJn044
+id: paragraph.timeline.field_paragraph_body
+field_name: field_paragraph_body
+entity_type: paragraph
+bundle: timeline
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

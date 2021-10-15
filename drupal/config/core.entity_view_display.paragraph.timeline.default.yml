@@ -1,0 +1,82 @@
+uuid: 01a53fa1-fea7-4c75-a4d1-929782d16d81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.timeline.field_paragraph_body
+    - field.field.paragraph.timeline.field_paragraph_cta_text
+    - field.field.paragraph.timeline.field_paragraph_date_range
+    - field.field.paragraph.timeline.field_paragraph_link
+    - field.field.paragraph.timeline.field_paragraph_media
+    - field.field.paragraph.timeline.field_paragraph_summary
+    - field.field.paragraph.timeline.field_paragraph_title
+    - paragraphs.paragraphs_type.timeline
+  module:
+    - datetime_range
+    - link
+    - media
+    - text
+_core:
+  default_config_hash: sSZe_iXcdBJnfu0-zMiHBcXRcXY_MDqf0LSjtHIGQi4
+id: paragraph.timeline.default
+targetEntityType: paragraph
+bundle: timeline
+mode: default
+content:
+  field_paragraph_body:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_paragraph_cta_text:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_paragraph_date_range:
+    weight: 1
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_paragraph_link:
+    weight: 3
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_paragraph_media:
+    weight: 4
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: media_thumbnail
+    region: content
+  field_paragraph_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_paragraph_summary: true
+  search_api_excerpt: true

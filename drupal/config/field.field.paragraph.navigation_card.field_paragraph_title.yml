@@ -1,0 +1,21 @@
+uuid: 3b76988f-1b58-4389-b77f-daf2e5ab0bac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_title
+    - paragraphs.paragraphs_type.navigation_card
+_core:
+  default_config_hash: 3VaeF2XtEZHY43ojepXWTucVeiPGu0jm0wH4uB-4DEk
+id: paragraph.navigation_card.field_paragraph_title
+field_name: field_paragraph_title
+entity_type: paragraph
+bundle: navigation_card
+label: Title
+description: 'This title will be displayed as the primary call-to-action on the card.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

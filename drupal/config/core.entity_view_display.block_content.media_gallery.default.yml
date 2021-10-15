@@ -1,0 +1,53 @@
+uuid: b80e61ff-9277-4b23-b9b6-13ecc69fd1e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media_gallery
+    - field.field.block_content.media_gallery.field_gallery_featured_image
+    - field.field.block_content.media_gallery.field_gallery_media
+    - field.field.block_content.media_gallery.field_tags
+    - field.field.block_content.media_gallery.field_topic
+_core:
+  default_config_hash: '-HAqAwu9ZZBcFtsx0XidsrG8imtmOR_5YIBA4xqg2hE'
+id: block_content.media_gallery.default
+targetEntityType: block_content
+bundle: media_gallery
+mode: default
+content:
+  field_gallery_featured_image:
+    type: entity_reference_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_gallery_media:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_topic:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  search_api_excerpt: true

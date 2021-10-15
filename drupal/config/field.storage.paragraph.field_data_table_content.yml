@@ -1,0 +1,21 @@
+uuid: dae21267-2cc3-4cad-a8ad-97eca9687169
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - tablefield
+_core:
+  default_config_hash: WpR9IFsmXHV2OUvBbDn3Jypmdjz6Czm2wxiqplctZ3w
+id: paragraph.field_data_table_content
+field_name: field_data_table_content
+entity_type: paragraph
+type: tablefield
+settings: {  }
+module: tablefield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

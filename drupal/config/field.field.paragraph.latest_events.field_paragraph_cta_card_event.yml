@@ -1,0 +1,102 @@
+uuid: 4a2e8c8f-5d7a-432d-8764-3ec8c0c434e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_cta_card_event
+    - paragraphs.paragraphs_type.call_to_action
+    - paragraphs.paragraphs_type.latest_events
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: rmoHAjinGvhjUCzoLj5ENte9b4V6HIRXWbQzCpaW1yo
+id: paragraph.latest_events.field_paragraph_cta_card_event
+field_name: field_paragraph_cta_card_event
+entity_type: paragraph
+bundle: latest_events
+label: 'CTA Card event'
+description: 'A ''Card-Call to Action'' in place of the sixth ''Card-event''.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      call_to_action: call_to_action
+    target_bundles_drag_drop:
+      latest_events:
+        weight: 29
+        enabled: false
+      accordion:
+        weight: 30
+        enabled: false
+      accordion_content:
+        weight: 31
+        enabled: false
+      banner:
+        weight: 32
+        enabled: false
+      basic_text:
+        weight: 33
+        enabled: false
+      call_to_action:
+        enabled: true
+        weight: 34
+      call_to_action_image:
+        weight: 35
+        enabled: false
+      card_event:
+        weight: 36
+        enabled: false
+      card_keydates:
+        weight: 37
+        enabled: false
+      card_promotion:
+        weight: 42
+        enabled: false
+      card_promotion_auto:
+        weight: 43
+        enabled: false
+      contact_us:
+        weight: 44
+        enabled: false
+      embedded_webform:
+        weight: 45
+        enabled: false
+      event_details:
+        weight: 46
+        enabled: false
+      featured_news:
+        weight: 47
+        enabled: false
+      introduction_banner:
+        weight: 48
+        enabled: false
+      keydates:
+        weight: 49
+        enabled: false
+      key_journeys:
+        weight: 50
+        enabled: false
+      links:
+        weight: 51
+        enabled: false
+      media_gallery:
+        weight: 52
+        enabled: false
+      news_listing:
+        weight: 53
+        enabled: false
+      phone:
+        weight: 54
+        enabled: false
+      related_links:
+        weight: 55
+        enabled: false
+      social_link:
+        weight: 56
+        enabled: false
+field_type: entity_reference_revisions

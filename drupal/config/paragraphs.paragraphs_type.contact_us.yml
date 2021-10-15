@@ -1,0 +1,12 @@
+uuid: 56b4e72e-4f8e-46d9-8357-21fc70635209
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0unNgddJUcJ9I9yCKwY8TWJIM4uKE_sDmeCACNL_B9E
+id: contact_us
+label: 'Contact Us'
+icon_uuid: null
+icon_default: null
+description: 'Paragraph type to allow the Contact component.'
+behavior_plugins: {  }

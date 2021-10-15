@@ -1,0 +1,12 @@
+uuid: 7a0f854f-86ba-44cb-a4bb-d8032b004b39
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: MnSx3r-zVtNNSluC8e12Pt4yU_meYolnz3uWN6k9E5w
+id: media.media_browser_preview
+label: 'Media browser preview'
+targetEntityType: media
+cache: true

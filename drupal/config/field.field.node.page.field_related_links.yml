@@ -1,0 +1,48 @@
+uuid: 4d78237c-d9cc-4627-bcbe-e90cab38de81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_links
+    - node.type.page
+    - paragraphs.paragraphs_type.related_links
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: urxzauQy5K_fwhHGzOym8CLDTIJ1h6YkO_3kgPNHbUQ
+id: node.page.field_related_links
+field_name: field_related_links
+entity_type: node
+bundle: page
+label: 'Related links'
+description: 'Add links related to the content of this page.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      related_links: related_links
+    target_bundles_drag_drop:
+      banner:
+        weight: 7
+        enabled: false
+      card_event:
+        weight: 8
+        enabled: false
+      card_promotion:
+        weight: 9
+        enabled: false
+      key_journeys:
+        weight: 10
+        enabled: false
+      popular_links:
+        weight: 11
+        enabled: false
+      related_links:
+        enabled: true
+        weight: 12
+field_type: entity_reference_revisions

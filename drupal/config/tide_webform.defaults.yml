@@ -1,0 +1,7 @@
+privacy_statement:
+  add_to_new_form: false
+  heading: 'Privacy statement'
+  content: "<p>The Department collects the information that you provide with this complaint form. The information that you provide is used to respond to your enquiry. You can request access to, and corrections of, any personal information provided in this form. Requests for access or correction should be sent to [site:mail].</p>\n<p>The Department is using the services of Drupal 8 to administer this form. The information that you provide is stored in our Drupal 8 content management system and Amazon Web Services servers.</p>\n<p>For more information on the Department’s handling of any personal information, please refer to the Department’s Privacy Statement.</p>\n<p>If you do not provide all or part of the information requested, the Department may not be able to contact you regarding your enquiry. Please contact the Department if you wish to use an alternative mechanism to the online form.</p>\n"
+  agreement: 'I have read and understood the privacy statement.'
+_core:
+  default_config_hash: 1hFt9mZjJRRxeQ3rmaku0i-z1hSwavYloREfXyZe02s

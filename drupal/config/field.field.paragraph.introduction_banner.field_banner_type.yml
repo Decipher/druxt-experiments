@@ -1,0 +1,25 @@
+uuid: bb49638a-ea37-4590-9246-6b734a4e0afa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_banner_type
+    - paragraphs.paragraphs_type.introduction_banner
+  module:
+    - options
+_core:
+  default_config_hash: dYHNpzOfwPKye4hlWLSk3TVVACKEC5F4_45e163KlCM
+id: paragraph.introduction_banner.field_banner_type
+field_name: field_banner_type
+entity_type: paragraph
+bundle: introduction_banner
+label: 'Banner type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: standard
+default_value_callback: ''
+settings: {  }
+field_type: list_string

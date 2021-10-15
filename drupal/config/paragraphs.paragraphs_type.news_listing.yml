@@ -1,0 +1,12 @@
+uuid: 4005d71d-7570-4c1a-8a96-797a6c749757
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ev-N9TnUXv8pupGNmFyjA7fxqExFjavWRjSiz2-Hwt4
+id: news_listing
+label: 'News listing'
+icon_uuid: null
+icon_default: null
+description: 'Display a list of links to 6 recent news items based on a specific topic.'
+behavior_plugins: {  }

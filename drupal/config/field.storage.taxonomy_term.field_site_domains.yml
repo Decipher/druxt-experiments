@@ -1,0 +1,21 @@
+uuid: bef8048a-6718-458e-a102-7b2c611cce94
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: st79LIX4GhcmGtHoY8HNPauumexd9UYLfXhMwTjuIlw
+id: taxonomy_term.field_site_domains
+field_name: field_site_domains
+entity_type: taxonomy_term
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

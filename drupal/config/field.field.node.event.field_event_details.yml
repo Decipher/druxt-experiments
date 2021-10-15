@@ -1,0 +1,99 @@
+uuid: 5d7cd231-394e-4b00-bb45-b2447e8cfb61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_details
+    - node.type.event
+    - paragraphs.paragraphs_type.event_details
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: SZnGeKzMZZYNCstxvJOmDv2s2OY-6g4slDSyeoSae00
+id: node.event.field_event_details
+field_name: field_event_details
+entity_type: node
+bundle: event
+label: 'Event Details'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      event_details: event_details
+    target_bundles_drag_drop:
+      accordion:
+        weight: 25
+        enabled: false
+      accordion_content:
+        weight: 26
+        enabled: false
+      banner:
+        weight: 27
+        enabled: false
+      basic_text:
+        weight: 28
+        enabled: false
+      call_to_action:
+        weight: 29
+        enabled: false
+      card_event:
+        weight: 30
+        enabled: false
+      card_keydates:
+        weight: 31
+        enabled: false
+      card_navigation:
+        weight: 32
+        enabled: false
+      card_navigation_auto:
+        weight: 33
+        enabled: false
+      card_navigation_featured:
+        weight: 34
+        enabled: false
+      card_navigation_featured_auto:
+        weight: 35
+        enabled: false
+      card_promotion:
+        weight: 36
+        enabled: false
+      card_promotion_auto:
+        weight: 37
+        enabled: false
+      contact_us:
+        weight: 38
+        enabled: false
+      embedded_webform:
+        weight: 39
+        enabled: false
+      event_details:
+        enabled: true
+        weight: 40
+      keydates:
+        weight: 42
+        enabled: false
+      key_journeys:
+        weight: 43
+        enabled: false
+      links:
+        weight: 44
+        enabled: false
+      news_listing:
+        weight: 45
+        enabled: false
+      phone:
+        weight: 46
+        enabled: false
+      related_links:
+        weight: 47
+        enabled: false
+      social_link:
+        weight: 48
+        enabled: false
+field_type: entity_reference_revisions

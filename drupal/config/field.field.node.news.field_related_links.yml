@@ -1,0 +1,33 @@
+uuid: 8c647bcc-2e8d-497a-8ebd-f0b2f170d98a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_links
+    - node.type.news
+    - paragraphs.paragraphs_type.related_links
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: ldrhzSaiMHkpFqadoqXOeR19l11GqhZ9EcQBYnOfdaM
+id: node.news.field_related_links
+field_name: field_related_links
+entity_type: node
+bundle: news
+label: 'Related links'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      related_links: related_links
+    target_bundles_drag_drop:
+      related_links:
+        enabled: true
+        weight: 0
+field_type: entity_reference_revisions

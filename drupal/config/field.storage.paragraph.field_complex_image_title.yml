@@ -1,0 +1,23 @@
+uuid: 90858749-2b50-4912-bdfc-a3f082f20de7
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: gov_13IkAGJ4jn3WrZswflggQq3yc9pBA6U2C74zwIw
+id: paragraph.field_complex_image_title
+field_name: field_complex_image_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

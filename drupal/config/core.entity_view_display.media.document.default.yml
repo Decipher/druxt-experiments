@@ -1,0 +1,85 @@
+uuid: 461d4843-2043-430c-b65b-a9b99265228b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.document.field_license_type
+    - field.field.media.document.field_media_audience
+    - field.field.media.document.field_media_department
+    - field.field.media.document.field_media_file
+    - field.field.media.document.field_media_restricted
+    - field.field.media.document.field_media_site
+    - field.field.media.document.field_media_topic
+    - media.type.document
+  module:
+    - file
+_core:
+  default_config_hash: TdIzTTZN3QuGCxesdw7PtAG_uCJWSGleu-6tsIuedJQ
+id: media.document.default
+targetEntityType: media
+bundle: document
+mode: default
+content:
+  field_license_type:
+    weight: 7
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_media_audience:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_media_department:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_media_file:
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    weight: 1
+    region: content
+  field_media_restricted:
+    weight: 3
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_media_topic:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  name:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_site: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,66 @@
+uuid: 59cfa27a-5e13-4dde-9930-c24b409d0d7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.data_table.field_data_table_content
+    - field.field.paragraph.data_table.field_first_column_table_header
+    - field.field.paragraph.data_table.field_first_row_table_header
+    - field.field.paragraph.data_table.field_table_orientation
+    - paragraphs.paragraphs_type.data_table
+  module:
+    - field_group
+    - tablefield
+third_party_settings:
+  field_group:
+    group_headers:
+      children:
+        - field_first_column_table_header
+        - field_first_row_table_header
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: Headers
+_core:
+  default_config_hash: 3jOjbXxJgWfwihWfdnAThwN8wPTNFH6xCpIl_zEcBUk
+id: paragraph.data_table.default
+targetEntityType: paragraph
+bundle: data_table
+mode: default
+content:
+  field_data_table_content:
+    weight: 2
+    settings:
+      input_type: textfield
+    third_party_settings: {  }
+    type: tablefield
+    region: content
+  field_first_column_table_header:
+    weight: 3
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_first_row_table_header:
+    weight: 4
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_table_orientation:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,32 @@
+uuid: b8f109bc-35aa-4062-997c-2409a978e210
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.campaign
+    - block_content.type.campaign_with_video
+    - field.storage.node.field_landing_page_c_secondary
+    - node.type.landing_page
+_core:
+  default_config_hash: ar2zTeuSZbGMFs2_4OrIHzBXVET-2ZlR5F6rNpdIz-U
+id: node.landing_page.field_landing_page_c_secondary
+field_name: field_landing_page_c_secondary
+entity_type: node
+bundle: landing_page
+label: 'Secondary campaign'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      campaign: campaign
+      campaign_with_video: campaign_with_video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: campaign
+field_type: entity_reference

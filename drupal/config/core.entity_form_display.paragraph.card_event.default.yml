@@ -1,0 +1,102 @@
+uuid: dff6ad39-28e6-4f3d-b1c1-d212fbe55f60
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.tide_image_browser
+    - field.field.paragraph.card_event.field_paragraph_cta
+    - field.field.paragraph.card_event.field_paragraph_date
+    - field.field.paragraph.card_event.field_paragraph_date_range
+    - field.field.paragraph.card_event.field_paragraph_location
+    - field.field.paragraph.card_event.field_paragraph_media
+    - field.field.paragraph.card_event.field_paragraph_status
+    - field.field.paragraph.card_event.field_paragraph_summary
+    - field.field.paragraph.card_event.field_paragraph_title
+    - field.field.paragraph.card_event.field_paragraph_topic
+    - paragraphs.paragraphs_type.card_event
+  module:
+    - address
+    - datetime_range
+    - entity_browser
+    - link
+    - maxlength
+_core:
+  default_config_hash: X0fcfDeLnL98HJMvf3bhXaHxagEqT_gOwaILOCk-Ddw
+id: paragraph.card_event.default
+targetEntityType: paragraph
+bundle: card_event
+mode: default
+content:
+  field_paragraph_cta:
+    weight: 6
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_paragraph_date_range:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_paragraph_location:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_paragraph_media:
+    weight: 1
+    settings:
+      entity_browser: tide_image_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: media_browser_preview
+      open: false
+      field_widget_replace: false
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_paragraph_summary:
+    type: string_textarea
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 200
+        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
+        maxlength_js_enforce: false
+        maxlength_js_truncate_html: false
+    region: content
+  field_paragraph_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_paragraph_topic:
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  field_paragraph_date: true
+  field_paragraph_status: true
+  moderation_state: true
+  status: true
+  uid: true

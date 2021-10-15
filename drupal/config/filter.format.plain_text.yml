@@ -1,9 +1,7 @@
-uuid: 15b07d2d-268b-4ed3-9daf-ae77f388853c
+uuid: 08395d4c-d700-46eb-820b-4ba80db2d59a
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: NIKBt6kw_uPhNI0qtR2DnRf7mSOgAQdx7Q94SKMjXbQ
 name: 'Plain text'
 format: plain_text
 weight: 10
@@ -13,17 +11,4 @@ filters:
     provider: filter
     status: true
     weight: -10
-    settings: {  }
-  filter_url:
-    id: filter_url
-    provider: filter
-    status: true
-    weight: 0
-    settings:
-      filter_url_length: 72
-  filter_autop:
-    id: filter_autop
-    provider: filter
-    status: true
-    weight: 0
     settings: {  }

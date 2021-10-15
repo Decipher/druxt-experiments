@@ -1,0 +1,74 @@
+uuid: 624663af-1227-402f-9a64-6c35502a58f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tide_media_browser
+  module:
+    - entity_browser_entity_form
+    - views
+_core:
+  default_config_hash: V6s-cHkCxte4qO8WqxW_RLCp8I3nHW2_Hwgo3CCPOpA
+name: tide_media_browser
+label: 'Media browser'
+display: modal
+display_configuration:
+  width: ''
+  height: ''
+  link_text: 'Select media'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  40f63421-1d93-466b-b714-69193356e523:
+    settings:
+      view: tide_media_browser
+      view_display: media_browser
+      submit_text: 'Select media'
+      auto_select: false
+    uuid: 40f63421-1d93-466b-b714-69193356e523
+    weight: -10
+    label: Library
+    id: view
+  b2e8fcf3-d0ab-408a-bc97-423edbf44998:
+    settings:
+      entity_type: media
+      bundle: document
+      form_mode: default
+      submit_text: 'Save document'
+    uuid: b2e8fcf3-d0ab-408a-bc97-423edbf44998
+    weight: -8
+    label: 'Add document'
+    id: entity_form
+  d33cc504-e492-411e-9efe-b08310d0e80c:
+    settings:
+      entity_type: media
+      bundle: image
+      form_mode: default
+      submit_text: 'Save image'
+    uuid: d33cc504-e492-411e-9efe-b08310d0e80c
+    weight: -7
+    label: 'Add image'
+    id: entity_form
+  659d62e1-8959-4462-aee2-c1f5f7f47c0a:
+    settings:
+      entity_type: media
+      bundle: embedded_video
+      form_mode: default
+      submit_text: 'Save video'
+    uuid: 659d62e1-8959-4462-aee2-c1f5f7f47c0a
+    weight: -5
+    label: 'Embed video'
+    id: entity_form
+  572e69ff-babb-4ffa-8184-8d356838fe67:
+    settings:
+      entity_type: media
+      bundle: audio
+      form_mode: default
+      submit_text: 'Save audio'
+    uuid: 572e69ff-babb-4ffa-8184-8d356838fe67
+    weight: -9
+    label: 'Add audio'
+    id: entity_form

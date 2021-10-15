@@ -1,0 +1,12 @@
+uuid: a4cd09de-9047-4e66-a149-54838ace06be
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: gljW2RSRAXZ9A6WdW26z3c-sVk2iTyvkNc-FT1C11_U
+id: media.embedded_with_caption
+label: 'Embedded with caption'
+targetEntityType: media
+cache: true

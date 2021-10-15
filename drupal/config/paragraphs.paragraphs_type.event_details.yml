@@ -1,0 +1,12 @@
+uuid: f58af56f-3676-484d-bace-d405568a8bab
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: EvpZYhfV1DcTlqPkIQReQbWoMparvM6RQ74agRXG3sU
+id: event_details
+label: 'Event Details'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

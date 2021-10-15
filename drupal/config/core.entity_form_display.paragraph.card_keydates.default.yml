@@ -1,0 +1,50 @@
+uuid: fb0b2035-3faf-46f7-93ee-ba7dd7c7ffc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_keydates.field_paragraph_cta
+    - field.field.paragraph.card_keydates.field_paragraph_keydates
+    - paragraphs.paragraphs_type.card_keydates
+  module:
+    - link
+    - paragraphs
+_core:
+  default_config_hash: OCfYLcT9QhKcFXNlPRJ-290kX_olF62pq2R4VdFGKMc
+id: paragraph.card_keydates.default
+targetEntityType: paragraph
+bundle: card_keydates
+mode: default
+content:
+  field_paragraph_cta:
+    weight: 102
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_paragraph_keydates:
+    type: paragraphs
+    weight: 101
+    settings:
+      title: Keydates
+      title_plural: Keydates
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: keydates
+    third_party_settings: {  }
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

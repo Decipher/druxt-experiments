@@ -1,0 +1,20 @@
+uuid: 476fd6f8-a659-4f48-b743-189fd75c4627
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: JH6aJtXcA8yNq0k1ZflexU63SS26vku_KuS2sSuhtOc
+id: paragraph.field_table_orientation
+field_name: field_table_orientation
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

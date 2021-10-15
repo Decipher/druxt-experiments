@@ -1,0 +1,28 @@
+uuid: 9c2a4d2b-124b-4b15-8fc4-b6f447d22438
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_date_range
+    - paragraphs.paragraphs_type.event_details
+  module:
+    - datetime_range
+_core:
+  default_config_hash: KI3Nn5QkU93wVXBahLBQ9mHtEhK052-xrirOgXuuY2g
+id: paragraph.event_details.field_paragraph_date_range
+field_name: field_paragraph_date_range
+entity_type: paragraph
+bundle: event_details
+label: 'Date Range'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: ''
+    default_end_date: ''
+default_value_callback: ''
+settings: {  }
+field_type: daterange

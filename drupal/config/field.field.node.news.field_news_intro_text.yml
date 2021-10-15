@@ -1,0 +1,21 @@
+uuid: 6990a707-679a-40db-aa37-12de9c228e18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_intro_text
+    - node.type.news
+_core:
+  default_config_hash: p7QYWaryv9jexZMOtUIatsn1Z4bmmAKZlxcH9epTQ3c
+id: node.news.field_news_intro_text
+field_name: field_news_intro_text
+entity_type: node
+bundle: news
+label: 'Introduction Text'
+description: 'Add Introduction text for this page.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

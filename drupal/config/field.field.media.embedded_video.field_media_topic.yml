@@ -1,0 +1,31 @@
+uuid: 07ced1ce-8cba-41b8-8525-c607fc8045f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_topic
+    - media.type.embedded_video
+    - taxonomy.vocabulary.topic
+_core:
+  default_config_hash: MLRJKAM5rNH1ull8Uji-067BQb6dEbSHch1yArxqsbM
+id: media.embedded_video.field_media_topic
+field_name: field_media_topic
+entity_type: media
+bundle: embedded_video
+label: Topic
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topic: topic
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

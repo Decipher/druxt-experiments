@@ -1,0 +1,23 @@
+uuid: a30f5de8-746e-4230-898e-35b45609f609
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: Lt5Y8i7eN5vStY4M8lnijIBC0Xd81PE-nOlwaDfAOes
+id: paragraph.field_paragraph_phone_title
+field_name: field_paragraph_phone_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

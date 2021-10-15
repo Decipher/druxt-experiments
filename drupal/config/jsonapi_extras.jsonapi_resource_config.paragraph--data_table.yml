@@ -1,0 +1,121 @@
+uuid: 0fe533d5-9897-41b7-bec0-9c7680ce4b8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.data_table
+_core:
+  default_config_hash: M8M4v3dNB_YBEt7I-2q9AWC_xeJ8R4P3aBCHnLAOzWc
+id: paragraph--data_table
+disabled: false
+path: paragraph/data_table
+resourceType: paragraph--data_table
+resourceFields:
+  id:
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+    disabled: false
+  uuid:
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+    disabled: false
+  revision_id:
+    fieldName: revision_id
+    publicName: revision_id
+    enhancer:
+      id: ''
+    disabled: false
+  langcode:
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+    disabled: false
+  type:
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+    disabled: false
+  status:
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+    disabled: false
+  created:
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+    disabled: false
+  parent_id:
+    fieldName: parent_id
+    publicName: parent_id
+    enhancer:
+      id: ''
+    disabled: false
+  parent_type:
+    fieldName: parent_type
+    publicName: parent_type
+    enhancer:
+      id: ''
+    disabled: false
+  parent_field_name:
+    fieldName: parent_field_name
+    publicName: parent_field_name
+    enhancer:
+      id: ''
+    disabled: false
+  behavior_settings:
+    fieldName: behavior_settings
+    publicName: behavior_settings
+    enhancer:
+      id: ''
+    disabled: false
+  default_langcode:
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+    disabled: false
+  revision_default:
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+    disabled: false
+  revision_translation_affected:
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+    disabled: false
+  field_data_table_content:
+    fieldName: field_data_table_content
+    publicName: field_data_table_content
+    enhancer:
+      id: ''
+    disabled: false
+  field_first_column_table_header:
+    fieldName: field_first_column_table_header
+    publicName: field_first_column_table_header
+    enhancer:
+      id: ''
+    disabled: false
+  field_first_row_table_header:
+    fieldName: field_first_row_table_header
+    publicName: field_first_row_table_header
+    enhancer:
+      id: ''
+    disabled: false
+  field_table_orientation:
+    fieldName: field_table_orientation
+    publicName: field_table_orientation
+    enhancer:
+      id: ''
+    disabled: false

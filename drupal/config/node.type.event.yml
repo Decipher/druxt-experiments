@@ -1,0 +1,23 @@
+uuid: 153cd4d5-b88d-4cb2-a0e8-9d953a66b591
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - wysiwyg_template
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  wysiwyg_template:
+    default_template: ''
+_core:
+  default_config_hash: 2DcYjDi1-OARZSY1qI9nIibUoV8uCYEH4fGH-uV52Og
+name: Event
+type: event
+description: 'Use <em>Event</em> content type for event content.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

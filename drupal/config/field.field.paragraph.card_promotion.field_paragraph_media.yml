@@ -1,0 +1,30 @@
+uuid: d71e84e9-3b2d-46b7-8105-8881445c3c47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_media
+    - media.type.image
+    - paragraphs.paragraphs_type.card_promotion
+_core:
+  default_config_hash: R-15FFSuPPRswcA9X_3tU1qfRt1Yw19oKGQ5kF6hUB8
+id: paragraph.card_promotion.field_paragraph_media
+field_name: field_paragraph_media
+entity_type: paragraph
+bundle: card_promotion
+label: Image
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

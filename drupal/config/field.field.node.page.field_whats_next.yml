@@ -1,0 +1,51 @@
+uuid: 36dda41d-6fc3-4f9c-b771-89c3e46d31fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_whats_next
+    - node.type.page
+    - paragraphs.paragraphs_type.links
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: zyWRJR_EDlVtnzEEyAHBv_tHYBqVyrOcgR7LdgOEgxw
+id: node.page.field_whats_next
+field_name: field_whats_next
+entity_type: node
+bundle: page
+label: 'What''s Next'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      links: links
+    target_bundles_drag_drop:
+      banner:
+        weight: 7
+        enabled: false
+      links:
+        enabled: true
+        weight: 8
+      card_event:
+        weight: 8
+        enabled: false
+      card_promotion:
+        weight: 9
+        enabled: false
+      key_journeys:
+        weight: 10
+        enabled: false
+      popular_links:
+        weight: 11
+        enabled: false
+      related_links:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

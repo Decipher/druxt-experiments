@@ -1,0 +1,33 @@
+uuid: 0efceaa2-e6a2-4e49-ac17-151d20266d25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_contact
+    - node.type.news
+    - paragraphs.paragraphs_type.contact_us
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: MH4Y4GKAFZmqVWnOjxR5Fn5R4Xc6k-AzvPknbqj06H8
+id: node.news.field_landing_page_contact
+field_name: field_landing_page_contact
+entity_type: node
+bundle: news
+label: 'Contact us'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      contact_us: contact_us
+    target_bundles_drag_drop:
+      contact_us:
+        enabled: true
+        weight: 0
+field_type: entity_reference_revisions

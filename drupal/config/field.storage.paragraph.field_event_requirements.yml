@@ -1,0 +1,22 @@
+uuid: 5cba652b-1ee9-413d-85aa-c871b4f89bd4
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - taxonomy
+_core:
+  default_config_hash: h-7GliPEJfXCGkDX7fCpMTcY3IHB7qrf1Jv9NrkstW8
+id: paragraph.field_event_requirements
+field_name: field_event_requirements
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

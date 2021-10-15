@@ -1,0 +1,22 @@
+uuid: c556c214-22ee-471a-84c0-07298c6f6ac7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - wysiwyg_template
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  wysiwyg_template:
+    default_template: ''
+_core:
+  default_config_hash: KSUjMvIVVh9GinywHmXxyl6-hTJvLiPMoB328Jpd_JU
+name: News
+type: news
+description: 'Use <em>News</em> content type for news content.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

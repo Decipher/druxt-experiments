@@ -1,0 +1,12 @@
+uuid: cb62ada9-87e1-4fbb-93ba-cd56f6f5060e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WakOEbOXWm_CgJm1-1hDAq3eKd9S6glAFZiwx2kD7X4
+id: hero_banner_with_cta
+label: 'Hero banner with CTA'
+icon_uuid: null
+icon_default: null
+description: 'A call to action hero banner to provoke an immediate response from the citizen.'
+behavior_plugins: {  }

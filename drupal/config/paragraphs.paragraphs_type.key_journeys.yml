@@ -1,0 +1,12 @@
+uuid: e728b675-38a7-4701-825f-1a5ffe494a53
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: eCwVF8toH1fTmFJpY8qthfjPy3RV9aDuAPluueJy7ec
+id: key_journeys
+label: 'Header links'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

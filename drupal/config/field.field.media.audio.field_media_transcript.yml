@@ -1,0 +1,23 @@
+uuid: 36a7da9a-0a7d-4d90-adc0-34ef2a2f5dc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_transcript
+    - media.type.audio
+  module:
+    - text
+_core:
+  default_config_hash: w7fDTlwu2lXAAZ6Uw8l-kwH2AsOt2RkkU4Sh_VVg1eo
+id: media.audio.field_media_transcript
+field_name: field_media_transcript
+entity_type: media
+bundle: audio
+label: Transcript
+description: 'Add audio transcript.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

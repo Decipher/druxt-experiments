@@ -1,0 +1,32 @@
+uuid: 2f25c7b3-68be-40a9-a430-4a0bd0c70261
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: KdSz6_Y-llyDxjVEw8RrjJx-mMJ2771QxyGfqOqUwrk
+id: paragraph.field_promo_card_display_style
+field_name: field_promo_card_display_style
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: noImage
+      label: 'No image'
+    -
+      value: thumbnail
+      label: Thumbnail
+    -
+      value: profile
+      label: Profile
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

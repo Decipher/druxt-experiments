@@ -1,0 +1,25 @@
+uuid: d4e15c03-1785-479e-8ff4-eefdb52dd9b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_table_of_content
+    - node.type.publication_page
+_core:
+  default_config_hash: tnQ1vIafq9xzfZeycJFvFCTzix4C0lDbNN0dWnd9Km4
+id: node.publication_page.field_show_table_of_content
+field_name: field_show_table_of_content
+entity_type: node
+bundle: publication_page
+label: 'Show table of contents?'
+description: 'The table of contents is automatically built from the heading structure of your page.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

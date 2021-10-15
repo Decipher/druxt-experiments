@@ -1,0 +1,21 @@
+uuid: 81460a86-dd5e-4a79-a942-67e1f80e3530
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+_core:
+  default_config_hash: OJ94Cj4Wi4AByeNS9csE0zGAOj3G_j3o5ETUazKqp78
+id: paragraph.field_complex_image_data
+field_name: field_complex_image_data
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

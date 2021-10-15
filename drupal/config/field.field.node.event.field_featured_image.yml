@@ -1,0 +1,30 @@
+uuid: 0a09629a-961c-4cb9-a823-aff156cd27e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_image
+    - media.type.image
+    - node.type.event
+_core:
+  default_config_hash: M5i9a_EJ9simoBSPi48EmWIy0l--SJzWkLzp16Ix1pc
+id: node.event.field_featured_image
+field_name: field_featured_image
+entity_type: node
+bundle: event
+label: 'Featured Image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

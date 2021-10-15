@@ -1,13 +1,23 @@
-uuid: e7e57fbf-8a72-4764-816a-01f83df75836
+uuid: 19e8db8b-612d-4010-a985-b38ce7cff229
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+    - wysiwyg_template
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  wysiwyg_template:
+    default_template: ''
 _core:
-  default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
-name: 'Basic page'
+  default_config_hash: A1677rDgf_2FIMqovxrowMMeT-qUuAyMheDkI3vOcs0
+name: Page
 type: page
-description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'
+description: 'Use <em>Page</em> content type for basic pages.'
 help: ''
 new_revision: true
-preview_mode: 1
+preview_mode: 0
 display_submitted: false

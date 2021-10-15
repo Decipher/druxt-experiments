@@ -1,0 +1,72 @@
+uuid: daa18a4f-6389-4f7a-a13f-a7070dc8de76
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.campaign
+    - entity_browser.browser.tide_image_browser
+    - field.field.block_content.campaign.body
+    - field.field.block_content.campaign.field_block_cta
+    - field.field.block_content.campaign.field_block_image
+    - field.field.block_content.campaign.field_block_title
+  module:
+    - entity_browser
+    - link
+    - text
+_core:
+  default_config_hash: hV7TkR8Woyrn15kqxkfOTih0yshuYcMVUj1yRdAZjms
+id: block_content.campaign.default
+targetEntityType: block_content
+bundle: campaign
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_block_cta:
+    type: link_default
+    weight: 4
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_block_image:
+    type: entity_browser_entity_reference
+    weight: 3
+    region: content
+    settings:
+      entity_browser: tide_image_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: default
+      open: false
+      field_widget_replace: false
+    third_party_settings: {  }
+  field_block_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  moderation_state: true

@@ -1,0 +1,25 @@
+uuid: 1d9cd9c4-d147-4ab3-922c-6ae04abd51cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_show_time
+    - paragraphs.paragraphs_type.event_details
+_core:
+  default_config_hash: 5MpDZRnqB_TXwkqljc2x_NNPkctqIDkxy8cLbz_n24Y
+id: paragraph.event_details.field_show_time
+field_name: field_show_time
+entity_type: paragraph
+bundle: event_details
+label: 'Display time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

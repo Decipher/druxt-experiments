@@ -1,0 +1,25 @@
+uuid: f62cfdfa-7cd6-416d-824b-a6cd39040595
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_restricted
+    - media.type.embedded_video
+_core:
+  default_config_hash: jzF1Iqw8yA7iwFw5MoSviE9nhC0BYhh0qGs4M62uIdo
+id: media.embedded_video.field_media_restricted
+field_name: field_media_restricted
+entity_type: media
+bundle: embedded_video
+label: Restricted
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

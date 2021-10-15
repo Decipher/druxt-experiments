@@ -1,0 +1,22 @@
+uuid: 729028d0-aab1-4983-af99-0e4236746ce8
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - node
+_core:
+  default_config_hash: nSttTf8U2Zeg6aCe97u9-epZhfEG5mEIDPFbDh_c6pg
+id: node.field_landing_page_c_primary
+field_name: field_landing_page_c_primary
+entity_type: node
+type: entity_reference
+settings:
+  target_type: block_content
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

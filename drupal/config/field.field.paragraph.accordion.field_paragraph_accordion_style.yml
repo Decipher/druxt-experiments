@@ -1,0 +1,25 @@
+uuid: 35f1b553-c928-4101-897e-16a6542e083b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_accordion_style
+    - paragraphs.paragraphs_type.accordion
+  module:
+    - options
+_core:
+  default_config_hash: yNxYahgtFO3818mKTMd8symf_gMSrMMau9Mprppz3m8
+id: paragraph.accordion.field_paragraph_accordion_style
+field_name: field_paragraph_accordion_style
+entity_type: paragraph
+bundle: accordion
+label: Style
+description: 'Choose standard or numbered.'
+required: true
+translatable: false
+default_value:
+  -
+    value: basic
+default_value_callback: ''
+settings: {  }
+field_type: list_string

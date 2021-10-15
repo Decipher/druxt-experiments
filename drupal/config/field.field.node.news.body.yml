@@ -1,0 +1,31 @@
+uuid: 01d74b7d-f079-4f2f-9834-8cb1f169beaf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.news
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    rich_text: '0'
+    admin_text: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: aIfVEtiLMID9u4DzgW29NlM2MJUjfDfDhdJ-5gqZvfY
+id: node.news.body
+field_name: body
+entity_type: node
+bundle: news
+label: Body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,235 @@
+uuid: 04f679f5-88f0-41aa-ac94-42dfaa525c4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - field.storage.node.field_topic
+    - field.storage.node.field_tags
+    - field.storage.node.field_node_site
+    - search_api.server.elasticsearch_bay
+  module:
+    - taxonomy
+    - path
+    - search_api
+    - node
+_core:
+  default_config_hash: 4kyu5DN36lqqKkMCXEWi94ybknfV7wBBq916GJ8QTzI
+id: node
+name: 'Default node index'
+description: ''
+read_only: false
+field_settings:
+  node_grants:
+    label: 'Node access information'
+    property_path: search_api_node_grants
+    type: string
+    indexed_locked: true
+    type_locked: true
+    hidden: true
+  url:
+    label: URI
+    property_path: search_api_url
+    type: string
+  body:
+    label: Body
+    datasource_id: 'entity:node'
+    property_path: body
+    type: text
+    boost: !!float 0
+    dependencies:
+      config:
+        - field.storage.node.body
+  title:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: text
+    boost: !!float 21
+  field_topic:
+    label: Topic
+    datasource_id: 'entity:node'
+    property_path: field_topic
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_topic
+  field_topic_name:
+    label: 'Topic » Taxonomy term » Name'
+    datasource_id: 'entity:node'
+    property_path: 'field_topic:entity:name'
+    type: text
+    boost: !!float 5
+    dependencies:
+      config:
+        - field.storage.node.field_topic
+      module:
+        - taxonomy
+  field_topic_path:
+    label: 'Topic » Taxonomy term » URL alias'
+    datasource_id: 'entity:node'
+    property_path: 'field_topic:entity:path'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_topic
+      module:
+        - taxonomy
+        - path
+  field_tags_name:
+    label: 'Tags » Taxonomy term » Name'
+    datasource_id: 'entity:node'
+    property_path: 'field_tags:entity:name'
+    type: text
+    boost: !!float 5
+    dependencies:
+      config:
+        - field.storage.node.field_tags
+      module:
+        - taxonomy
+  field_tags_path:
+    label: 'Tags » Taxonomy term » URL alias'
+    datasource_id: 'entity:node'
+    property_path: 'field_tags:entity:path'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_tags
+      module:
+        - taxonomy
+        - path
+  status:
+    label: Published
+    datasource_id: 'entity:node'
+    property_path: status
+    type: boolean
+    indexed_locked: true
+    type_locked: true
+  uid:
+    label: User
+    datasource_id: 'entity:node'
+    property_path: uid
+    type: integer
+    indexed_locked: true
+    type_locked: true
+  uuid:
+    label: UUID
+    datasource_id: 'entity:node'
+    property_path: uuid
+    type: string
+  field_tags:
+    label: Tags
+    datasource_id: 'entity:node'
+    property_path: field_tags
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_tags
+  field_tags_uuid:
+    label: 'Tags » Taxonomy term » UUID'
+    datasource_id: 'entity:node'
+    property_path: 'field_tags:entity:uuid'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_tags
+      module:
+        - taxonomy
+  field_topic_uuid:
+    label: 'Topic » Taxonomy term » UUID'
+    datasource_id: 'entity:node'
+    property_path: 'field_topic:entity:uuid'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_topic
+      module:
+        - taxonomy
+  nid:
+    label: ID
+    datasource_id: 'entity:node'
+    property_path: nid
+    type: integer
+  type:
+    label: 'Content type'
+    datasource_id: 'entity:node'
+    property_path: type
+    type: string
+  langcode:
+    label: Language
+    datasource_id: 'entity:node'
+    property_path: langcode
+    type: string
+  field_node_site:
+    label: Site
+    datasource_id: 'entity:node'
+    property_path: field_node_site
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_node_site
+  changed:
+    label: Changed
+    datasource_id: 'entity:node'
+    property_path: changed
+    type: date
+  created:
+    label: Created
+    datasource_id: 'entity:node'
+    property_path: created
+    type: date
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  rendered_item: {  }
+  html_filter:
+    all_fields: true
+    fields:
+      - url
+      - body
+      - title
+      - field_topic_name
+      - field_topic_path
+      - field_tags_name
+      - field_tags_path
+      - uuid
+      - field_tags_uuid
+      - field_topic_uuid
+      - type
+      - langcode
+    title: true
+    alt: true
+    tags:
+      h1: 5
+      h2: 3
+      h3: 2
+      strong: 2
+      b: 2
+    weights:
+      preprocess_index: -15
+      preprocess_query: -15
+  entity_status: {  }
+  hierarchy:
+    fields:
+      field_topic: taxonomy_term-parent
+      field_tags: taxonomy_term-parent
+    weights:
+      preprocess_index: -45
+  add_url: {  }
+  content_access:
+    weights:
+      preprocess_query: -30
+  aggregated_field: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: elasticsearch_bay

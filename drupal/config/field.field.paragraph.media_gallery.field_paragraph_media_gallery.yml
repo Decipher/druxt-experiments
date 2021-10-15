@@ -1,0 +1,30 @@
+uuid: 7e319835-8442-4913-a886-fad6c490ae95
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media_gallery
+    - field.storage.paragraph.field_paragraph_media_gallery
+    - paragraphs.paragraphs_type.media_gallery
+_core:
+  default_config_hash: xXFF8HZglHdlxyza7OG2SEbIrcw9kd5lfOX92fAqdcs
+id: paragraph.media_gallery.field_paragraph_media_gallery
+field_name: field_paragraph_media_gallery
+entity_type: paragraph
+bundle: media_gallery
+label: 'Gallery name'
+description: 'New galleries can be created <a href="/admin/structure/block/block-content''">here</a><br>Find out <a href="https://www.singledigitalpresence.vic.gov.au/create-image-gallery">how to create an image gallery</a>'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      media_gallery: media_gallery
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

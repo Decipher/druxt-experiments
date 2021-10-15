@@ -1,0 +1,25 @@
+uuid: 5373d7a3-0a6f-4c7f-848f-21f60f915c06
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.campaign_with_video
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: cer8gXc-aECN6DULW1YflhVqda5PE19RgAnpKGZpWuc
+id: block_content.campaign_with_video.body
+field_name: body
+entity_type: block_content
+bundle: campaign_with_video
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

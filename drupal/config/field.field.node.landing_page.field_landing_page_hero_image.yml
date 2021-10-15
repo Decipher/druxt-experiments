@@ -1,0 +1,30 @@
+uuid: fa81e763-dc0f-46b0-a9d6-9527892a34fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_hero_image
+    - media.type.image
+    - node.type.landing_page
+_core:
+  default_config_hash: jakeZ3fh-TK8fthqzqbP8pN0WWqS0BmV58RiWza-Uek
+id: node.landing_page.field_landing_page_hero_image
+field_name: field_landing_page_hero_image
+entity_type: node
+bundle: landing_page
+label: 'Hero image'
+description: 'Full-width background images display at the top of the page behind the page title. One image can be added and must be 1600px wide x 600px high. If a hero image is used, header links will not display.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

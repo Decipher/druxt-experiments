@@ -1,0 +1,25 @@
+uuid: 8457fd55-d5f6-4ae7-aaec-e3f3adff668c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_node_link
+    - node.type.event
+  module:
+    - link
+_core:
+  default_config_hash: b93jBvdWhfj_gTkYXAI8rBQDCoeK84VVihouRljyu2c
+id: node.event.field_node_link
+field_name: field_node_link
+entity_type: node
+bundle: event
+label: 'Website URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

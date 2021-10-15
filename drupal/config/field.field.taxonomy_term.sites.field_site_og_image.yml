@@ -1,0 +1,30 @@
+uuid: e3525f16-bd2e-417a-99c5-b14eb483058d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_site_og_image
+    - media.type.image
+    - taxonomy.vocabulary.sites
+_core:
+  default_config_hash: ebWWIIBFr2b6l-2_DbP7mN71Ca6CL8QWYVncb-l_sVk
+id: taxonomy_term.sites.field_site_og_image
+field_name: field_site_og_image
+entity_type: taxonomy_term
+bundle: sites
+label: 'Social media image'
+description: 'Shows on social media when the link is shared if there is no featured image. Image should be square and at least 600px.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

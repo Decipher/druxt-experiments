@@ -1,0 +1,51 @@
+uuid: fa220d49-1176-47eb-9110-91acdba25275
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_carousel.field_paragraph_items
+    - field.field.paragraph.card_carousel.field_paragraph_latest_items
+    - field.field.paragraph.card_carousel.field_paragraph_title
+    - paragraphs.paragraphs_type.card_carousel
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 2KcIUlXPTzD5QGDKk7oJmXEpnzlfycMyfTfYpF57ebA
+id: paragraph.card_carousel.default
+targetEntityType: paragraph
+bundle: card_carousel
+mode: default
+content:
+  field_paragraph_items:
+    type: paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      closed_mode: summary
+      autocollapse: none
+    third_party_settings: {  }
+    region: content
+  field_paragraph_latest_items:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_paragraph_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  moderation_state: true
+  status: true
+  uid: true

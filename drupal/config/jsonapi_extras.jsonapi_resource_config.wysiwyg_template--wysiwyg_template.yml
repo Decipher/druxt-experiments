@@ -1,0 +1,13 @@
+uuid: c53cce3c-6ddc-403c-966b-3324537dac65
+langcode: en
+status: true
+dependencies:
+  module:
+    - wysiwyg_template
+_core:
+  default_config_hash: uMl1GPvwUWlzuZmstS7c168y3R_ojgBoBgOUWhbvBgc
+id: wysiwyg_template--wysiwyg_template
+disabled: true
+path: wysiwyg_template/wysiwyg_template
+resourceType: wysiwyg_template--wysiwyg_template
+resourceFields: ''

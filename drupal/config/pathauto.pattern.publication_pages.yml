@@ -1,0 +1,24 @@
+uuid: 3c087f4c-9d32-433a-904c-b1c48e7e4a15
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: E1T-4YKll_Jl0VQNf5vLa2RnhKDhtX3Bqjc4iMNtOuI
+id: publication_pages
+label: 'Publication Pages'
+type: 'canonical_entities:node'
+pattern: '[node:field_publication:entity:url:path-no-site-prefix]/[node:title]'
+selection_criteria:
+  96994a80-9dfb-4bf3-b9cf-7fc3e3503c56:
+    id: node_type
+    bundles:
+      publication_page: publication_page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 96994a80-9dfb-4bf3-b9cf-7fc3e3503c56
+selection_logic: and
+weight: -50
+relationships: {  }

@@ -1,0 +1,29 @@
+uuid: d49c1910-6d78-49bc-a786-d29281a2896a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_site_footer_text
+    - taxonomy.vocabulary.sites
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    rich_text: '0'
+    admin_text: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: jvEes_tHEIa13hSBWC5sET7hs2MWxaG2brL5_bbWkmY
+id: taxonomy_term.sites.field_site_footer_text
+field_name: field_site_footer_text
+entity_type: taxonomy_term
+bundle: sites
+label: 'Footer text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+uuid: 1907d031-2b92-4607-b039-70b8bc471147
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+_core:
+  default_config_hash: tFS6uvMpfr7d1yIJKvgkq-33WGrgzkVtQ1N1qXLSLYs
+id: paragraph.field_timeline
+field_name: field_timeline
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

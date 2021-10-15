@@ -1,0 +1,23 @@
+uuid: 08addcb8-047e-4244-b54c-9a5020581a72
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - wysiwyg_template
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  wysiwyg_template:
+    default_template: ''
+_core:
+  default_config_hash: xbQ_0TScx1bLOb8oxjccy52RUWpy-sT1vwsN5KdY4Ko
+name: Alert
+type: alert
+description: 'Use Alert content type for alert content.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

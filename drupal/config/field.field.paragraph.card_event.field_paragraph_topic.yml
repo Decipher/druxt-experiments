@@ -1,0 +1,31 @@
+uuid: 7a25757d-9a82-4a10-913a-fb9e05f069e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_topic
+    - paragraphs.paragraphs_type.card_event
+    - taxonomy.vocabulary.topic
+_core:
+  default_config_hash: EWRR8wYWZleAIjci7b-FuDV3FGbPH5qamSfoBuYdm9E
+id: paragraph.card_event.field_paragraph_topic
+field_name: field_paragraph_topic
+entity_type: paragraph
+bundle: card_event
+label: Topic
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topic: topic
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

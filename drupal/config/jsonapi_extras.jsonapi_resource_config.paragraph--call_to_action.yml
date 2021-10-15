@@ -1,0 +1,145 @@
+uuid: e8a64b1c-a9e0-4c58-872f-fe97f52a9adc
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.call_to_action
+_core:
+  default_config_hash: 5Fw2DrX6PKfCqAYE3yYqrpsFTlQPWMuhCf_QyEjQjG8
+id: paragraph--call_to_action
+disabled: false
+path: paragraph/call_to_action
+resourceType: paragraph--call_to_action
+resourceFields:
+  id:
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+    disabled: false
+  uuid:
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+    disabled: false
+  revision_id:
+    fieldName: revision_id
+    publicName: revision_id
+    enhancer:
+      id: ''
+    disabled: false
+  type:
+    fieldName: type
+    publicName: entity_type
+    enhancer:
+      id: ''
+    disabled: false
+  langcode:
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+    disabled: false
+  uid:
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+    disabled: false
+  status:
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+    disabled: false
+  created:
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: ''
+    disabled: false
+  revision_uid:
+    fieldName: revision_uid
+    publicName: revision_uid
+    enhancer:
+      id: ''
+    disabled: false
+  parent_id:
+    fieldName: parent_id
+    publicName: parent_id
+    enhancer:
+      id: ''
+    disabled: false
+  parent_type:
+    fieldName: parent_type
+    publicName: parent_type
+    enhancer:
+      id: ''
+    disabled: false
+  parent_field_name:
+    fieldName: parent_field_name
+    publicName: parent_field_name
+    enhancer:
+      id: ''
+    disabled: false
+  behavior_settings:
+    fieldName: behavior_settings
+    publicName: behavior_settings
+    enhancer:
+      id: ''
+    disabled: false
+  default_langcode:
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+    disabled: false
+  revision_default:
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+    disabled: false
+  revision_translation_affected:
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+    disabled: false
+  moderation_state:
+    fieldName: moderation_state
+    publicName: moderation_state
+    enhancer:
+      id: ''
+    disabled: false
+  field_paragraph_body:
+    fieldName: field_paragraph_body
+    publicName: field_paragraph_body
+    enhancer:
+      id: ''
+    disabled: false
+  field_paragraph_cta:
+    fieldName: field_paragraph_cta
+    publicName: field_paragraph_cta
+    enhancer:
+      id: link_enhancer
+    disabled: false
+  field_paragraph_cta_style:
+    fieldName: field_paragraph_cta_style
+    publicName: field_paragraph_cta_style
+    enhancer:
+      id: ''
+    disabled: false
+  field_paragraph_media:
+    fieldName: field_paragraph_media
+    publicName: field_paragraph_media
+    enhancer:
+      id: ''
+    disabled: false
+  field_paragraph_title:
+    fieldName: field_paragraph_title
+    publicName: field_paragraph_title
+    enhancer:
+      id: ''
+    disabled: false

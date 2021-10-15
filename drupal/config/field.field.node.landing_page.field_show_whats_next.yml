@@ -1,0 +1,25 @@
+uuid: 6ee1ae2d-ecfe-499e-8840-5fcc81860c0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_whats_next
+    - node.type.landing_page
+_core:
+  default_config_hash: PiRvx_BT8uyz58TtpSZAfwi5ZNyz_wcJdN1FuPawSRo
+id: node.landing_page.field_show_whats_next
+field_name: field_show_whats_next
+entity_type: node
+bundle: landing_page
+label: 'Show What''s next?'
+description: 'Check this box to display links on this page.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

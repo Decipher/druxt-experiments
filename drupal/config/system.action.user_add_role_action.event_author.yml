@@ -1,0 +1,16 @@
+uuid: fe6eaae2-d18f-4bc2-80f1-a3e1de8b242b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.event_author
+  module:
+    - user
+_core:
+  default_config_hash: dQWlNn4TnvT_L4bB2nXW-KsTz7B3GCW373O0oeswAbQ
+id: user_add_role_action.event_author
+label: 'Add the Event Author role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: event_author

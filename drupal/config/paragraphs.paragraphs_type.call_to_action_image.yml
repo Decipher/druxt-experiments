@@ -1,0 +1,12 @@
+uuid: e51687cd-5fe7-4309-a511-9e988ceb4cc4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2glm_yTmBKjRkMf7vBUqaKtcGTUIdKdWIgwYv8R1tiU
+id: call_to_action_image
+label: 'Call to Action Image'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

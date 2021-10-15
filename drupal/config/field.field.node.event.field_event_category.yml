@@ -1,0 +1,31 @@
+uuid: 3e23b80a-d045-4555-b7b1-5b7e61705f63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_category
+    - node.type.event
+    - taxonomy.vocabulary.event
+_core:
+  default_config_hash: Kfv54_SHm_uWPCfHvYMcguMMnnYmcCRIThOTV15ma5E
+id: node.event.field_event_category
+field_name: field_event_category
+entity_type: node
+bundle: event
+label: 'Event Category'
+description: 'Use <em>Event Category</em> field to categorise events.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      event: event
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

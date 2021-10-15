@@ -1,0 +1,25 @@
+uuid: 1c361e38-76ba-47d7-ac36-7f80b6fce528
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_node_display_headings
+    - node.type.publication_page
+  module:
+    - options
+_core:
+  default_config_hash: fFSBSY5r1764Do-yGlAnYIYXMmBenv3KCaq88khs-bc
+id: node.publication_page.field_node_display_headings
+field_name: field_node_display_headings
+entity_type: node
+bundle: publication_page
+label: 'Display headings'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: showH2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,27 @@
+uuid: a869f874-44fc-43d3-b6e4-6332bbe3847a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_video_embed_field
+    - media.type.embedded_video
+  module:
+    - video_embed_field
+_core:
+  default_config_hash: N30t13rE3Zw2PXgFnfV3swtttE6iw40mg0ryP6Z8Tb4
+id: media.embedded_video.field_media_video_embed_field
+field_name: field_media_video_embed_field
+entity_type: media
+bundle: embedded_video
+label: 'Video URL'
+description: 'The URL of the remote video, eg. from Youtube or Vimeo.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube_playlist: '0'
+    youtube: '0'
+    vimeo: '0'
+field_type: video_embed_field

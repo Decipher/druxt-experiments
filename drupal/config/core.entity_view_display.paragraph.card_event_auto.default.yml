@@ -1,0 +1,33 @@
+uuid: f6effd83-c257-4ae2-8777-7aaab22b6791
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_event_auto.field_paragraph_cta_text
+    - field.field.paragraph.card_event_auto.field_paragraph_reference
+    - paragraphs.paragraphs_type.card_event_auto
+_core:
+  default_config_hash: niZe-s48GYgwMFppIm102OTTm81-cvqjuBWxwJOvCYI
+id: paragraph.card_event_auto.default
+targetEntityType: paragraph
+bundle: card_event_auto
+mode: default
+content:
+  field_paragraph_cta_text:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_paragraph_reference:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  search_api_excerpt: true

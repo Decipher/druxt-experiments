@@ -1,11 +1,11 @@
-uuid: 91490997-8e32-4464-b05c-e99b67dd16d4
+uuid: 101d7227-ed16-4d63-a3e1-21b404f52c64
 langcode: en
 status: true
 dependencies:
   module:
     - user
 _core:
-  default_config_hash: fUJTjRvg3L5Kc-6NNBYToRihwNBhXRe6Zl3ht0ItOa4
+  default_config_hash: nCa1oy25w2fh-nk_iQ7IJFQwQIcKxrV_5EQW2y8dzPc
 id: who_s_new
 label: 'Who''s new'
 module: user
@@ -17,7 +17,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Default
+    display_title: Master
     position: 0
     display_options:
       access:
@@ -159,7 +159,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: created
           granularity: second
           plugin_id: date
           entity_type: user

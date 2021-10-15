@@ -1,0 +1,110 @@
+uuid: 3eac4e4a-0f96-4380-aa88-31a0cbc61e26
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_component
+    - node.type.publication_page
+    - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.basic_text
+    - paragraphs.paragraphs_type.call_to_action
+    - paragraphs.paragraphs_type.card_carousel
+    - paragraphs.paragraphs_type.card_keydates
+    - paragraphs.paragraphs_type.complex_image
+    - paragraphs.paragraphs_type.embedded_webform
+    - paragraphs.paragraphs_type.featured_news
+    - paragraphs.paragraphs_type.latest_events
+    - paragraphs.paragraphs_type.media_gallery
+    - paragraphs.paragraphs_type.navigation_card
+    - paragraphs.paragraphs_type.news_listing
+    - paragraphs.paragraphs_type.promotion_card
+    - paragraphs.paragraphs_type.timelines
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: ITt3cvoQnRFD2Sr5mFnB7Hh7BN7Ugvp-woWu6QbqNmA
+id: node.publication_page.field_landing_page_component
+field_name: field_landing_page_component
+entity_type: node
+bundle: publication_page
+label: 'Content components'
+description: '<p>Add text, links, media and cards to build your page.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      basic_text: basic_text
+      accordion: accordion
+      promotion_card: promotion_card
+      navigation_card: navigation_card
+      card_keydates: card_keydates
+      card_carousel: card_carousel
+      embedded_webform: embedded_webform
+      media_gallery: media_gallery
+      complex_image: complex_image
+      timelines: timelines
+      call_to_action: call_to_action
+      news_listing: news_listing
+      latest_events: latest_events
+      featured_news: featured_news
+    target_bundles_drag_drop:
+      accordion:
+        enabled: true
+        weight: -31
+      accordion_content:
+        weight: -9
+        enabled: false
+      banner:
+        weight: -6
+        enabled: false
+      basic_text:
+        enabled: true
+        weight: -32
+      call_to_action:
+        enabled: true
+        weight: -16
+      card_carousel:
+        enabled: true
+        weight: -27
+      card_keydates:
+        enabled: true
+        weight: -28
+      complex_image:
+        enabled: true
+        weight: -24
+      embedded_webform:
+        enabled: true
+        weight: -26
+      form_embed_openforms:
+        weight: -17
+        enabled: false
+      keydates:
+        weight: -8
+        enabled: false
+      latest_events:
+        enabled: true
+        weight: -13
+      media_gallery:
+        enabled: true
+        weight: -25
+      navigation_card:
+        enabled: true
+        weight: -29
+      news_listing:
+        enabled: true
+        weight: -14
+      promotion_card:
+        enabled: true
+        weight: -30
+      timeline:
+        weight: 2
+        enabled: false
+      timelines:
+        enabled: true
+        weight: -23
+field_type: entity_reference_revisions

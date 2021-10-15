@@ -1,0 +1,79 @@
+uuid: 2a5ff05d-a217-4652-adb9-5d94384d1598
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.topic
+_core:
+  default_config_hash: 7mN-Fzent8mHTG07CKeGWigCkMlCThPmvHG5fSYFdEI
+id: taxonomy_term--topic
+disabled: false
+path: taxonomy_term/topic
+resourceType: taxonomy_term--topic
+resourceFields:
+  tid:
+    fieldName: tid
+    publicName: tid
+    enhancer:
+      id: ''
+    disabled: false
+  uuid:
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+    disabled: false
+  langcode:
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+    disabled: false
+  vid:
+    fieldName: vid
+    publicName: vid
+    enhancer:
+      id: ''
+    disabled: false
+  name:
+    fieldName: name
+    publicName: name
+    enhancer:
+      id: ''
+    disabled: false
+  description:
+    fieldName: description
+    publicName: description
+    enhancer:
+      id: ''
+    disabled: false
+  weight:
+    fieldName: weight
+    publicName: weight
+    enhancer:
+      id: ''
+    disabled: false
+  parent:
+    fieldName: parent
+    publicName: parent
+    enhancer:
+      id: ''
+    disabled: false
+  changed:
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: ''
+    disabled: false
+  default_langcode:
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+    disabled: false
+  path:
+    fieldName: path
+    publicName: path
+    enhancer:
+      id: ''
+    disabled: false

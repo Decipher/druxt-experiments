@@ -1,0 +1,23 @@
+uuid: 6b5f51e0-e307-45fc-9e5c-bfb110d69b3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_title
+    - paragraphs.paragraphs_type.contact_us
+_core:
+  default_config_hash: 6Ltuw-EiDA4x4iWh-ucq1alAenVFRQuXKuCofFsGWIA
+id: paragraph.contact_us.field_paragraph_title
+field_name: field_paragraph_title
+entity_type: paragraph
+bundle: contact_us
+label: Title
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'Contact Us'
+default_value_callback: ''
+settings: {  }
+field_type: string

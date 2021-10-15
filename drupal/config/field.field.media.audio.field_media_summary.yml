@@ -1,0 +1,29 @@
+uuid: ee3a240c-b8c0-4814-a35a-5d1c154e408b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_summary
+    - media.type.audio
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    plain_text: plain_text
+    rich_text: '0'
+    admin_text: '0'
+_core:
+  default_config_hash: L4JnnLL5kC59zB1GOZqnyp9OdmlrTx_TNPWa_plwlQE
+id: media.audio.field_media_summary
+field_name: field_media_summary
+entity_type: media
+bundle: audio
+label: Summary
+description: 'Add summary of the audio.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

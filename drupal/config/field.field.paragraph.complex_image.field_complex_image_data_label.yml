@@ -1,0 +1,21 @@
+uuid: ab965730-97ee-4003-beb9-9b0b3484ce7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_complex_image_data_label
+    - paragraphs.paragraphs_type.complex_image
+_core:
+  default_config_hash: HL4XfAazLkQam5ovmvsgCtpyrmCMrkWeopwLFhFfN-0
+id: paragraph.complex_image.field_complex_image_data_label
+field_name: field_complex_image_data_label
+entity_type: paragraph
+bundle: complex_image
+label: 'Label for data/additional information'
+description: 'Leave this field empty for the default value: <em>View {title} in table format</em>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

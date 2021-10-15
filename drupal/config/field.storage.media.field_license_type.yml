@@ -1,0 +1,22 @@
+uuid: a1573b84-2038-4794-ba49-106a9e1009bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - taxonomy
+_core:
+  default_config_hash: RJzqFeVMWtGSbgRXhJ4XQJNzL0gDO4EDzmQ53QGJYh8
+id: media.field_license_type
+field_name: field_license_type
+entity_type: media
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

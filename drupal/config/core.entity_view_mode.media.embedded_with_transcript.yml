@@ -1,0 +1,12 @@
+uuid: d9fb20dd-c482-4532-a55e-f2682f2d9c0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: oWJwwUlt1tKoyGrEoelT61wlawoq0xCjyzHXirgELME
+id: media.embedded_with_transcript
+label: 'Embedded with transcript'
+targetEntityType: media
+cache: true

@@ -1,0 +1,25 @@
+uuid: a431d3b9-86fa-49b8-8f66-9840e65c2ae3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_customise
+    - paragraphs.paragraphs_type.navigation_card
+_core:
+  default_config_hash: 6V5A2erFZd-fpOMYIO-GXpFxyeSMvAYI9lf20skkmfI
+id: paragraph.navigation_card.field_customise
+field_name: field_customise
+entity_type: paragraph
+bundle: navigation_card
+label: Customise
+description: 'Supplemental info will automatically display topic, date, or content type (depending on content being linked to).'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Show supplemental info'
+  off_label: 'Off'
+field_type: boolean

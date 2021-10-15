@@ -1,0 +1,25 @@
+uuid: 373d5527-90d9-4d36-89e8-e8112768320d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_show_contact
+    - node.type.landing_page
+_core:
+  default_config_hash: JmSmwglAd8_ocywxzOPBf3YbF-56D42iG4Y-KBvWS6o
+id: node.landing_page.field_landing_page_show_contact
+field_name: field_landing_page_show_contact
+entity_type: node
+bundle: landing_page
+label: 'Show contact details'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

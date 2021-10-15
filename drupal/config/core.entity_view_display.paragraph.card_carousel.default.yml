@@ -1,0 +1,45 @@
+uuid: b612a2c9-3279-4eb6-97ac-66dab37e3801
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_carousel.field_paragraph_items
+    - field.field.paragraph.card_carousel.field_paragraph_latest_items
+    - field.field.paragraph.card_carousel.field_paragraph_title
+    - paragraphs.paragraphs_type.card_carousel
+  module:
+    - entity_reference_revisions
+    - options
+_core:
+  default_config_hash: lCeorfPRWzThged8LVXLZa9NJ_6H3l7bloKe8lBlJi0
+id: paragraph.card_carousel.default
+targetEntityType: paragraph
+bundle: card_carousel
+mode: default
+content:
+  field_paragraph_items:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_paragraph_latest_items:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_paragraph_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

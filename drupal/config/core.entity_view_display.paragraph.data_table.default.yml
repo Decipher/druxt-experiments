@@ -1,0 +1,60 @@
+uuid: 1f95e846-7837-419d-a9b6-e1719c7cc073
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.data_table.field_data_table_content
+    - field.field.paragraph.data_table.field_first_column_table_header
+    - field.field.paragraph.data_table.field_first_row_table_header
+    - field.field.paragraph.data_table.field_table_orientation
+    - paragraphs.paragraphs_type.data_table
+  module:
+    - tablefield
+_core:
+  default_config_hash: eKWeExaHVSO4aKSFdO5NP6EpbOI4tnnOUwquW1q6Deo
+id: paragraph.data_table.default
+targetEntityType: paragraph
+bundle: data_table
+mode: default
+content:
+  field_data_table_content:
+    weight: 1
+    label: above
+    settings:
+      row_header: true
+      column_header: false
+    third_party_settings: {  }
+    type: tablefield
+    region: content
+  field_first_column_table_header:
+    weight: 3
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_first_row_table_header:
+    weight: 4
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_table_orientation:
+    weight: 2
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+hidden:
+  search_api_excerpt: true

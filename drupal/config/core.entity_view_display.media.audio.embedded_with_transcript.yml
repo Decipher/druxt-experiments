@@ -1,0 +1,58 @@
+uuid: 7965c6ab-fec7-4486-9721-42cf1cd05bd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.embedded_with_transcript
+    - field.field.media.audio.field_license_type
+    - field.field.media.audio.field_media_audience
+    - field.field.media.audio.field_media_department
+    - field.field.media.audio.field_media_file
+    - field.field.media.audio.field_media_length
+    - field.field.media.audio.field_media_restricted
+    - field.field.media.audio.field_media_show_transcript
+    - field.field.media.audio.field_media_site
+    - field.field.media.audio.field_media_summary
+    - field.field.media.audio.field_media_topic
+    - field.field.media.audio.field_media_transcript
+    - media.type.audio
+  module:
+    - media_entity_audio
+_core:
+  default_config_hash: paeju7CiJDXgM65URpdvXb2H3H1CmxedZDNSXJzyJco
+id: media.audio.embedded_with_transcript
+targetEntityType: media
+bundle: audio
+mode: embedded_with_transcript
+content:
+  field_media_file:
+    weight: 0
+    label: hidden
+    settings:
+      provide_download_link: '1'
+      audio_attributes: controls
+    third_party_settings: {  }
+    type: audio_player_html5
+    region: content
+  field_media_transcript:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  created: true
+  field_license_type: true
+  field_media_audience: true
+  field_media_department: true
+  field_media_length: true
+  field_media_restricted: true
+  field_media_show_transcript: true
+  field_media_site: true
+  field_media_summary: true
+  field_media_topic: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

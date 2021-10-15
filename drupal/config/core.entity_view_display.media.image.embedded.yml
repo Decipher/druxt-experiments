@@ -1,0 +1,48 @@
+uuid: b35a90ac-8aa2-4934-be56-050f45865e5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.embedded
+    - field.field.media.image.field_license_type
+    - field.field.media.image.field_media_alignment
+    - field.field.media.image.field_media_audience
+    - field.field.media.image.field_media_caption
+    - field.field.media.image.field_media_department
+    - field.field.media.image.field_media_image
+    - field.field.media.image.field_media_restricted
+    - field.field.media.image.field_media_site
+    - field.field.media.image.field_media_topic
+    - media.type.image
+  module:
+    - svg_image
+_core:
+  default_config_hash: XDavXWOflEEr6HbN1bAq761eLLjGJJS4fotQljc4Q6Y
+id: media.image.embedded
+targetEntityType: media
+bundle: image
+mode: embedded
+content:
+  field_media_image:
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_license_type: true
+  field_media_alignment: true
+  field_media_audience: true
+  field_media_caption: true
+  field_media_department: true
+  field_media_restricted: true
+  field_media_site: true
+  field_media_topic: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

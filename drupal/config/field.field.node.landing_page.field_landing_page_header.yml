@@ -1,0 +1,95 @@
+uuid: 8067f92a-9f51-4446-9d7a-1ec1de89a4f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_header
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.embedded_search_form
+    - paragraphs.paragraphs_type.introduction_banner
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: un8YZ1Xr0U8GyyfxP-MPFKNI0Jy-vaK_ltTnLYEzwi0
+id: node.landing_page.field_landing_page_header
+field_name: field_landing_page_header
+entity_type: node
+bundle: landing_page
+label: 'Header components'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      introduction_banner: introduction_banner
+      embedded_search_form: embedded_search_form
+    target_bundles_drag_drop:
+      introduction_banner:
+        enabled: true
+        weight: 25
+      accordion:
+        weight: 26
+        enabled: false
+      accordion_content:
+        weight: 27
+        enabled: false
+      banner:
+        weight: 28
+        enabled: false
+      basic_text:
+        weight: 29
+        enabled: false
+      embedded_search_form:
+        enabled: true
+        weight: 30
+      call_to_action:
+        weight: 30
+        enabled: false
+      card_event:
+        weight: 31
+        enabled: false
+      card_keydates:
+        weight: 32
+        enabled: false
+      card_promotion:
+        weight: 37
+        enabled: false
+      card_promotion_auto:
+        weight: 38
+        enabled: false
+      contact_us:
+        weight: 39
+        enabled: false
+      embedded_webform:
+        weight: 40
+        enabled: false
+      featured_news:
+        weight: 41
+        enabled: false
+      keydates:
+        weight: 42
+        enabled: false
+      key_journeys:
+        weight: 43
+        enabled: false
+      links:
+        weight: 44
+        enabled: false
+      news_listing:
+        weight: 45
+        enabled: false
+      phone:
+        weight: 46
+        enabled: false
+      related_links:
+        weight: 47
+        enabled: false
+      social_link:
+        weight: 48
+        enabled: false
+field_type: entity_reference_revisions

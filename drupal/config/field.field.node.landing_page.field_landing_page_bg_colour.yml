@@ -1,0 +1,25 @@
+uuid: 3a846565-35fd-4ccb-ad92-1c15014fa946
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_bg_colour
+    - node.type.landing_page
+  module:
+    - options
+_core:
+  default_config_hash: siOpTx5wgwr3Y8K79E7f6hUZC5KQdr88oBsuNaZQaCQ
+id: node.landing_page.field_landing_page_bg_colour
+field_name: field_landing_page_bg_colour
+entity_type: node
+bundle: landing_page
+label: 'Background colour'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: white
+default_value_callback: ''
+settings: {  }
+field_type: list_string

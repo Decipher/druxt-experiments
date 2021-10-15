@@ -1,0 +1,36 @@
+uuid: 741be20f-2573-4c0f-98f1-407b591eed70
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.embedded_webform.field_paragraph_title
+    - field.field.paragraph.embedded_webform.field_paragraph_webform
+    - paragraphs.paragraphs_type.embedded_webform
+  module:
+    - webform
+_core:
+  default_config_hash: JHPr58A9xH6mwZ_PWegXcuwOt3KGg5AFKtyPRH5ipvM
+id: paragraph.embedded_webform.preview
+targetEntityType: paragraph
+bundle: embedded_webform
+mode: preview
+content:
+  field_paragraph_title:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_paragraph_webform:
+    weight: 1
+    label: inline
+    settings:
+      label: 'Go to [webform:title] webform'
+    third_party_settings: {  }
+    type: webform_entity_reference_link
+    region: content
+hidden:
+  search_api_excerpt: true

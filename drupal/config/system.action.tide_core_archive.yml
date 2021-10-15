@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: tide_core_archive
+label: 'Archive content'
+type: node
+plugin: tide_core_archive_action
+configuration: {  }

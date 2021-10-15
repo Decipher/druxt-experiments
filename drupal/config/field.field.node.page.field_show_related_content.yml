@@ -1,0 +1,25 @@
+uuid: 4ceff19c-eee4-4f4e-86e2-328311063cea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_related_content
+    - node.type.page
+_core:
+  default_config_hash: QnXW61NfuUkVR2YUHPifZgnskFXbpp4rcOrZ37AosfI
+id: node.page.field_show_related_content
+field_name: field_show_related_content
+entity_type: node
+bundle: page
+label: 'Show Related Content?'
+description: 'Check this box if you want to show Related Content for this page.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

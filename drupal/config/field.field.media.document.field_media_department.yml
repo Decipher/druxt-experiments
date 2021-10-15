@@ -1,0 +1,31 @@
+uuid: 554765b5-2ffd-4e8f-b831-b80420e0087d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_department
+    - media.type.document
+    - taxonomy.vocabulary.department
+_core:
+  default_config_hash: emO6YSiILMeZr7cTP7X6zbaPqarFCB45G-muoLg8k1k
+id: media.document.field_media_department
+field_name: field_media_department
+entity_type: media
+bundle: document
+label: Department
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      department: department
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

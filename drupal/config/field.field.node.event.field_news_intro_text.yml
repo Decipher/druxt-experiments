@@ -1,0 +1,21 @@
+uuid: 6efcdb01-0233-4449-b7d5-aeb8972e190d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_intro_text
+    - node.type.event
+_core:
+  default_config_hash: CjGp0VsC56aYZMeTyzcW4wqqW4Vxfk-8pFLOrjshQlI
+id: node.event.field_news_intro_text
+field_name: field_news_intro_text
+entity_type: node
+bundle: event
+label: 'Introduction Text'
+description: 'Add Introduction text for this event. '
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

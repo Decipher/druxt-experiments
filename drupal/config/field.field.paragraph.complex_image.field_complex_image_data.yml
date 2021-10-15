@@ -1,0 +1,29 @@
+uuid: 0475a67e-872b-4153-ae91-0f0a52703b1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_complex_image_data
+    - paragraphs.paragraphs_type.complex_image
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    rich_text: '0'
+    admin_text: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: 5xuH_H07vaIVovmjetqqq7oKDKEEeb8Vro30ksuV9Ek
+id: paragraph.complex_image.field_complex_image_data
+field_name: field_complex_image_data
+entity_type: paragraph
+bundle: complex_image
+label: 'Corresponding data'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

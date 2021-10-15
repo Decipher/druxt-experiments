@@ -1,0 +1,64 @@
+uuid: 110f7672-e61a-4046-8165-c56186abeeba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_location
+    - paragraphs.paragraphs_type.event_details
+  module:
+    - address
+_core:
+  default_config_hash: W104EbKnjJAxZy87xm2WZCicxwXRVZV8qElKhFaqdd8
+id: paragraph.event_details.field_paragraph_location
+field_name: field_paragraph_location
+entity_type: paragraph
+bundle: event_details
+label: Location
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    country_code: AU
+    langcode: null
+    administrative_area: ''
+    locality: ''
+    dependent_locality: ''
+    postal_code: ''
+    sorting_code: ''
+    address_line1: ''
+    address_line2: ''
+    organization: ''
+    given_name: ''
+    additional_name: ''
+    family_name: ''
+default_value_callback: ''
+settings:
+  available_countries:
+    AU: AU
+  langcode_override: ''
+  field_overrides:
+    givenName:
+      override: hidden
+    additionalName:
+      override: hidden
+    familyName:
+      override: hidden
+    organization:
+      override: hidden
+    addressLine1:
+      override: optional
+    addressLine2:
+      override: optional
+    postalCode:
+      override: optional
+    sortingCode:
+      override: hidden
+    dependentLocality:
+      override: hidden
+    locality:
+      override: optional
+    administrativeArea:
+      override: optional
+  fields: {  }
+field_type: address

@@ -1,0 +1,43 @@
+uuid: e1c1292b-c518-419d-ac51-18c012c468d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.embedded
+    - field.field.media.document.field_license_type
+    - field.field.media.document.field_media_audience
+    - field.field.media.document.field_media_department
+    - field.field.media.document.field_media_file
+    - field.field.media.document.field_media_restricted
+    - field.field.media.document.field_media_site
+    - field.field.media.document.field_media_topic
+    - media.type.document
+  module:
+    - file
+_core:
+  default_config_hash: GewZjEsbx4jmVEyoRH16Qudt97F6neX7rHu2ZTsuO7c
+id: media.document.embedded
+targetEntityType: media
+bundle: document
+mode: embedded
+content:
+  field_media_file:
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_license_type: true
+  field_media_audience: true
+  field_media_department: true
+  field_media_restricted: true
+  field_media_site: true
+  field_media_topic: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

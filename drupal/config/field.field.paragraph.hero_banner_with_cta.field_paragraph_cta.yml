@@ -1,0 +1,25 @@
+uuid: ff219f4e-882d-4491-9e60-bd7c4afaee6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_cta
+    - paragraphs.paragraphs_type.hero_banner_with_cta
+  module:
+    - link
+_core:
+  default_config_hash: 06VL3KIAtz-HD09flG7yoc7Q8T16GR64wNG-KMiRliE
+id: paragraph.hero_banner_with_cta.field_paragraph_cta
+field_name: field_paragraph_cta
+entity_type: paragraph
+bundle: hero_banner_with_cta
+label: 'Call To Action'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

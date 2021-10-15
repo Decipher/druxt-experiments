@@ -1,0 +1,23 @@
+uuid: 1abade2e-fa27-4bc3-8724-22f71c071f05
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+_core:
+  default_config_hash: Ab9iYMewm4z8YLXjSK4J2o7d-EhtEkKXCc2fFc3a-YE
+id: node.field_whats_next
+field_name: field_whats_next
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 5
+translatable: true
+indexes: {  }
+persist_with_no_fields: true
+custom_storage: false

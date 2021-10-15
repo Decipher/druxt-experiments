@@ -1,0 +1,23 @@
+uuid: 455350f9-75d2-42fc-a2a3-f2c18708e8fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_nav_title
+    - node.type.landing_page
+_core:
+  default_config_hash: TtZgf51UHk5MFxqv4bwMOpZFSZM0EbzZtXy2487ESk0
+id: node.landing_page.field_landing_page_nav_title
+field_name: field_landing_page_nav_title
+entity_type: node
+bundle: landing_page
+label: 'Site-section Navigation Title'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Site-section Navigation'
+default_value_callback: ''
+settings: {  }
+field_type: string

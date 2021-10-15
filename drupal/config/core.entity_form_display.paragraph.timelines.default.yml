@@ -1,0 +1,49 @@
+uuid: 80fc5b25-e699-4668-814f-9060a2f24b8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.timelines.field_paragraph_title
+    - field.field.paragraph.timelines.field_timeline
+    - paragraphs.paragraphs_type.timelines
+  module:
+    - paragraphs
+_core:
+  default_config_hash: pDQINGaHkM_Da9sRaVFfkm618weG49a_6Y96gOEipNQ
+id: paragraph.timelines.default
+targetEntityType: paragraph
+bundle: timelines
+mode: default
+content:
+  field_paragraph_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_timeline:
+    type: paragraphs
+    weight: 2
+    settings:
+      title: Timeline
+      title_plural: Timelines
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: timeline
+      closed_mode: summary
+      autocollapse: none
+    third_party_settings: {  }
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 0
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

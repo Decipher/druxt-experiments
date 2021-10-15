@@ -1,0 +1,20 @@
+uuid: d4fc544f-5bc0-4649-8974-1319f20cc173
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: oppj-hwY_6ltRceo8tyeUcBEco1dccKThBZqExMwXgQ
+id: node.field_landing_page_show_contact
+field_name: field_landing_page_show_contact
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

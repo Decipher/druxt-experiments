@@ -1,0 +1,21 @@
+uuid: c37668ce-d522-4399-ac4e-8d73f1a0b6eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_title
+    - paragraphs.paragraphs_type.promotion_card
+_core:
+  default_config_hash: KnjT3vW9XFF8ivZQwNvN-smH-oDHvOTnJT7Sjd5IONY
+id: paragraph.promotion_card.field_paragraph_title
+field_name: field_paragraph_title
+entity_type: paragraph
+bundle: promotion_card
+label: Title
+description: 'This title will be displayed as the primary call-to-action on the card.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

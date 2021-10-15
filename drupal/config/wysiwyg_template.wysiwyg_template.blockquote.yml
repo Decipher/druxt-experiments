@@ -1,0 +1,14 @@
+uuid: 476f55e6-e9f3-4ddf-9ece-27ba9da03c0a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: f1OX2Wrsp6HpQ_VadxPiXT0bFpyJe3caMKH2RnbLUv0
+id: blockquote
+label: Blockquote
+description: 'Blockquote with 2 lines of caption'
+body:
+  value: "<blockquote class=\"quotation\">\r\n<p>Berios sim destrum facientota nis ex eost aut prae vendis explam aliquis dolorpo rrorem reptaep elenis net.</p>\r\n\r\n<footer><cite><span class=\"quotation__author\">Her Excellency the Honourable Linda Dessau AC</span><br />\r\n<span class=\"quotation__author-title\">Governor of Victoria</span> </cite></footer>\r\n</blockquote>\r\n"
+  format: rich_text
+weight: null
+node_types: {  }

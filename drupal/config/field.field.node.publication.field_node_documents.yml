@@ -1,0 +1,30 @@
+uuid: d9f13ba2-f49b-496b-8b5b-683d77edc97e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_node_documents
+    - media.type.document
+    - node.type.publication
+_core:
+  default_config_hash: O6VXZMeeBk0nnF83Ds1yaD33M_utqyTxx5fbKnOG3R0
+id: node.publication.field_node_documents
+field_name: field_node_documents
+entity_type: node
+bundle: publication
+label: Documents
+description: 'Add the original document to this publication. Format is PDF document. This will sits on the right hand side of the page'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: document
+field_type: entity_reference

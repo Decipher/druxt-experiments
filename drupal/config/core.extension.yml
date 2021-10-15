@@ -1,61 +1,136 @@
 module:
-  automated_cron: 0
-  big_pipe: 0
+  address: 0
+  admin_audit_trail: 0
+  admin_audit_trail_auth: 0
+  admin_audit_trail_file: 0
+  admin_audit_trail_media: 0
+  admin_audit_trail_menu: 0
+  admin_audit_trail_node: 0
+  admin_audit_trail_taxonomy: 0
+  admin_audit_trail_user: 0
+  admin_audit_trail_workflows: 0
+  allowed_formats: 0
+  better_exposed_filters: 0
   block: 0
   block_content: 0
-  breakpoint: 0
   ckeditor: 0
-  color: 0
-  comment: 0
+  ckeditor_iframe: 0
+  ckeditor_liststyle: 0
+  clamav: 0
   config: 0
-  contact: 0
-  contextual: 0
+  config_filter: 0
+  config_ignore: 0
+  config_split: 0
+  config_update: 0
+  content_moderation: 0
+  crop: 0
+  ctools: 0
   datetime: 0
-  dblog: 0
-  decoupled_router: 0
-  druxt: 0
+  datetime_range: 0
+  dbal: 0
+  diff: 0
+  dynamic_entity_reference: 0
   dynamic_page_cache: 0
   editor: 0
+  editor_advanced_link: 0
+  elasticsearch_connector: 0
+  embed: 0
+  entity_browser: 0
+  entity_browser_entity_form: 0
+  entity_embed: 0
+  entity_hierarchy: 0
+  entity_reference_revisions: 0
+  fakeobjects: 0
+  fast404: 0
   field: 0
+  field_group: 0
   field_ui: 0
   file: 0
   filter: 0
-  help: 0
-  history: 0
+  focal_point: 0
+  hal: 0
   image: 0
+  inline_entity_form: 0
   jsonapi: 0
-  jsonapi_menu_items: 0
-  jsonapi_resources: 0
-  jsonapi_views: 0
+  jsonapi_extras: 0
   link: 0
+  link_field_autocomplete_filter: 0
+  linkit: 0
+  m4032404: 0
+  maxlength: 0
+  media: 0
+  media_entity_audio: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
+  metatag_open_graph: 0
   node: 0
   options: 0
-  page_cache: 0
+  override_node_options: 0
+  password_strength: 0
   path: 0
   path_alias: 0
-  rdf: 0
-  search: 0
+  prlp: 0
+  quick_node_clone: 0
+  redirect: 0
+  role_delegation: 0
+  scheduled_transitions: 0
+  schemata: 0
+  schemata_json_schema: 0
+  search_api: 0
+  seckit: 0
   serialization: 0
-  shortcut: 0
+  simple_sitemap: 0
+  smart_trim: 0
+  svg_image: 0
   system: 0
+  tablefield: 0
   taxonomy: 0
+  telephone: 0
   text: 0
+  tide_alert: 0
+  tide_api: 0
+  tide_core: 0
+  tide_event: 0
+  tide_landing_page: 0
+  tide_media: 0
+  tide_news: 0
+  tide_page: 0
+  tide_publication: 0
+  tide_search: 0
+  tide_site: 0
+  tide_site_simple_sitemap: 0
+  tide_webform: 0
+  token: 0
+  token_conditions: 0
+  token_filter: 0
   tome: 0
   tome_base: 0
   tome_static: 0
   tome_sync: 0
-  toolbar: 0
-  tour: 0
+  twig_field_value: 0
   update: 0
   user: 0
-  views_ui: 0
+  username_enumeration_prevention: 0
+  video_embed_field: 0
+  video_embed_media: 0
+  views_menu_children_filter: 0
+  viewsreference: 0
+  webform: 0
+  webform_ui: 0
+  workflows: 0
+  wysiwyg_template: 0
+  wysiwyg_template_core: 0
+  pathauto: 1
+  password_policy: 10
   views: 10
-  standard: 1000
+  paragraphs: 11
+  login_redirect_per_role: 1000
+  tide: 1000
 theme:
-  bartik: 0
+  stable: 0
+  classy: 0
   seven: 0
-profile: standard
+profile: tide
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

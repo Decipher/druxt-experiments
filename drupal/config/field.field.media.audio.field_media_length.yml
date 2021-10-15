@@ -1,0 +1,21 @@
+uuid: 4352b1b1-9c5e-47bc-bc41-38b50df5c309
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_length
+    - media.type.audio
+_core:
+  default_config_hash: 8GvFM6VNeBjJDJFWoejNTN4Igha9CbSCs3Hl36H_5NE
+id: media.audio.field_media_length
+field_name: field_media_length
+entity_type: media
+bundle: audio
+label: Length
+description: 'Add Audio Length.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

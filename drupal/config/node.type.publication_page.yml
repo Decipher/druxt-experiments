@@ -1,0 +1,22 @@
+uuid: f2c52a4a-991b-423d-8820-a2fde38f21cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - wysiwyg_template
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  wysiwyg_template:
+    default_template: ''
+_core:
+  default_config_hash: 67dh6wbBqTbkzEFsaxYojO9H8Z288Y8bwZ8GvGLz0Y4
+name: 'Publication page'
+type: publication_page
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

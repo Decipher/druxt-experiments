@@ -1,0 +1,14 @@
+uuid: 075bdf14-3a62-4325-bf67-4623caaf3efe
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2DcEmF5p0272yuPrVbjxKPOp000rAwQzA7734knlzkY
+id: secondary_button
+label: 'Secondary Button'
+description: ''
+body:
+  value: "<p><a class=\"button button--secondary\" href=\"Secondary-button-link\">Secondary button text</a></p>\r\n"
+  format: rich_text
+weight: null
+node_types: {  }

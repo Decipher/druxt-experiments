@@ -1,0 +1,21 @@
+uuid: 6a0f438f-22de-4b2a-a84e-492d5404b360
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_title
+    - paragraphs.paragraphs_type.introduction_banner
+_core:
+  default_config_hash: U-Eud0316BX_S-8W1w4Abu_SS08vxJWg-jJN82CU9TY
+id: paragraph.introduction_banner.field_paragraph_title
+field_name: field_paragraph_title
+entity_type: paragraph
+bundle: introduction_banner
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

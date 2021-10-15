@@ -1,0 +1,30 @@
+uuid: d4902d77-73d8-473f-a5e4-495dadad1315
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.campaign
+    - field.storage.block_content.field_block_image
+    - media.type.image
+_core:
+  default_config_hash: wlEHkV9mUgIJvu1iLxIfOf_V7FP5hbaEhYePtQOU3Rg
+id: block_content.campaign.field_block_image
+field_name: field_block_image
+entity_type: block_content
+bundle: campaign
+label: 'Featured Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

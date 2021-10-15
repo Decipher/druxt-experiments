@@ -1,0 +1,47 @@
+uuid: 15e73ff5-3702-486c-84fe-3e2909a30f07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embedded_webform.field_paragraph_title
+    - field.field.paragraph.embedded_webform.field_paragraph_webform
+    - paragraphs.paragraphs_type.embedded_webform
+  module:
+    - smart_trim
+    - webform
+_core:
+  default_config_hash: P_dw0qRgUrtvtcPaAyhn8RJzIKanxr_K3V8tP9TyrDs
+id: paragraph.embedded_webform.default
+targetEntityType: paragraph
+bundle: embedded_webform
+mode: default
+content:
+  field_paragraph_title:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 150
+      trim_type: chars
+      trim_suffix: ''
+      wrap_class: trimmed
+      more_text: More
+      more_class: more-link
+      wrap_output: false
+      more_link: false
+      trim_options:
+        text: false
+        trim_zero: false
+      summary_handler: full
+    third_party_settings: {  }
+    type: smart_trim
+    region: content
+  field_paragraph_webform:
+    weight: 1
+    label: hidden
+    settings:
+      source_entity: false
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden:
+  search_api_excerpt: true

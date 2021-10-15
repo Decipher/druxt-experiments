@@ -1,0 +1,25 @@
+uuid: 3aca21d1-bc1e-4d7d-a6bc-bb0fb9aea390
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_publication_nav
+    - node.type.publication
+_core:
+  default_config_hash: lJ_0IzbdJkU21C25DanM09j8azPFS20TvrczpxI46Ps
+id: node.publication.field_show_publication_nav
+field_name: field_show_publication_nav
+entity_type: node
+bundle: publication
+label: 'Show Publication Navigation?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

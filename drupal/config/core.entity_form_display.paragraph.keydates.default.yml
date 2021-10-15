@@ -1,0 +1,62 @@
+uuid: 57a4cb28-b863-4046-bccc-85658fa7a07a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.keydates.field_paragraph_keydate
+    - field.field.paragraph.keydates.field_paragraph_link
+    - field.field.paragraph.keydates.field_paragraph_summary
+    - field.field.paragraph.keydates.field_paragraph_title
+    - paragraphs.paragraphs_type.keydates
+  module:
+    - maxlength
+_core:
+  default_config_hash: m0tjFeb35pZLdGkAvPD-Tu13Ve9gJlWxJDmAmvwMEBI
+id: paragraph.keydates.default
+targetEntityType: paragraph
+bundle: keydates
+mode: default
+content:
+  field_paragraph_keydate:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_paragraph_summary:
+    type: string_textarea
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 200
+        maxlength_js_label: 'A brief description of the public holiday or special date. Max @limit characters, remaining: <strong>@remaining</strong>'
+        maxlength_js_enforce: false
+        maxlength_js_truncate_html: false
+    region: content
+  field_paragraph_title:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 150
+        maxlength_js_label: 'Title of the public holiday or special date. Max @limit characters, preferred <70 characters; remaining: <strong>@remaining</strong>'
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 0
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_paragraph_link: true
+  status: true
+  uid: true

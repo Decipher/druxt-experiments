@@ -1,0 +1,8 @@
+uuid: 2c30028b-a801-4087-841a-4662203e039e
+langcode: en
+status: true
+dependencies: {  }
+name: 'Alert Type'
+vid: alert_type
+description: 'Alert type for Alerts'
+weight: 0

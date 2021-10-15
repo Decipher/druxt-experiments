@@ -1,0 +1,56 @@
+uuid: 77f04b40-f48b-43fe-9b2c-fdde524ec76a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_browser_preview
+    - field.field.media.image.field_license_type
+    - field.field.media.image.field_media_alignment
+    - field.field.media.image.field_media_audience
+    - field.field.media.image.field_media_caption
+    - field.field.media.image.field_media_department
+    - field.field.media.image.field_media_image
+    - field.field.media.image.field_media_restricted
+    - field.field.media.image.field_media_site
+    - field.field.media.image.field_media_topic
+    - image.style.thumbnail
+    - media.type.image
+  module:
+    - svg_image
+_core:
+  default_config_hash: RM8lHaX2pzgOlHqh3tP7i4cdopvD23MOk7dYqvv1jYA
+id: media.image.media_browser_preview
+targetEntityType: media
+bundle: image
+mode: media_browser_preview
+content:
+  name:
+    label: hidden
+    type: string
+    weight: 1
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  thumbnail:
+    type: image
+    weight: 0
+    region: content
+    label: visually_hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_license_type: true
+  field_media_alignment: true
+  field_media_audience: true
+  field_media_caption: true
+  field_media_department: true
+  field_media_image: true
+  field_media_restricted: true
+  field_media_site: true
+  field_media_topic: true
+  search_api_excerpt: true
+  uid: true

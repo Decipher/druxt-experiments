@@ -1,0 +1,30 @@
+uuid: 1e4554ba-9e60-4d6e-8d14-58a548e576fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bottom_graphical_image
+    - media.type.image
+    - node.type.landing_page
+_core:
+  default_config_hash: 2TgwrYSL65t7gU-8iP1v2C7yPdmdLg_GQxgP3VBZiss
+id: node.landing_page.field_bottom_graphical_image
+field_name: field_bottom_graphical_image
+entity_type: node
+bundle: landing_page
+label: 'Bottom corner graphic'
+description: 'This can only be changed by administrators. The graphical image will not be displayed when a hero image is added.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

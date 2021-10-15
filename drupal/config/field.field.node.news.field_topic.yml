@@ -1,0 +1,31 @@
+uuid: 18068f3f-c331-4443-a0ef-0d31fc3bf68c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_topic
+    - node.type.news
+    - taxonomy.vocabulary.topic
+_core:
+  default_config_hash: 0sp1oe72EyPk8U4khIxGJcp-5RC12dJwIVIusZ3AG3M
+id: node.news.field_topic
+field_name: field_topic
+entity_type: node
+bundle: news
+label: Topic
+description: 'Use <em>Topic</em> field to categorise pages by Topic.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topic: topic
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

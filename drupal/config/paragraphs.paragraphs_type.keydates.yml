@@ -1,0 +1,12 @@
+uuid: 01b4a41b-34fb-4b29-8cd9-d03746881c6b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5Ipsy_Bb0KRDpnF1-IUO24YpOEE2QEhQops2vnND_wU
+id: keydates
+label: 'Key dates'
+icon_uuid: null
+icon_default: null
+description: 'Add this card to feature important dates. Add a date, title, summary and link.'
+behavior_plugins: {  }

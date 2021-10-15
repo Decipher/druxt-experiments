@@ -1,0 +1,46 @@
+uuid: 7fc81a98-b4bb-43d0-ad20-ab223f4c7ca9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embedded_webform.field_paragraph_title
+    - field.field.paragraph.embedded_webform.field_paragraph_webform
+    - paragraphs.paragraphs_type.embedded_webform
+  module:
+    - maxlength
+    - webform
+_core:
+  default_config_hash: G6UVHXhMnykjvSTdlW6iouOyQxvzZppBJWo3k2KjWgA
+id: paragraph.embedded_webform.default
+targetEntityType: paragraph
+bundle: embedded_webform
+mode: default
+content:
+  field_paragraph_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 150
+        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
+    type: string_textfield
+    region: content
+  field_paragraph_webform:
+    weight: 2
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 0
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

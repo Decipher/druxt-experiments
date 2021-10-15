@@ -1,4 +1,4 @@
-uuid: b43e26c6-a349-40a4-9a7d-f519b26f024a
+uuid: 7afc21c2-b691-4763-b727-cb7ce9e1562d
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - taxonomy
     - user
 _core:
-  default_config_hash: 2z7pwt5tDi6XaIxk-qr7Flrtvc8H7gUhhy-Wquyydls
+  default_config_hash: uvMAn5Qf8Uni989mhr5KY4hx66xkSpP8nFYZMHgj7kY
 id: taxonomy_term
 label: 'Taxonomy term'
 module: taxonomy
@@ -20,7 +20,7 @@ base_field: nid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Master
     display_plugin: default
     position: 0
     display_options:
@@ -80,7 +80,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: sticky
         created:
           id: created
           table: taxonomy_index
@@ -93,7 +92,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: created
           granularity: second
       arguments:
         tid:

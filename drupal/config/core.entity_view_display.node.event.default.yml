@@ -1,0 +1,225 @@
+uuid: bbc97cc5-33fb-48d0-b0a4-be9a5a14449a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.body
+    - field.field.node.event.field_audience
+    - field.field.node.event.field_event_category
+    - field.field.node.event.field_event_description
+    - field.field.node.event.field_event_details
+    - field.field.node.event.field_featured_image
+    - field.field.node.event.field_landing_page_contact
+    - field.field.node.event.field_landing_page_show_contact
+    - field.field.node.event.field_landing_page_summary
+    - field.field.node.event.field_news_intro_text
+    - field.field.node.event.field_node_author
+    - field.field.node.event.field_node_email
+    - field.field.node.event.field_node_link
+    - field.field.node.event.field_node_phone
+    - field.field.node.event.field_node_primary_site
+    - field.field.node.event.field_node_site
+    - field.field.node.event.field_related_links
+    - field.field.node.event.field_show_content_rating
+    - field.field.node.event.field_show_related_content
+    - field.field.node.event.field_show_social_sharing
+    - field.field.node.event.field_status
+    - field.field.node.event.field_tags
+    - field.field.node.event.field_topic
+    - node.type.event
+  module:
+    - entity_reference_revisions
+    - link
+    - text
+    - user
+_core:
+  default_config_hash: 9PZXWRRXkXgzLi_9bf7RsBocFa1axNKKRVQn_QfjRJ0
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  content_moderation_control:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_audience:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_event_category:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_event_description:
+    weight: 8
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_event_details:
+    type: entity_reference_revisions_entity_view
+    weight: 9
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_featured_image:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_landing_page_contact:
+    weight: 16
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_landing_page_show_contact:
+    weight: 11
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_landing_page_summary:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_news_intro_text:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_node_author:
+    weight: 19
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_node_email:
+    weight: 20
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_node_link:
+    weight: 22
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_node_phone:
+    weight: 21
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_related_links:
+    weight: 17
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_show_content_rating:
+    weight: 18
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_show_related_content:
+    weight: 23
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_show_social_sharing:
+    weight: 12
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_tags:
+    weight: 15
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_topic:
+    weight: 7
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_node_primary_site: true
+  field_node_site: true
+  field_status: true
+  search_api_excerpt: true

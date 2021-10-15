@@ -1,0 +1,80 @@
+uuid: 41362dfb-e571-4fc3-a516-b1a6fd184590
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.event_details.field_event_requirements
+    - field.field.paragraph.event_details.field_paragraph_date_range
+    - field.field.paragraph.event_details.field_paragraph_event_price_from
+    - field.field.paragraph.event_details.field_paragraph_event_price_to
+    - field.field.paragraph.event_details.field_paragraph_link
+    - field.field.paragraph.event_details.field_paragraph_location
+    - field.field.paragraph.event_details.field_show_time
+    - paragraphs.paragraphs_type.event_details
+  module:
+    - address
+    - datetime_range
+    - link
+_core:
+  default_config_hash: Ntx_6zk4hyUKaBiL5pz_2WS7yLAhWj4oEL3tUAZbols
+id: paragraph.event_details.default
+targetEntityType: paragraph
+bundle: event_details
+mode: default
+content:
+  field_event_requirements:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_paragraph_date_range:
+    weight: 0
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_paragraph_event_price_from:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_paragraph_event_price_to:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_paragraph_link:
+    weight: 5
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_paragraph_location:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+hidden:
+  field_show_time: true
+  search_api_excerpt: true

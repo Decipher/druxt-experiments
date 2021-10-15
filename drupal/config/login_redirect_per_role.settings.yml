@@ -1,0 +1,10 @@
+login:
+  editor:
+    redirect_url: /admin/content
+    allow_destination: false
+  approver:
+    redirect_url: /admin/content
+    allow_destination: false
+  site_admin:
+    redirect_url: /admin/content
+    allow_destination: false

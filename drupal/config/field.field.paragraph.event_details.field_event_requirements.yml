@@ -1,0 +1,31 @@
+uuid: 527cb1c1-a53c-4294-a351-0c0c9b7dd11f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_event_requirements
+    - paragraphs.paragraphs_type.event_details
+    - taxonomy.vocabulary.event_requirements
+_core:
+  default_config_hash: EfL6NTx0KKv0Oykz8gtj5oo7FVS2tfBEA7YUgCdatZk
+id: paragraph.event_details.field_event_requirements
+field_name: field_event_requirements
+entity_type: paragraph
+bundle: event_details
+label: 'Event Requirements'
+description: 'Use <em>Event Requirements</em> field to categorise event by Requirements.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      event_requirements: event_requirements
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

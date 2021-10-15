@@ -1,0 +1,23 @@
+uuid: c939ab4a-0df6-4aca-a6d4-a98770ee679d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_hero_theme
+    - node.type.publication
+  module:
+    - options
+_core:
+  default_config_hash: KNABKSAFi7kKb2Z8pSX9uO8LMUhE8UJQbHTif27uYOA
+id: node.publication.field_landing_page_hero_theme
+field_name: field_landing_page_hero_theme
+entity_type: node
+bundle: publication
+label: 'Hero image theme'
+description: 'If your hero image is mostly dark, apply the dark theme. This changes how the page title is displayed.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

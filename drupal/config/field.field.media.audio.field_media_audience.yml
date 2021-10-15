@@ -1,0 +1,31 @@
+uuid: b765a142-1239-4fc6-bfed-0f20e53c6f51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_audience
+    - media.type.audio
+    - taxonomy.vocabulary.audience
+_core:
+  default_config_hash: jv7OPs4bVS1XGr8guy2OsTVadEl7BBOipjQhmLeeoBc
+id: media.audio.field_media_audience
+field_name: field_media_audience
+entity_type: media
+bundle: audio
+label: Audience
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      audience: audience
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

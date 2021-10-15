@@ -1,0 +1,25 @@
+uuid: e127717a-950a-4545-9bbf-bf34b6fac0ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_links
+    - paragraphs.paragraphs_type.key_journeys
+  module:
+    - link
+_core:
+  default_config_hash: kFh6nEfhWWoW-8MRHI19ORznMWYl9dGBZOOI4h_vy4s
+id: paragraph.key_journeys.field_paragraph_links
+field_name: field_paragraph_links
+entity_type: paragraph
+bundle: key_journeys
+label: Links
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

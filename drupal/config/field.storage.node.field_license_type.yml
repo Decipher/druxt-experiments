@@ -1,0 +1,22 @@
+uuid: 5eb2fdc8-89ae-4a2e-89fc-c8fe27b2fb21
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: 83z8GGZmRtyxnvTgIEGDRjUKhKh9ji0-ycXjRJjycIg
+id: node.field_license_type
+field_name: field_license_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

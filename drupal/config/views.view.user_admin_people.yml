@@ -1,11 +1,12 @@
-uuid: 0f0bf105-96fa-4aa3-bdbe-8e473097d614
+uuid: b7af0d7d-7b7f-4e99-88bd-e46a414f09bc
 langcode: en
 status: true
 dependencies:
   module:
+    - role_delegation
     - user
 _core:
-  default_config_hash: aZPuxZDj1EBPm62mfbJ1hwldo2MjmzvY_ZLxN445G1Y
+  default_config_hash: J5EbGNdz0YUaSIYKwomyFSOtZjsV9TrBA3qdb3ZwBS0
 id: user_admin_people
 label: People
 module: user
@@ -17,7 +18,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Default
+    display_title: Master
     position: 0
     display_options:
       access:
@@ -849,7 +850,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: created
           granularity: second
           plugin_id: date
           entity_type: user

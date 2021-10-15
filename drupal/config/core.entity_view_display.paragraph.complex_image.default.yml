@@ -1,0 +1,79 @@
+uuid: d5ed774e-c2ee-4b7c-93ac-0f93570b0b18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.complex_image.field_complex_image_data
+    - field.field.paragraph.complex_image.field_complex_image_data_label
+    - field.field.paragraph.complex_image.field_complex_image_dl_label
+    - field.field.paragraph.complex_image.field_complex_image_full_label
+    - field.field.paragraph.complex_image.field_complex_image_media
+    - field.field.paragraph.complex_image.field_complex_image_source
+    - field.field.paragraph.complex_image.field_complex_image_title
+    - paragraphs.paragraphs_type.complex_image
+  module:
+    - text
+_core:
+  default_config_hash: Yykw8orHowiDETmxt1KRK1Ic9Yi0KBcNMUsE4B1UChw
+id: paragraph.complex_image.default
+targetEntityType: paragraph
+bundle: complex_image
+mode: default
+content:
+  field_complex_image_data:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_complex_image_data_label:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_complex_image_dl_label:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_complex_image_full_label:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_complex_image_media:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_complex_image_source:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_complex_image_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

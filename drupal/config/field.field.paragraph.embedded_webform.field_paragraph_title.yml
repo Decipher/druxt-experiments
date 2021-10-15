@@ -1,0 +1,21 @@
+uuid: 9c9ac5cb-c5d5-4f45-900f-de387c90871b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_title
+    - paragraphs.paragraphs_type.embedded_webform
+_core:
+  default_config_hash: g-epJxK27opFLMunJ-BikGPdQWtEcbYoimTGe1Z2sqE
+id: paragraph.embedded_webform.field_paragraph_title
+field_name: field_paragraph_title
+entity_type: paragraph
+bundle: embedded_webform
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

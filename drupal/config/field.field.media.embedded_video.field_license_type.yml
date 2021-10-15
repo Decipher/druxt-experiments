@@ -1,0 +1,31 @@
+uuid: 7470b7b9-4aa7-43b2-919b-c7c0babe69a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_license_type
+    - media.type.embedded_video
+    - taxonomy.vocabulary.license_type
+_core:
+  default_config_hash: u4VHDZ4_Okwe4jWudCjsQxojJVN_RONxl-kiP6rMwn4
+id: media.embedded_video.field_license_type
+field_name: field_license_type
+entity_type: media
+bundle: embedded_video
+label: 'License Type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      license_type: license_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

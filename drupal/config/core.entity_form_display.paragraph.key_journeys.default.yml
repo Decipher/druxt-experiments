@@ -1,0 +1,49 @@
+uuid: 3a2615bf-afc0-4d88-a033-05a9a535da1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.key_journeys.field_paragraph_cta
+    - field.field.paragraph.key_journeys.field_paragraph_link
+    - field.field.paragraph.key_journeys.field_paragraph_links
+    - field.field.paragraph.key_journeys.field_paragraph_title
+    - paragraphs.paragraphs_type.key_journeys
+  module:
+    - link
+_core:
+  default_config_hash: gFFq7jM95Rf76OtOF4ZB9iTUyA9QXq__y_5V4aIV7Bc
+id: paragraph.key_journeys.default
+targetEntityType: paragraph
+bundle: key_journeys
+mode: default
+content:
+  field_paragraph_cta:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_paragraph_links:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_paragraph_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  field_paragraph_link: true
+  moderation_state: true
+  status: true
+  uid: true

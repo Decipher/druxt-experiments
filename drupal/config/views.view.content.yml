@@ -1,12 +1,13 @@
-uuid: de6274e4-2e97-4a3f-a221-3216e8d91b45
+uuid: 42c9ceef-8758-4542-afa0-bf0212dda1d8
 langcode: en
 status: true
 dependencies:
   module:
     - node
+    - tide_core
     - user
 _core:
-  default_config_hash: 12Bd0mJQFIaXAkRfMVCAAcZ0oaxm94PoK8oHR9hkLmY
+  default_config_hash: P7F4DFe8BL31DRVqsvS-ix9KZZqvvaPjZ7zEvGo9yNM
 id: content
 label: Content
 module: node
@@ -569,7 +570,7 @@ display:
           1: AND
       display_extenders: {  }
     display_plugin: default
-    display_title: Default
+    display_title: Master
     id: default
     position: 0
     cache_metadata:

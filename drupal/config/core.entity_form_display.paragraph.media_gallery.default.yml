@@ -1,0 +1,34 @@
+uuid: e238b01f-90c3-4029-aeed-17d44bc24c4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.media_gallery.field_paragraph_media_gallery
+    - paragraphs.paragraphs_type.media_gallery
+_core:
+  default_config_hash: LZZj2kfaag_0Nox12QgBDJZ-laMghZc-X1uRur-7bKc
+id: paragraph.media_gallery.default
+targetEntityType: paragraph
+bundle: media_gallery
+mode: default
+content:
+  field_paragraph_media_gallery:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: 'Start typing to select'
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 1
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

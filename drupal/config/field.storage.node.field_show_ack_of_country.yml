@@ -1,0 +1,20 @@
+uuid: 8062f91b-e9d8-4ca1-b085-d286965b049f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ArZsaVD3hM3lLtZ7T-35NlTmel_Gd74NbVIumsLxXOo
+id: node.field_show_ack_of_country
+field_name: field_show_ack_of_country
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

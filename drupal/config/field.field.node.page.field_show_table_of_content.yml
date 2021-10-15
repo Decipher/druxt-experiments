@@ -1,0 +1,25 @@
+uuid: c32e690c-e406-40a3-8e67-425e81933c41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_table_of_content
+    - node.type.page
+_core:
+  default_config_hash: uyE0s9X0xsoEddOnsZ0uo9xMTOlGv8YJv_SzcToFiGU
+id: node.page.field_show_table_of_content
+field_name: field_show_table_of_content
+entity_type: node
+bundle: page
+label: 'Show Table of Content?'
+description: 'The table of contents is automatically built from the heading structure of your page.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

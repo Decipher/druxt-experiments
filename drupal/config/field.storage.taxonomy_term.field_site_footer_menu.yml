@@ -1,0 +1,22 @@
+uuid: 365190f3-5662-41cd-b91a-af621e6d3717
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - taxonomy
+_core:
+  default_config_hash: j6jeqgSMyjbt7S6vmw65FVj6kMWzDvGQcau3nsdcqPw
+id: taxonomy_term.field_site_footer_menu
+field_name: field_site_footer_menu
+entity_type: taxonomy_term
+type: entity_reference
+settings:
+  target_type: menu
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

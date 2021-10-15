@@ -1,0 +1,25 @@
+uuid: 1ff2a84a-15ac-48e1-815c-55b705915ad7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_cta
+    - paragraphs.paragraphs_type.card_keydates
+  module:
+    - link
+_core:
+  default_config_hash: FjvYBzzverrem9CDVTbBrzV1VIAmJLVhmd-HSrkB0Ds
+id: paragraph.card_keydates.field_paragraph_cta
+field_name: field_paragraph_cta
+entity_type: paragraph
+bundle: card_keydates
+label: CTA
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

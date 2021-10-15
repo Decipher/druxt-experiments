@@ -1,0 +1,25 @@
+uuid: 8ee6996d-cd5c-43bf-96fa-b46fc57a9694
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_cta
+    - paragraphs.paragraphs_type.call_to_action
+  module:
+    - link
+_core:
+  default_config_hash: XoZ1xYgSGgTlmgWfhieQadbvuis2nVJdNpkKIcqDYsg
+id: paragraph.call_to_action.field_paragraph_cta
+field_name: field_paragraph_cta
+entity_type: paragraph
+bundle: call_to_action
+label: CTA
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

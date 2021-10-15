@@ -1,0 +1,25 @@
+uuid: 157f459e-0d60-4aad-9e4e-0c92042ce826
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_content_rating
+    - node.type.page
+_core:
+  default_config_hash: 8FlU7Wf72TeYKJme5ixr8LoD_8mKdJpsni1rT_JEpaQ
+id: node.page.field_show_content_rating
+field_name: field_show_content_rating
+entity_type: node
+bundle: page
+label: 'Show Content Rating?'
+description: 'Check this box if you want to show content ratings on this page.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

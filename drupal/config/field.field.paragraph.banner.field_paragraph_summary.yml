@@ -1,0 +1,21 @@
+uuid: 05e01872-1ac2-4aa9-8871-93ca0179e6ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_summary
+    - paragraphs.paragraphs_type.banner
+_core:
+  default_config_hash: s5MoI9S9YyjBM4e7eE6yO9uWmaAHn7liqu8FAb20cSo
+id: paragraph.banner.field_paragraph_summary
+field_name: field_paragraph_summary
+entity_type: paragraph
+bundle: banner
+label: Summary
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

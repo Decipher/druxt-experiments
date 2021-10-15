@@ -1,0 +1,24 @@
+uuid: 2dea2633-3cc1-430a-8230-df5a3d84105c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_site
+    - media.type.document
+    - taxonomy.vocabulary.sites
+id: media.document.field_media_site
+field_name: field_media_site
+entity_type: media
+bundle: document
+label: Site
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      sites: sites
+field_type: entity_reference

@@ -1,0 +1,46 @@
+uuid: 098b0e77-f100-41ac-b2e0-d248a93ad581
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_component
+    - node.type.publication
+    - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.basic_text
+    - paragraphs.paragraphs_type.complex_image
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: zH8fefZiF7Z4uJIpcEK7-uwV_RxNoQcb2p8iXfad7PU
+id: node.publication.field_landing_page_component
+field_name: field_landing_page_component
+entity_type: node
+bundle: publication
+label: 'Content components'
+description: '<p>Add text, links, media and cards to build your page.</p>'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      accordion: accordion
+      basic_text: basic_text
+      complex_image: complex_image
+    target_bundles_drag_drop:
+      accordion:
+        enabled: true
+        weight: 37
+      accordion_content:
+        weight: 38
+        enabled: false
+      basic_text:
+        enabled: true
+        weight: 40
+      complex_image:
+        enabled: true
+        weight: 38
+field_type: entity_reference_revisions

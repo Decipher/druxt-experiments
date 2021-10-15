@@ -1,0 +1,24 @@
+uuid: e88a28b2-0a2a-416e-9f3d-62d1a02433d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_node_primary_site
+    - node.type.news
+    - taxonomy.vocabulary.sites
+id: node.news.field_node_primary_site
+field_name: field_node_primary_site
+entity_type: node
+bundle: news
+label: 'Primary Site'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      sites: sites
+field_type: entity_reference

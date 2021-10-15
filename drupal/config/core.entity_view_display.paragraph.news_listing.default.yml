@@ -1,0 +1,33 @@
+uuid: 20d421c9-a017-46ce-8849-b276a3f261c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.news_listing.field_paragraph_title
+    - field.field.paragraph.news_listing.field_paragraph_topic
+    - paragraphs.paragraphs_type.news_listing
+_core:
+  default_config_hash: u2ygZy1TclLDqsYUkM6Kky6lToc8hRa6bVIM2DBZiwo
+id: paragraph.news_listing.default
+targetEntityType: paragraph
+bundle: news_listing
+mode: default
+content:
+  field_paragraph_title:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_paragraph_topic:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  search_api_excerpt: true

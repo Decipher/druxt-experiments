@@ -1,0 +1,21 @@
+uuid: 05b6eca1-70e4-4b84-b21f-12f52f3c10a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_event_price_from
+    - paragraphs.paragraphs_type.event_details
+_core:
+  default_config_hash: 9_87Km5cEkv0D5xPyxFDDIuc7XBu2IAKz-jjOS1Vuko
+id: paragraph.event_details.field_paragraph_event_price_from
+field_name: field_paragraph_event_price_from
+entity_type: paragraph
+bundle: event_details
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

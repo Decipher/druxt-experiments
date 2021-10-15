@@ -1,0 +1,12 @@
+uuid: a974498b-83ce-43b9-a862-673e772d2145
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mmj2iVxFbaMOBAj5-GF-TjIEKMW6l9j-PoX9yHucHd0
+id: card_event_auto
+label: 'Card event automated'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,30 @@
+uuid: 55c0ed53-81ff-455d-87f7-034f26929768
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_hero_logo
+    - media.type.image
+    - node.type.landing_page
+_core:
+  default_config_hash: 0dIXSWG9Dv9drciiWWw-yv5TZZkiovkOigRoumNKAyc
+id: node.landing_page.field_landing_page_hero_logo
+field_name: field_landing_page_hero_logo
+entity_type: node
+bundle: landing_page
+label: Logo
+description: 'A small logo can be added above the page title. This will not appear if ‘Full-width background image’ header style is selected.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

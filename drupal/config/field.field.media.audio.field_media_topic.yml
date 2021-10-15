@@ -1,0 +1,31 @@
+uuid: e3379c2b-8104-4611-aae8-2f65c0be9177
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_topic
+    - media.type.audio
+    - taxonomy.vocabulary.topic
+_core:
+  default_config_hash: GnM8HPSZxTmVdA360Rq5lM5gAiDg4Ic-YvV5jDhwgM4
+id: media.audio.field_media_topic
+field_name: field_media_topic
+entity_type: media
+bundle: audio
+label: Topic
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topic: topic
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

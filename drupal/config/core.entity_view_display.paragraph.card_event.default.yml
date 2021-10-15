@@ -1,0 +1,91 @@
+uuid: 5163976e-3a6d-4159-b5ee-ac04c6a97165
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_event.field_paragraph_cta
+    - field.field.paragraph.card_event.field_paragraph_date
+    - field.field.paragraph.card_event.field_paragraph_date_range
+    - field.field.paragraph.card_event.field_paragraph_location
+    - field.field.paragraph.card_event.field_paragraph_media
+    - field.field.paragraph.card_event.field_paragraph_status
+    - field.field.paragraph.card_event.field_paragraph_summary
+    - field.field.paragraph.card_event.field_paragraph_title
+    - field.field.paragraph.card_event.field_paragraph_topic
+    - paragraphs.paragraphs_type.card_event
+  module:
+    - address
+    - datetime_range
+    - link
+_core:
+  default_config_hash: 6z19kY7fDSvRZDHDy1ifFneZefBjy1w3nLGakzb7CVc
+id: paragraph.card_event.default
+targetEntityType: paragraph
+bundle: card_event
+mode: default
+content:
+  field_paragraph_cta:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_paragraph_date_range:
+    weight: 5
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_paragraph_location:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_paragraph_media:
+    type: entity_reference_entity_view
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_paragraph_summary:
+    type: basic_string
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_paragraph_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_paragraph_topic:
+    weight: 7
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  field_paragraph_date: true
+  field_paragraph_status: true
+  search_api_excerpt: true

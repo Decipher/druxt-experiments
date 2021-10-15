@@ -1,0 +1,75 @@
+uuid: 1e48c301-4c27-4ea2-ad7b-78a720173238
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_phones
+    - paragraphs.paragraphs_type.contact_us
+    - paragraphs.paragraphs_type.phone
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: konOrmuBk44aZgqE7hvLMvPXc5cX97GTy3jLAWR9l3k
+id: paragraph.contact_us.field_paragraph_phones
+field_name: field_paragraph_phones
+entity_type: paragraph
+bundle: contact_us
+label: Phones
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      phone: phone
+    target_bundles_drag_drop:
+      contact_us:
+        weight: 20
+        enabled: false
+      accordion:
+        weight: 21
+        enabled: false
+      accordion_content:
+        weight: 22
+        enabled: false
+      banner:
+        weight: 23
+        enabled: false
+      basic_text:
+        weight: 24
+        enabled: false
+      card_event:
+        weight: 25
+        enabled: false
+      card_keydates:
+        weight: 26
+        enabled: false
+      card_promotion:
+        weight: 31
+        enabled: false
+      card_promotion_auto:
+        weight: 32
+        enabled: false
+      keydates:
+        weight: 33
+        enabled: false
+      key_journeys:
+        weight: 34
+        enabled: false
+      links:
+        weight: 35
+        enabled: false
+      phone:
+        enabled: true
+        weight: 36
+      related_links:
+        weight: 37
+        enabled: false
+      social_link:
+        weight: 38
+        enabled: false
+field_type: entity_reference_revisions

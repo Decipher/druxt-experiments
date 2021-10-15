@@ -1,0 +1,25 @@
+uuid: 6e7de6fd-16bf-4b62-bdbf-e26fb0faeb98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.basic_text.field_paragraph_body
+    - paragraphs.paragraphs_type.basic_text
+  module:
+    - text
+_core:
+  default_config_hash: zzDbXodJkyReydYjj3aThTSQI3WK0_9lLy-8IR1PaM0
+id: paragraph.basic_text.default
+targetEntityType: paragraph
+bundle: basic_text
+mode: default
+content:
+  field_paragraph_body:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,25 @@
+uuid: aa0ba9f4-c02e-4221-8268-98bd4f444c8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_restricted
+    - media.type.image
+_core:
+  default_config_hash: iP61Qv0kG_XzkxznAFfZG7EgSriMQBLgg3euVKsgGGU
+id: media.image.field_media_restricted
+field_name: field_media_restricted
+entity_type: media
+bundle: image
+label: Restricted
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

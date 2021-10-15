@@ -1,0 +1,29 @@
+uuid: 88695052-63a8-4ddc-b63d-14eb2c6793b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: _UamUyKyrlcTO2SFr0rW3qNa5Xis7NvBtiTWp_I9kPk
+id: node.field_landing_page_hero_theme
+field_name: field_landing_page_hero_theme
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: dark
+      label: Dark
+    -
+      value: light
+      label: Light
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: cf3e7d3f-8d62-4c04-9820-6aea98633e29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_status
+    - paragraphs.paragraphs_type.card_event
+_core:
+  default_config_hash: 2_5ka_mRTEEqerNxK8hwuLXHxST6Bc6vRdxWJdkZa0U
+id: paragraph.card_event.field_paragraph_status
+field_name: field_paragraph_status
+entity_type: paragraph
+bundle: card_event
+label: Status
+description: 'Use Status to display event frequency. Displays under the title on the Event Cards. Content limited to 44 characters.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

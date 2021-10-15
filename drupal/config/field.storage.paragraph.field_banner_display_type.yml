@@ -1,0 +1,29 @@
+uuid: 9c715ea2-7878-4a8e-b02d-d9b376265e17
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: LvWZw7tLnKz1c2Yzx0vfw4-z-8ew26OFf7k1Zmk2eP8
+id: paragraph.field_banner_display_type
+field_name: field_banner_display_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: featured_links
+      label: 'Featured links'
+    -
+      value: buttons
+      label: Buttons
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

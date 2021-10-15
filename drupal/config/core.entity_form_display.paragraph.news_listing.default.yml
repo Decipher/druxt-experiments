@@ -1,0 +1,48 @@
+uuid: df347bdf-2cb6-41d5-98dc-3d14ec409811
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.news_listing.field_paragraph_title
+    - field.field.paragraph.news_listing.field_paragraph_topic
+    - paragraphs.paragraphs_type.news_listing
+  module:
+    - maxlength
+_core:
+  default_config_hash: 4tDnMJodZmebbdEwgjZato2JP2C5RvNaauvqyDBtaLk
+id: paragraph.news_listing.default
+targetEntityType: paragraph
+bundle: news_listing
+mode: default
+content:
+  field_paragraph_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 150
+        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
+    type: string_textfield
+    region: content
+  field_paragraph_topic:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

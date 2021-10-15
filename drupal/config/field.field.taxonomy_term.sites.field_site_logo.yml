@@ -1,0 +1,40 @@
+uuid: bd7e6c81-7864-4bbc-8ec0-bfa71541ee86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_site_logo
+    - taxonomy.vocabulary.sites
+  module:
+    - image
+_core:
+  default_config_hash: iFfXDh1XBNiNQMo4hvraQr5s75pYxUp8qAfHxQGuumo
+id: taxonomy_term.sites.field_site_logo
+field_name: field_site_logo
+entity_type: taxonomy_term
+bundle: sites
+label: Logo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: site_logo
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

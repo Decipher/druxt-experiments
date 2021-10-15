@@ -1,0 +1,21 @@
+uuid: a4395982-5d29-465f-b9dc-e85024d7e511
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_site_domains
+    - taxonomy.vocabulary.sites
+_core:
+  default_config_hash: gJgqL34c_pSRYQCEZLiVahBgTqgO47KekxSu2awPpeg
+id: taxonomy_term.sites.field_site_domains
+field_name: field_site_domains
+entity_type: taxonomy_term
+bundle: sites
+label: Domains
+description: 'Please enter domains for this site. One domain per line. Use * as a wildcard.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

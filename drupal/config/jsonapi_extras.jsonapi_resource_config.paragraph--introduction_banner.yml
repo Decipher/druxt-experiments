@@ -1,0 +1,153 @@
+uuid: 6c44b2a7-bd46-4e7e-810f-f57a8ddf4099
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.introduction_banner
+_core:
+  default_config_hash: KQT7vhQma1zQ2YAADx89revFI8t0fn6YxpCXam6_pqU
+id: paragraph--introduction_banner
+disabled: false
+path: paragraph/introduction_banner
+resourceType: paragraph--introduction_banner
+resourceFields:
+  id:
+    fieldName: id
+    publicName: id
+    enhancer:
+      id: ''
+    disabled: false
+  uuid:
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+    disabled: false
+  revision_id:
+    fieldName: revision_id
+    publicName: revision_id
+    enhancer:
+      id: ''
+    disabled: false
+  type:
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+    disabled: false
+  langcode:
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+    disabled: false
+  uid:
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+    disabled: false
+  status:
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+    disabled: false
+  created:
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: date_time
+      settings:
+        dateTimeFormat: 'Y-m-d\TH:i:sP'
+    disabled: false
+  revision_uid:
+    fieldName: revision_uid
+    publicName: revision_uid
+    enhancer:
+      id: ''
+    disabled: false
+  parent_id:
+    fieldName: parent_id
+    publicName: parent_id
+    enhancer:
+      id: ''
+    disabled: false
+  parent_type:
+    fieldName: parent_type
+    publicName: parent_type
+    enhancer:
+      id: ''
+    disabled: false
+  parent_field_name:
+    fieldName: parent_field_name
+    publicName: parent_field_name
+    enhancer:
+      id: ''
+    disabled: false
+  behavior_settings:
+    fieldName: behavior_settings
+    publicName: behavior_settings
+    enhancer:
+      id: ''
+    disabled: false
+  default_langcode:
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+    disabled: false
+  revision_default:
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+    disabled: false
+  revision_translation_affected:
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+    disabled: false
+  moderation_state:
+    fieldName: moderation_state
+    publicName: moderation_state
+    enhancer:
+      id: ''
+    disabled: false
+  field_paragraph_links:
+    fieldName: field_paragraph_links
+    publicName: field_paragraph_links
+    enhancer:
+      id: link_enhancer
+    disabled: false
+  field_paragraph_title:
+    fieldName: field_paragraph_title
+    publicName: field_paragraph_title
+    enhancer:
+      id: ''
+    disabled: false
+  field_paragraph_body:
+    fieldName: field_paragraph_body
+    publicName: field_paragraph_body
+    enhancer:
+      id: ''
+    disabled: false
+  field_banner_type:
+    fieldName: field_banner_type
+    publicName: field_banner_type
+    enhancer:
+      id: ''
+    disabled: false
+  field_banner_display_type:
+    fieldName: field_banner_display_type
+    publicName: field_banner_display_type
+    enhancer:
+      id: ''
+    disabled: false
+  field_call_to_action_title:
+    fieldName: field_call_to_action_title
+    publicName: field_call_to_action_title
+    enhancer:
+      id: ''
+    disabled: false

@@ -1,0 +1,25 @@
+uuid: cd368ed6-4fc2-4815-b0a8-5a9bd7412a83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_social_sharing
+    - node.type.publication_page
+_core:
+  default_config_hash: qU_CbyFqt5X6IxLciv7xhzUhWlZp5EUpMQlHkxuWeHc
+id: node.publication_page.field_show_social_sharing
+field_name: field_show_social_sharing
+entity_type: node
+bundle: publication_page
+label: 'Social sharing'
+description: 'The social sharing box can be hidden in special circumstances.'
+required: true
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

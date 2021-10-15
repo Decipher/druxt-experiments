@@ -1,0 +1,33 @@
+uuid: 713dd3d5-c4c4-40dc-a493-c116c3382047
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_key_journeys
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.key_journeys
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: odyxCzwri0gKf6NcQA5lA8KhiEQYOkFr9TSaTOwMeIg
+id: node.landing_page.field_landing_page_key_journeys
+field_name: field_landing_page_key_journeys
+entity_type: node
+bundle: landing_page
+label: 'Header links'
+description: 'Header links are displayed alongside the page title on introduction banner. They link to other critical pages.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      key_journeys: key_journeys
+    target_bundles_drag_drop:
+      key_journeys:
+        enabled: true
+        weight: 10
+field_type: entity_reference_revisions

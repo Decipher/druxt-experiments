@@ -1,0 +1,51 @@
+uuid: 3c17d927-f36e-41b2-a865-37626290f009
+langcode: en
+status: false
+dependencies:
+  config:
+    - webform.webform.tide_webform_content_rating
+  module:
+    - system
+    - token_conditions
+    - webform
+  theme:
+    - seven
+_core:
+  default_config_hash: DSX-Hnbe9Ntk-qElTaSd_4syOk-WQ6JbKk9UJM7xsgc
+id: tide_webform_content_rating
+theme: seven
+region: content
+weight: 10
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Content Rating'
+  provider: webform
+  label_display: '0'
+  webform_id: tide_webform_content_rating
+  default_data: "url: \"[current-page:url]\"\n"
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\n/admin\n/admin*\n/batch\n/block/add*\n/node/*/*\n/media/add*\n/media/*/*\n/user/*\n/user/*/*\n/entity-browser*\n/taxonomy/term/*/*\r\n/clone/*/quick_clone"
+    negate: true
+    context_mapping: {  }
+  token_matcher:
+    id: token_matcher
+    token_match: '[node:field_show_content_rating:value]'
+    value_match: '0'
+    check_empty: false
+    use_regex: false
+    negate: true
+    context_mapping: {  }
+  webform:
+    id: webform
+    webforms:
+      content_rating: tide_webform_content_rating
+    negate: true
+    context_mapping:
+      webform: '@webform.webform_route_context:webform'
+      webform_submission: '@webform.webform_submission_route_context:webform_submission'
+      node: '@node.node_route_context:node'

@@ -1,0 +1,12 @@
+uuid: 60811c28-5490-4533-a06b-d4f6d3ca1d08
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wMmQItVQggaNUMQq_DwiAjgQMeDaKQFbjsPTZ-TrdNU
+id: social_link
+label: 'Social Link'
+icon_uuid: null
+icon_default: null
+description: 'Paragraph type to allow users to select a social media type and add a link.'
+behavior_plugins: {  }

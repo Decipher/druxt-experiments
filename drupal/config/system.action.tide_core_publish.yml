@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: tide_core_publish
+label: 'Publish content'
+type: node
+plugin: tide_core_publish_action
+configuration: {  }

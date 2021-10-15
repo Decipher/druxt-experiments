@@ -1,0 +1,35 @@
+uuid: 829a59f9-1858-4d37-8742-62acc822c44f
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: 3tzIR9dqB0Pl8inCJNv_PVWjMTvQ6vDhpPSC3GSOyLs
+id: paragraph.field_paragraph_search_block
+field_name: field_paragraph_search_block
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: none
+      label: 'Full site search'
+    -
+      value: event
+      label: Events
+    -
+      value: news
+      label: News
+    -
+      value: custom
+      label: Custom
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

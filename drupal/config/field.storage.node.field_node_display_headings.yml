@@ -1,0 +1,29 @@
+uuid: ab86c541-449d-402d-9a44-cf908771a3db
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: m-rQ1J3VdTU-MNtE1P8lYFbvdoIF3XZF_wNm2ndR5xk
+id: node.field_node_display_headings
+field_name: field_node_display_headings
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: showH2
+      label: 'Show headings. H2 headings are automatically shown as default.'
+    -
+      value: showH2AndH3
+      label: 'Show headings and subheadings. H2 and H3 headings are shown.'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

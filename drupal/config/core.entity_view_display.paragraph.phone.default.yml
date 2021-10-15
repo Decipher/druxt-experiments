@@ -1,0 +1,32 @@
+uuid: 1bc7cf7f-fe22-4ddc-84dd-3791bbf71e3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.phone.field_paragraph_phone_number
+    - field.field.paragraph.phone.field_paragraph_phone_title
+    - paragraphs.paragraphs_type.phone
+_core:
+  default_config_hash: fQM8s-bixrQ1wCtOZP8yCTj6OGtz_VJELWeMCecvI_A
+id: paragraph.phone.default
+targetEntityType: paragraph
+bundle: phone
+mode: default
+content:
+  field_paragraph_phone_number:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_paragraph_phone_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

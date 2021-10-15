@@ -1,12 +1,13 @@
-uuid: d3f81e53-5111-4d0e-88ca-53253362c94c
+uuid: 80ec19c1-1408-41f7-99f7-23ad0a512850
 langcode: en
 status: true
 dependencies:
   module:
     - node
+    - tide_core
     - user
 _core:
-  default_config_hash: mQHWYU2vdDy7jPrz7FGsierMTpov8vZoD-0CGVSnlL0
+  default_config_hash: MxwbHUmXqKQgTGCTWcMxsfUH9NZJ8ZVqZp6801AOa40
 id: content_recent
 label: 'Recent content'
 module: node
@@ -18,7 +19,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Default
+    display_title: Master
     position: 0
     display_options:
       access:
@@ -257,7 +258,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: changed
           granularity: second
           entity_type: node
           entity_field: changed

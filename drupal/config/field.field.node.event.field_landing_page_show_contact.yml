@@ -1,0 +1,25 @@
+uuid: 81a29a45-b737-45ad-80bc-8ef7f77dcdf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_show_contact
+    - node.type.event
+_core:
+  default_config_hash: d5IKOJHBztMrED1ErxGLm2jotUWATP30dNza7v-epNI
+id: node.event.field_landing_page_show_contact
+field_name: field_landing_page_show_contact
+entity_type: node
+bundle: event
+label: 'Show Contact Us?'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

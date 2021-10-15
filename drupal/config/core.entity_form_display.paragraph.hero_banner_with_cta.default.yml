@@ -1,0 +1,48 @@
+uuid: 03b111df-b4fc-4acb-a90e-3dcf09aa937d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_banner_with_cta.field_paragraph_background_image
+    - field.field.paragraph.hero_banner_with_cta.field_paragraph_cta
+    - field.field.paragraph.hero_banner_with_cta.field_paragraph_freetext
+    - field.field.paragraph.hero_banner_with_cta.field_paragraph_link_text
+    - paragraphs.paragraphs_type.hero_banner_with_cta
+  module:
+    - link
+_core:
+  default_config_hash: wKnHV0_4e-6Ozf_bkE1v8ntf17t0o2gS9zz1whxIwIo
+id: paragraph.hero_banner_with_cta.default
+targetEntityType: paragraph
+bundle: hero_banner_with_cta
+mode: default
+content:
+  field_paragraph_cta:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_paragraph_freetext:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_paragraph_link_text:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  field_paragraph_background_image: true
+  status: true
+  uid: true

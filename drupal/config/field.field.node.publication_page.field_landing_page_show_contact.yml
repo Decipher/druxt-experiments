@@ -1,0 +1,25 @@
+uuid: 7ed418d0-7745-46dc-9419-7ba60926d4b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_show_contact
+    - node.type.publication_page
+_core:
+  default_config_hash: lkMwGfZVYYgyDPBBNFWB6_cphJgWR72AU2uusqKkyGo
+id: node.publication_page.field_landing_page_show_contact
+field_name: field_landing_page_show_contact
+entity_type: node
+bundle: publication_page
+label: 'Show contact details'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

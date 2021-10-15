@@ -1,0 +1,52 @@
+uuid: da873b24-1b51-456f-9ce9-c0ce0f3746e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.alert.field_alert_type
+    - field.field.node.alert.field_call_to_action
+    - field.field.node.alert.field_node_primary_site
+    - field.field.node.alert.field_node_site
+    - node.type.alert
+  module:
+    - link
+    - user
+_core:
+  default_config_hash: j5MAYgFdnP0e7ibl86m5X-_RFnLHUQc7xX2v_ZPl5Q0
+id: node.alert.default
+targetEntityType: node
+bundle: alert
+mode: default
+content:
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_alert_type:
+    weight: 101
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_call_to_action:
+    weight: 102
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_node_primary_site: true
+  field_node_site: true
+  search_api_excerpt: true

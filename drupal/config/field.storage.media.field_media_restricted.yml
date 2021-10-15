@@ -1,0 +1,20 @@
+uuid: 132c5012-b738-4890-8452-b30022b2e708
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: hHWkx02CRJl1jLGF4P0GzyBphzCXycmmcBVh2HoXy4o
+id: media.field_media_restricted
+field_name: field_media_restricted
+entity_type: media
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

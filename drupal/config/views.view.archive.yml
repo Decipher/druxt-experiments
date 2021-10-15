@@ -1,4 +1,4 @@
-uuid: 1a4778a2-902f-455f-b078-c71c433e1fbb
+uuid: 0e9b08e4-753d-487f-a924-da799b9b2fd1
 langcode: en
 status: false
 dependencies:
@@ -8,7 +8,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: HSiKSJvzXNJDzQ3d0LyC5ZcsCpoB22EmyXDwGoNL6lg
+  default_config_hash: gA3tLETtsrObWW1Uvb6Mh-fg0Qu_6uCEzgL9jKQgPgo
 id: archive
 label: Archive
 module: node
@@ -19,7 +19,7 @@ base_field: nid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: Master
     display_plugin: default
     position: 0
     display_options:
@@ -80,7 +80,6 @@ display:
           exposed: false
           expose:
             label: ''
-            field_identifier: created
           granularity: second
           entity_type: node
           entity_field: created

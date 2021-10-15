@@ -1,0 +1,23 @@
+uuid: b0cf5fd5-43c0-4444-ae73-7d9f6c4de10a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_alignment
+    - media.type.image
+  module:
+    - options
+_core:
+  default_config_hash: 1n5d0qWeaEWYkfMnN_kwoxuhR0Q2jX_9qNItnd5Q3qE
+id: media.image.field_media_alignment
+field_name: field_media_alignment
+entity_type: media
+bundle: image
+label: Alignment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

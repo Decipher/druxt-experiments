@@ -1,0 +1,25 @@
+uuid: ac06269c-e49d-46c7-8aad-c81a86adc044
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_show_contact
+    - node.type.news
+_core:
+  default_config_hash: wMcYOGr3JzTtGRjOHX8YLtnqEtHGszO4bkCFtbvuyWE
+id: node.news.field_landing_page_show_contact
+field_name: field_landing_page_show_contact
+entity_type: node
+bundle: news
+label: 'Show contact details'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

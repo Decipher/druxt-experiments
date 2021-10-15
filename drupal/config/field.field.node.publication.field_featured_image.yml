@@ -1,0 +1,30 @@
+uuid: 74397ee8-6669-4dac-8cf7-f65dd592f063
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_image
+    - media.type.image
+    - node.type.publication
+_core:
+  default_config_hash: 4PV9tt5JIki7fKf8huhwCk1k49wDlkY2x9wrEm4fEgk
+id: node.publication.field_featured_image
+field_name: field_featured_image
+entity_type: node
+bundle: publication
+label: 'Featured Image'
+description: 'Feature images don''t display on this page. They display in featured card or navigation links to this page. Must be 496px high x 818px wide.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

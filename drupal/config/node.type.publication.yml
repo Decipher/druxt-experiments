@@ -1,0 +1,22 @@
+uuid: 6eb8e632-6a69-44fd-9924-13cb89190d00
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - wysiwyg_template
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  wysiwyg_template:
+    default_template: ''
+_core:
+  default_config_hash: y0Inbi4Ub0Qr7kLv0FrArRlzrUpkmnZbPHxygRd4Hk4
+name: Publication
+type: publication
+description: 'Use <em>Publication</em> content type to create publications with documents and metadata.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

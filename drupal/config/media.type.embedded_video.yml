@@ -1,0 +1,17 @@
+uuid: c023e165-30cc-4c29-9932-7b64c2c1ec44
+langcode: en
+status: true
+dependencies:
+  module:
+    - video_embed_media
+_core:
+  default_config_hash: r2v1ZpKoAynTAR2UB646Ba6bT983AWwUQwyMsSthWmY
+id: embedded_video
+label: 'Embedded video'
+description: 'Use embedded videos (eg. from Youtube and Vimeo) for reusable media.'
+source: video_embed_field
+queue_thumbnail_downloads: true
+new_revision: false
+source_configuration:
+  source_field: field_media_video_embed_field
+field_map: {  }

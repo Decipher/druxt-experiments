@@ -1,0 +1,23 @@
+uuid: 92d6cc7e-e304-48c2-b291-01e42fd13a09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_date_range
+    - paragraphs.paragraphs_type.card_event
+  module:
+    - datetime_range
+_core:
+  default_config_hash: E7xgPTlSRqfDM0fRFnjScVUmnfw-DUtpIQauf1Zdwr4
+id: paragraph.card_event.field_paragraph_date_range
+field_name: field_paragraph_date_range
+entity_type: paragraph
+bundle: card_event
+label: 'Date Range'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

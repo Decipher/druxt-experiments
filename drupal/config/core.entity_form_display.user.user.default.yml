@@ -1,15 +1,14 @@
-uuid: d2809289-cafc-4e78-9c4e-117ed2f6151d
+uuid: 3a242fc4-3689-4258-acb3-cff52402c5cf
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.user_picture
-    - image.style.thumbnail
+    - field.field.user.user.field_last_password_reset
+    - field.field.user.user.field_password_expiration
+    - field.field.user.user.field_pending_expire_sent
   module:
-    - image
+    - datetime
     - user
-_core:
-  default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
 id: user.user.default
 targetEntityType: user
 bundle: user
@@ -17,22 +16,31 @@ mode: default
 content:
   account:
     weight: -10
+    settings: {  }
+    third_party_settings: {  }
     region: content
-  contact:
-    weight: 5
+  field_last_password_reset:
+    type: datetime_default
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_password_expiration:
+    type: boolean_checkbox
+    weight: 3
+    settings:
+      display_label: true
+    third_party_settings: {  }
     region: content
   language:
     weight: 0
+    settings: {  }
+    third_party_settings: {  }
     region: content
   timezone:
     weight: 6
-    region: content
-  user_picture:
-    type: image_image
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+    settings: {  }
     third_party_settings: {  }
-    weight: -1
     region: content
-hidden: {  }
+hidden:
+  field_pending_expire_sent: true

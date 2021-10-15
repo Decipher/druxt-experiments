@@ -1,0 +1,21 @@
+uuid: 52d6a96d-bc97-4635-a202-f4e574b6aa83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_complex_image_dl_label
+    - paragraphs.paragraphs_type.complex_image
+_core:
+  default_config_hash: EeYavAoamUuzRCQeUVJT5X7WGU1I1hhkvzIAs8MKA9A
+id: paragraph.complex_image.field_complex_image_dl_label
+field_name: field_complex_image_dl_label
+entity_type: paragraph
+bundle: complex_image
+label: 'Label for Download'
+description: 'Leave this field empty for the default value: <em>Download {title}</em>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

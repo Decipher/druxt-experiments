@@ -1,0 +1,21 @@
+uuid: 7dfabb65-d7ed-485b-87a8-4fe3c0e4dbf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_title
+    - paragraphs.paragraphs_type.timeline
+_core:
+  default_config_hash: H3Kp15pmVHXOEcODEC9lHQAdgUxVlvLoU3z8Ubcio14
+id: paragraph.timeline.field_paragraph_title
+field_name: field_paragraph_title
+entity_type: paragraph
+bundle: timeline
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

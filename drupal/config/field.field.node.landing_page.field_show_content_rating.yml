@@ -1,0 +1,25 @@
+uuid: 8ca08fbc-e304-44c7-94ba-ef65ddd0e3af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_content_rating
+    - node.type.landing_page
+_core:
+  default_config_hash: BXBbkWOI9KvXg2uy8WFwRnnFbYdE2XgyirYzIS_T2oQ
+id: node.landing_page.field_show_content_rating
+field_name: field_show_content_rating
+entity_type: node
+bundle: landing_page
+label: 'Show Related Content?'
+description: 'Check this box to display related links on this page.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

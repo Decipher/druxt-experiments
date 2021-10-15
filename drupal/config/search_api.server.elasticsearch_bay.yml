@@ -1,0 +1,27 @@
+uuid: 37091f84-093d-490d-ba7a-ce87542f8647
+langcode: en
+status: true
+dependencies:
+  module:
+    - elasticsearch_connector
+_core:
+  default_config_hash: 4ulEtCC_6q-TNQFpsg_DJsn4keGx1hpp6ZlcMtKggzo
+id: elasticsearch_bay
+name: 'Elasticsearch on Bay'
+description: ''
+backend: elasticsearch
+backend_config:
+  server_description: ''
+  cluster_settings:
+    cluster: elasticsearch_bay
+  fuzziness: auto
+  scheme: http
+  host: localhost
+  port: '9200'
+  path: ''
+  excerpt: false
+  retrieve_data: false
+  highlight_data: false
+  http_method: AUTO
+  autocorrect_spell: true
+  autocorrect_suggest_words: true

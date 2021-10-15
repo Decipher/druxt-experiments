@@ -1,0 +1,30 @@
+uuid: da49c0e9-e7a4-4d6d-9fd4-2e8eed61421b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.campaign_with_video
+    - field.storage.block_content.field_block_embedded_video
+    - media.type.embedded_video
+_core:
+  default_config_hash: LKh3LKPxoTswgqfNZaOgHsxeP5m_g3U7UT-6ee1jzgI
+id: block_content.campaign_with_video.field_block_embedded_video
+field_name: field_block_embedded_video
+entity_type: block_content
+bundle: campaign_with_video
+label: 'Featured Video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      embedded_video: embedded_video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

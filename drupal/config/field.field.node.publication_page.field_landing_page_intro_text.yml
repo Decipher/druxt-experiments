@@ -1,0 +1,21 @@
+uuid: efd00dc6-dafe-424f-8cad-de441c2330e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_intro_text
+    - node.type.publication_page
+_core:
+  default_config_hash: gcxyf5l577iPc1GK-jfUv5nfvlwrXge4Qb-ljrdIUq4
+id: node.publication_page.field_landing_page_intro_text
+field_name: field_landing_page_intro_text
+entity_type: node
+bundle: publication_page
+label: 'Introduction text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

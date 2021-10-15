@@ -1,0 +1,23 @@
+uuid: 78cfdd12-a553-4fde-ab20-c61168ffdfaa
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: H5b5bzC0K2ezKCk8GxC2A98XUPcB5vXh6OoPvqNAuOA
+id: paragraph.field_paragraph_event_price_to
+field_name: field_paragraph_event_price_to
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

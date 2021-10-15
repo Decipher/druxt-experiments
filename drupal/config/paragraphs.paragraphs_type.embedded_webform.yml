@@ -1,0 +1,14 @@
+uuid: 82bdaf0f-95e8-4f17-a796-fc66fb85ca6e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:5de921e0-1c6a-40e0-921f-9ee913c2511c'
+_core:
+  default_config_hash: 2Fdng4bLAsQythbBztVmtiNSe2PqJ1eClXQaeWDuFrU
+id: embedded_webform
+label: 'Form embed (Drupal)'
+icon_uuid: 5de921e0-1c6a-40e0-921f-9ee913c2511c
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjgiIGhlaWdodD0iNzciIHZpZXdCb3g9IjAgMCA2OCA3NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY4IiBoZWlnaHQ9Ijc3IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI4IiB5PSIxOCIgd2lkdGg9IjUyIiBoZWlnaHQ9IjEyIiByeD0iMyIgZmlsbD0id2hpdGUiIHN0cm9rZT0iI0M0QzRDNCIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxyZWN0IHg9IjciIHk9IjUzIiB3aWR0aD0iMzAiIGhlaWdodD0iMTQiIHJ4PSI0IiBmaWxsPSIjQzRDNEM0Ii8+CjxyZWN0IHg9IjciIHk9IjciIHdpZHRoPSIyMCIgaGVpZ2h0PSI2IiBmaWxsPSIjQTFBMUExIi8+CjxyZWN0IHg9IjgiIHk9IjM2IiB3aWR0aD0iNTIiIGhlaWdodD0iMTIiIHJ4PSIzIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSIjQzRDNEM0IiBzdHJva2Utd2lkdGg9IjIiLz4KPC9zdmc+Cg=='
+description: 'Embed a Drupal form on your page. Users can populate fields and submit their information.'
+behavior_plugins: {  }

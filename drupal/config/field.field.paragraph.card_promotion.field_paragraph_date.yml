@@ -1,0 +1,23 @@
+uuid: cc6ef829-0a3f-4046-8399-ff0a16cd9c65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_date
+    - paragraphs.paragraphs_type.card_promotion
+  module:
+    - datetime
+_core:
+  default_config_hash: qEGHhkA_8D3nnnFPKOhrKLvyjynQzXn4acUUWlsDX9c
+id: paragraph.card_promotion.field_paragraph_date
+field_name: field_paragraph_date
+entity_type: paragraph
+bundle: card_promotion
+label: 'Date posted'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

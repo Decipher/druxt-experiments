@@ -1,0 +1,23 @@
+uuid: b62d2e72-e0a9-4b51-bdc8-28c403cebc95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_date_range
+    - paragraphs.paragraphs_type.timeline
+  module:
+    - datetime_range
+_core:
+  default_config_hash: kbO8Yd_CaydoRw2pLKzwUUh4DSH1V2QNjIldfzoXU8Q
+id: paragraph.timeline.field_paragraph_date_range
+field_name: field_paragraph_date_range
+entity_type: paragraph
+bundle: timeline
+label: Date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

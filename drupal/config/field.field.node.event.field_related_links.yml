@@ -1,0 +1,120 @@
+uuid: ad3309d8-a65f-4585-b987-240d383d63cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_links
+    - node.type.event
+    - paragraphs.paragraphs_type.related_links
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: IVFT_xk9DES8DZgpPyDtb3Juq4yPOto1tARalTDuuFE
+id: node.event.field_related_links
+field_name: field_related_links
+entity_type: node
+bundle: event
+label: 'Related links'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      related_links: related_links
+    target_bundles_drag_drop:
+      accordion:
+        weight: 32
+        enabled: false
+      accordion_content:
+        weight: 33
+        enabled: false
+      banner:
+        weight: 34
+        enabled: false
+      basic_text:
+        weight: 35
+        enabled: false
+      call_to_action:
+        weight: 36
+        enabled: false
+      call_to_action_image:
+        weight: 37
+        enabled: false
+      card_carousel:
+        weight: 38
+        enabled: false
+      card_event:
+        weight: 39
+        enabled: false
+      card_event_auto:
+        weight: 40
+        enabled: false
+      card_keydates:
+        weight: 41
+        enabled: false
+      card_navigation:
+        weight: 42
+        enabled: false
+      card_navigation_auto:
+        weight: 43
+        enabled: false
+      card_navigation_featured:
+        weight: 44
+        enabled: false
+      card_navigation_featured_auto:
+        weight: 45
+        enabled: false
+      card_promotion:
+        weight: 46
+        enabled: false
+      card_promotion_auto:
+        weight: 47
+        enabled: false
+      contact_us:
+        weight: 48
+        enabled: false
+      embedded_search_form:
+        weight: 49
+        enabled: false
+      embedded_webform:
+        weight: 50
+        enabled: false
+      event_details:
+        weight: 51
+        enabled: false
+      introduction_banner:
+        weight: 53
+        enabled: false
+      keydates:
+        weight: 54
+        enabled: false
+      key_journeys:
+        weight: 55
+        enabled: false
+      latest_events:
+        weight: 56
+        enabled: false
+      links:
+        weight: 57
+        enabled: false
+      media_gallery:
+        weight: 58
+        enabled: false
+      news_listing:
+        weight: 59
+        enabled: false
+      phone:
+        weight: 60
+        enabled: false
+      related_links:
+        enabled: true
+        weight: 61
+      social_link:
+        weight: 62
+        enabled: false
+field_type: entity_reference_revisions

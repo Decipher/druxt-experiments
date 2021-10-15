@@ -1,0 +1,31 @@
+uuid: 07ab1050-5608-4f70-b073-713350c00d86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_license_type
+    - media.type.file
+    - taxonomy.vocabulary.license_type
+_core:
+  default_config_hash: OYeYkD5ptwmHvW4PoBT34CkbRTxrFkxErA6Uk4ML_8A
+id: media.file.field_license_type
+field_name: field_license_type
+entity_type: media
+bundle: file
+label: 'License Type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      license_type: license_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

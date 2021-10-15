@@ -1,0 +1,60 @@
+uuid: e6eb5650-6b65-46f9-88d2-5f923d8be42d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_browser_preview
+    - field.field.media.document.field_license_type
+    - field.field.media.document.field_media_audience
+    - field.field.media.document.field_media_department
+    - field.field.media.document.field_media_file
+    - field.field.media.document.field_media_restricted
+    - field.field.media.document.field_media_site
+    - field.field.media.document.field_media_topic
+    - image.style.thumbnail
+    - media.type.document
+  module:
+    - file
+    - svg_image
+_core:
+  default_config_hash: hjeZoNCUH7dDpbsd2SJ4bQMfesFeMYqMKdulaBu8Vb4
+id: media.document.media_browser_preview
+targetEntityType: media
+bundle: document
+mode: media_browser_preview
+content:
+  field_media_file:
+    label: visually_hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    weight: 2
+    region: content
+  name:
+    label: hidden
+    type: string
+    weight: 1
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  thumbnail:
+    type: image
+    weight: 0
+    region: content
+    label: visually_hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_license_type: true
+  field_media_audience: true
+  field_media_department: true
+  field_media_restricted: true
+  field_media_site: true
+  field_media_topic: true
+  search_api_excerpt: true
+  uid: true

@@ -1,0 +1,57 @@
+uuid: 8e22e453-3597-4c56-9798-66d8e5c226d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_keydates
+    - paragraphs.paragraphs_type.card_keydates
+    - paragraphs.paragraphs_type.keydates
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: oTla3bdXC_kVF3v31fbPj8Rx497jC6NmXejcHbhCXtQ
+id: paragraph.card_keydates.field_paragraph_keydates
+field_name: field_paragraph_keydates
+entity_type: paragraph
+bundle: card_keydates
+label: 'Key Dates'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      keydates: keydates
+    target_bundles_drag_drop:
+      card_keydates:
+        weight: 14
+        enabled: false
+      banner:
+        weight: 15
+        enabled: false
+      basic_text:
+        weight: 16
+        enabled: false
+      card_event:
+        weight: 17
+        enabled: false
+      card_promotion:
+        weight: 22
+        enabled: false
+      keydates:
+        enabled: true
+        weight: 23
+      key_journeys:
+        weight: 24
+        enabled: false
+      links:
+        weight: 25
+        enabled: false
+      related_links:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

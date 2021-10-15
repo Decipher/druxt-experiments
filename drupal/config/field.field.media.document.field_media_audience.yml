@@ -1,0 +1,31 @@
+uuid: 212c17c3-0be8-4ddc-9a22-6bad37574d31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_audience
+    - media.type.document
+    - taxonomy.vocabulary.audience
+_core:
+  default_config_hash: KoB9zmDWaz5kdcBfPyK0fNxmH5pKoR2ClhFYemSiDLQ
+id: media.document.field_media_audience
+field_name: field_media_audience
+entity_type: media
+bundle: document
+label: Audience
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      audience: audience
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

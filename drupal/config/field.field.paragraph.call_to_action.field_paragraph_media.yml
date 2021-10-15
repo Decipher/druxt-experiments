@@ -1,0 +1,30 @@
+uuid: 35639136-57ab-41f8-bfe7-1caa51a06f60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_media
+    - media.type.image
+    - paragraphs.paragraphs_type.call_to_action
+_core:
+  default_config_hash: rYW2UEcNO49e23Ld7A27dPEXd8z9JSttpNSsIdGfkM8
+id: paragraph.call_to_action.field_paragraph_media
+field_name: field_paragraph_media
+entity_type: paragraph
+bundle: call_to_action
+label: 'Feature image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

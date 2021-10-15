@@ -1,0 +1,21 @@
+uuid: eadd27a1-ad5f-4032-af42-a9f46bbe5594
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_email
+    - paragraphs.paragraphs_type.contact_us
+_core:
+  default_config_hash: klLk28ua34k-4-LQ7wSSsWh8bjVfjDcwA41WlHbB1II
+id: paragraph.contact_us.field_paragraph_email
+field_name: field_paragraph_email
+entity_type: paragraph
+bundle: contact_us
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

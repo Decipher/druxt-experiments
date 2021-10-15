@@ -1,0 +1,45 @@
+uuid: f8b5bccd-9e61-42cc-b7ce-5618de0d31a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_form_link
+    - paragraphs.paragraphs_type.form_embed_openforms
+  module:
+    - link
+    - link_field_autocomplete_filter
+third_party_settings:
+  link_field_autocomplete_filter:
+    negate: null
+    allowed_content_types:
+      aboriginal_honour_roll: 0
+      alert: 0
+      event: 0
+      fv_recommendation: 0
+      grant: 0
+      landing_page: 0
+      news: 0
+      page: 0
+      profile: 0
+      publication: 0
+      publication_page: 0
+      sr_profile: 0
+      test: 0
+      vada_profile: 0
+      vdrp_profile: 0
+_core:
+  default_config_hash: Rm53z5axAg7fkzSo7FO3pMS1897eQadaVc_6C661vPw
+id: paragraph.form_embed_openforms.field_form_link
+field_name: field_form_link
+entity_type: paragraph
+bundle: form_embed_openforms
+label: 'Form link'
+description: 'Copy and paste the embed link from OpenForms.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

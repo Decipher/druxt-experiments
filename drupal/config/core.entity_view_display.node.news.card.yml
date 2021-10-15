@@ -1,0 +1,88 @@
+uuid: 94489933-2131-47a4-b249-3a8486853117
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.news.body
+    - field.field.node.news.field_featured_image
+    - field.field.node.news.field_landing_page_contact
+    - field.field.node.news.field_landing_page_show_contact
+    - field.field.node.news.field_landing_page_summary
+    - field.field.node.news.field_location
+    - field.field.node.news.field_metatags
+    - field.field.node.news.field_news_date
+    - field.field.node.news.field_news_intro_text
+    - field.field.node.news.field_node_department
+    - field.field.node.news.field_node_primary_site
+    - field.field.node.news.field_node_site
+    - field.field.node.news.field_related_links
+    - field.field.node.news.field_show_content_rating
+    - field.field.node.news.field_show_related_content
+    - field.field.node.news.field_show_social_sharing
+    - field.field.node.news.field_tags
+    - field.field.node.news.field_topic
+    - node.type.news
+  module:
+    - datetime
+    - smart_trim
+    - user
+_core:
+  default_config_hash: GjV6Lw1_pR7bbJssLg1lGppgD3Wf31MgzpIBhhSQcVA
+id: node.news.card
+targetEntityType: node
+bundle: news
+mode: card
+content:
+  body:
+    label: hidden
+    type: smart_trim
+    weight: 2
+    settings:
+      trim_length: 200
+      trim_type: chars
+      trim_suffix: ''
+      wrap_class: trimmed
+      more_text: More
+      more_class: more-link
+      summary_handler: trim
+      wrap_output: false
+      more_link: false
+      trim_options:
+        text: false
+        trim_zero: false
+    third_party_settings: {  }
+    region: content
+  content_moderation_control:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_news_date:
+    type: datetime_default
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+hidden:
+  field_featured_image: true
+  field_landing_page_contact: true
+  field_landing_page_show_contact: true
+  field_landing_page_summary: true
+  field_location: true
+  field_metatags: true
+  field_news_intro_text: true
+  field_node_department: true
+  field_node_primary_site: true
+  field_node_site: true
+  field_related_links: true
+  field_show_content_rating: true
+  field_show_related_content: true
+  field_show_social_sharing: true
+  field_tags: true
+  field_topic: true
+  links: true
+  search_api_excerpt: true

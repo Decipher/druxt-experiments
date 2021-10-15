@@ -1,0 +1,44 @@
+uuid: 8ff8f631-ac7b-4161-ace5-df8bdcd08cff
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tide_media_browser
+  module:
+    - entity_browser_entity_form
+    - views
+_core:
+  default_config_hash: pwT1wUTj2cNVuXiNZd77sckWHDWS3gWcJy8Fq62mXXk
+name: tide_document_browser
+label: 'Document browser'
+display: modal
+display_configuration:
+  width: ''
+  height: ''
+  link_text: 'Select documents'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  65bef16f-a133-4cae-8391-02ec8befbccf:
+    settings:
+      view: tide_media_browser
+      view_display: document_browser
+      submit_text: 'Select documents'
+      auto_select: false
+    uuid: 65bef16f-a133-4cae-8391-02ec8befbccf
+    weight: 1
+    label: Library
+    id: view
+  4c2d43c7-1504-4516-b08c-54634400b0a5:
+    settings:
+      entity_type: media
+      bundle: document
+      form_mode: default
+      submit_text: 'Save document'
+    uuid: 4c2d43c7-1504-4516-b08c-54634400b0a5
+    weight: 2
+    label: 'Add document'
+    id: entity_form

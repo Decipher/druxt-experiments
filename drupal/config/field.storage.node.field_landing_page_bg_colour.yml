@@ -1,0 +1,29 @@
+uuid: 30a177ce-54af-4e28-bced-3302d31e2330
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: I66uGR3_Y87RvOrHq4U7rKv9SuCIUQAD213SXy5OPZs
+id: node.field_landing_page_bg_colour
+field_name: field_landing_page_bg_colour
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: white
+      label: White
+    -
+      value: grey
+      label: Grey
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

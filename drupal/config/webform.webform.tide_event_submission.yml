@@ -1,0 +1,198 @@
+uuid: cbe7d31a-a25b-4292-aa7f-1cd72c049e7b
+langcode: en
+status: open
+dependencies: {  }
+_core:
+  default_config_hash: PT2zjZADrxkmPjjwnV-9-pgb0vunyEhkNHHpQR1_YbA
+open: null
+close: null
+weight: 0
+uid: 1
+template: false
+archive: false
+id: tide_event_submission
+title: 'Event Submission'
+description: 'This webform is being used by the general public for requests to submit their own events.'
+category: ''
+elements: "name_of_event:\n  '#type': textfield\n  '#title': 'Name of event'\n  '#placeholder': 'Enter the name of your event'\n  '#required': true\ncategory:\n  '#type': webform_term_select\n  '#title': Category\n  '#multiple': true\n  '#required': true\n  '#vocabulary': event\n  '#breadcrumb_delimiter': ''\nlocation:\n  '#type': address\n  '#title': Location\n  '#title_display': before\n  '#default_value': \"country_code: AU\\nlangcode: ''\\naddress_line1: ''\\naddress_line2: ''\\nlocality: ''\\nadministrative_area: VIC\\npostal_code: ''\\ngiven_name: null\\nadditional_name: null\\nfamily_name: null\\norganization: null\\nsorting_code: null\\ndependent_locality: null\"\n  '#available_countries':\n    AU: AU\n  '#field_overrides':\n    givenName: hidden\n    additionalName: hidden\n    familyName: hidden\n    organization: hidden\n    sortingCode: hidden\n    dependentLocality: hidden\ndescription:\n  '#type': textarea\n  '#title': Description\n  '#placeholder': 'Enter a brief description (150 word limit) ...'\nrequirements:\n  '#type': webform_term_select\n  '#title': Requirements\n  '#multiple': true\n  '#vocabulary': event_requirements\n  '#breadcrumb_delimiter': ''\nopen_date:\n  '#type': date\n  '#title': 'Open date'\n  '#datepicker': true\n  '#required': true\nclose_date:\n  '#type': date\n  '#title': 'Close date'\n  '#datepicker': true\n  '#required': true\nprice_from:\n  '#type': number\n  '#title': 'Price From'\n  '#description': 'Enter the price amount in dollar value.'\n  '#states':\n    disabled:\n      ':input[name=\"free\"]':\n        checked: true\n  '#step': '0.01'\nprice_to:\n  '#type': number\n  '#title': 'Price To'\n  '#description': 'Enter the price amount in dollar value.'\n  '#states':\n    disabled:\n      ':input[name=\"free\"]':\n        checked: true\n  '#step': '0.01'\n  '#conditions':\n    gte: ':input[name=\"price_from\"]'\nfree:\n  '#type': checkbox\n  '#title': Free\n  '#states':\n    required:\n      -\n        ':input[name=\"price_from\"]':\n          empty: true\n      - or\n      -\n        ':input[name=\"price_to\"]':\n          empty: true\nwebsite_url_for_event_information:\n  '#type': url\n  '#title': 'Website URL for event information'\n  '#description': 'Please ensure that the text matches the standard format for URL e.g. http://www.vic.gov.au'\nwebsite_url_for_booking:\n  '#type': url\n  '#title': 'Website URL for booking'\n  '#description': 'Please ensure that the text matches the standard format for URL e.g. http://www.vic.gov.au'\nhorizontal_rule_01:\n  '#type': webform_horizontal_rule\nrequired_contact_details:\n  '#type': processed_text\n  '#text': \"<h2><strong>Required contact details</strong></h2>\\n\\n<p>Your details are for internal purposes only.</p>\\n\"\n  '#format': rich_text\ncontact_person:\n  '#type': textfield\n  '#title': 'Contact person'\n  '#placeholder': 'Enter first name and surname'\n  '#required': true\ncontact_email_address:\n  '#type': email\n  '#title': 'Contact email address'\n  '#placeholder': 'Enter email address'\n  '#required': true\ncontact_telephone_number:\n  '#type': tel\n  '#title': 'Contact telephone number'\n  '#placeholder': 'Enter contact telephone number'\n  '#required': true\nhorizontal_rule_02:\n  '#type': webform_horizontal_rule\nprivacy_statement_disclaimer:\n  '#type': processed_text\n  '#text': \"<p>The Department of Premier and Cabinet is collecting information in order to promote your upcoming event. Any information collected will be used by the Department of Premier and Cabinet and may be used in Department of Premier and Cabinet reporting in an aggregated or de-identified format.</p>\\n\\n<p>Department of Premier and Cabinet collects, stores, shares and manages personal information consistently with the provisions of the Victorian Information Privacy Act 2000.</p>\\n\\n<p>For more information on how Department of Premier and Cabinet handles your personal information, or if you would like to exercise your right to access any personal information you provide, please see the <a href=\\\"/privacy\\\" target=\\\"_blank\\\">privacy policy</a>.</p>\\n\\n<p>For more information on how the software companies engaged by Department of Premier and Cabinet handle personal information, please see the <a href=\\\"/privacy\\\" target=\\\"_blank\\\">privacy policy</a>.</p>\\n\"\n  '#format': rich_text\nagree_privacy_statement:\n  '#type': checkbox\n  '#title': 'I have read and understand how Department of Premier and Cabinet stores information.'\n  '#required': true\nactions:\n  '#type': webform_actions\n  '#title': Submit\n"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_login: false
+  form_login_message: ''
+  submission_label: ''
+  submission_log: false
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_login: false
+  submission_login_message: ''
+  submission_exception_message: ''
+  submission_locked_message: ''
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_title: 'Thank you for your submission.'
+  confirmation_message: "We&#39;ll take a look at your event before it&#39;s published live in the vic.gov.au events database. We will let you know once your event has been published. Alternatively, we&#39;ll be in touch for more information.<br />\n<br />\nRegards, Product and Editorial team\n"
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+handlers:
+  event_submission_email:
+    id: email
+    label: 'Event Submission Email'
+    notes: ''
+    handler_id: event_submission_email
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: contact.dpc@dsdbi.desk-mail.com
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: contact.dpc@dsdbi.desk-mail.com
+      from_options: {  }
+      from_name: _default
+      subject: 'Event Submission'
+      body: _default
+      excluded_elements:
+        agree_privacy_statement: agree_privacy_statement
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: true
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      exclude_attachments: false
+      theme_name: ''
+      parameters: {  }
+variants: {  }

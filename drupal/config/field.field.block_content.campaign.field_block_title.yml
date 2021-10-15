@@ -1,0 +1,21 @@
+uuid: 50f85436-1e57-42b8-bad8-3152dc162348
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.campaign
+    - field.storage.block_content.field_block_title
+_core:
+  default_config_hash: cpyTXD5EyLnaUoMsRYPFxAEFmEbuYVZQGTFRCPy4B4w
+id: block_content.campaign.field_block_title
+field_name: field_block_title
+entity_type: block_content
+bundle: campaign
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

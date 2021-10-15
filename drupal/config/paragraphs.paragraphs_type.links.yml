@@ -1,0 +1,12 @@
+uuid: 19e95646-1338-4f36-8b84-6e863b2911c2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sWNmxUPa1Zvue64WrSdmGi1abUhf_aWk-YwMLeT_flA
+id: links
+label: Link
+icon_uuid: null
+icon_default: null
+description: 'A paragraph type to add links + description of links.'
+behavior_plugins: {  }

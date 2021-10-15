@@ -1,0 +1,47 @@
+uuid: d5c14eb1-8c6b-4087-b804-536fcb65c649
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.latest_events.field_paragraph_cta_card_event
+    - field.field.paragraph.latest_events.field_paragraph_title
+    - paragraphs.paragraphs_type.latest_events
+  module:
+    - paragraphs
+_core:
+  default_config_hash: u4tOXZGI8T8sUXEQK6ivMyiYhcDLAISkDcB-S8lWGvA
+id: paragraph.latest_events.default
+targetEntityType: paragraph
+bundle: latest_events
+mode: default
+content:
+  field_paragraph_cta_card_event:
+    type: entity_reference_paragraphs
+    weight: 102
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_paragraph_title:
+    weight: 101
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

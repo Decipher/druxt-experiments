@@ -1,0 +1,75 @@
+uuid: 56355b43-421b-4a2e-b950-31dd6a08fb76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_social_media
+    - paragraphs.paragraphs_type.contact_us
+    - paragraphs.paragraphs_type.social_link
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: xlmaYX-0LaPtZLY-_dbKeDL-jTBPasThSv71D0g6Y9g
+id: paragraph.contact_us.field_paragraph_social_media
+field_name: field_paragraph_social_media
+entity_type: paragraph
+bundle: contact_us
+label: 'Social Media'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      social_link: social_link
+    target_bundles_drag_drop:
+      contact_us:
+        weight: 20
+        enabled: false
+      accordion:
+        weight: 21
+        enabled: false
+      accordion_content:
+        weight: 22
+        enabled: false
+      banner:
+        weight: 23
+        enabled: false
+      basic_text:
+        weight: 24
+        enabled: false
+      card_event:
+        weight: 25
+        enabled: false
+      card_keydates:
+        weight: 26
+        enabled: false
+      card_promotion:
+        weight: 31
+        enabled: false
+      card_promotion_auto:
+        weight: 32
+        enabled: false
+      keydates:
+        weight: 33
+        enabled: false
+      key_journeys:
+        weight: 34
+        enabled: false
+      links:
+        weight: 35
+        enabled: false
+      phone:
+        weight: 36
+        enabled: false
+      related_links:
+        weight: 37
+        enabled: false
+      social_link:
+        enabled: true
+        weight: 38
+field_type: entity_reference_revisions

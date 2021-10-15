@@ -1,0 +1,29 @@
+uuid: b351b17b-7bbd-480b-be93-7491d82beaa1
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: llQgBHprgHpqnNqfVG-kjn_FR2YJFeR7yYvjkmzC_y0
+id: paragraph.field_banner_type
+field_name: field_banner_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: standard
+      label: Standard
+    -
+      value: with_icon
+      label: 'With icon'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

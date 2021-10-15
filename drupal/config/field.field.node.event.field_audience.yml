@@ -1,0 +1,31 @@
+uuid: 8e71d6e9-47c2-4434-a56f-0267ccfc7d66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_audience
+    - node.type.event
+    - taxonomy.vocabulary.audience
+_core:
+  default_config_hash: j6DZuTdkccoSA7eVn5GW9Y3JR8lo-oDmY0ayJlkplyo
+id: node.event.field_audience
+field_name: field_audience
+entity_type: node
+bundle: event
+label: Audience
+description: 'Use <em>Audience</em> field to categorise event by Audience.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      audience: audience
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,4 +1,4 @@
-uuid: 8b62ec20-3f5d-44a6-9792-7ec7c88322bf
+uuid: 656e7a95-05bc-4bc8-a9c5-e4f8e58e2d8f
 langcode: en
 status: true
 dependencies:
@@ -6,17 +6,23 @@ dependencies:
     - field.storage.node.body
     - node.type.page
   module:
+    - allowed_formats
     - text
+third_party_settings:
+  allowed_formats:
+    rich_text: rich_text
+    admin_text: admin_text
+    plain_text: plain_text
 _core:
-  default_config_hash: KgVkxLl_K3E3lvN6CEoWQIDT0V8J4Mv-fVYrAIc7-FE
+  default_config_hash: ARZr8Eu-rsiLGk63qYf6MaGc19YrUjvJe1SXmD-cmtU
 id: node.page.body
 field_name: body
 entity_type: node
 bundle: page
 label: Body
 description: ''
-required: false
-translatable: true
+required: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

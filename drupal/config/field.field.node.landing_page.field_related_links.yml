@@ -1,0 +1,42 @@
+uuid: 676e9ce7-5252-49c3-90c8-778176e8198c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_links
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.related_links
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: B7rO4GZzcKQDxFYvGVbBjWHvUHsNYcLdwmJMcKvG9DU
+id: node.landing_page.field_related_links
+field_name: field_related_links
+entity_type: node
+bundle: landing_page
+label: 'Related links'
+description: 'Select Add Related links to display links under the right hand side navigation.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      related_links: related_links
+    target_bundles_drag_drop:
+      banner:
+        weight: 4
+        enabled: false
+      key_journeys:
+        weight: 5
+        enabled: false
+      text:
+        weight: 6
+        enabled: false
+      related_links:
+        enabled: true
+        weight: 7
+field_type: entity_reference_revisions

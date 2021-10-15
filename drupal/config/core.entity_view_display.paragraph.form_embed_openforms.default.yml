@@ -1,0 +1,30 @@
+uuid: 1afe54cc-8620-4484-8d01-f9fcd9f4bf02
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.form_embed_openforms.field_form_link
+    - paragraphs.paragraphs_type.form_embed_openforms
+  module:
+    - link
+_core:
+  default_config_hash: pXN_toLK82WiUGRdk7qAWgiQzZ8kMWxptbIABGi_1Vw
+id: paragraph.form_embed_openforms.default
+targetEntityType: paragraph
+bundle: form_embed_openforms
+mode: default
+content:
+  field_form_link:
+    weight: 0
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  search_api_excerpt: true

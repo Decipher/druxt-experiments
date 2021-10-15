@@ -1,0 +1,25 @@
+uuid: 047d2e39-be9e-45d1-a49c-d647c95c889b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_search_target
+    - paragraphs.paragraphs_type.embedded_search_form
+_core:
+  default_config_hash: 3mGh6NgcnP1jOjCQz0mda7zb6OZoOXpJiNRrx0AAImo
+id: paragraph.embedded_search_form.field_paragraph_search_target
+field_name: field_paragraph_search_target
+entity_type: paragraph
+bundle: embedded_search_form
+label: 'Open the Search page in new tab'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

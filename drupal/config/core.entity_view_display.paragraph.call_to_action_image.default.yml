@@ -1,0 +1,41 @@
+uuid: 6751ab3f-15b2-4acd-9450-d81d74503f4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.call_to_action_image.field_paragraph_cta
+    - field.field.paragraph.call_to_action_image.field_paragraph_media
+    - paragraphs.paragraphs_type.call_to_action_image
+  module:
+    - link
+    - media
+_core:
+  default_config_hash: 7VuT4xH72eaOmHY4zlFJh8y37IfcCnxzFpbDisvMwHs
+id: paragraph.call_to_action_image.default
+targetEntityType: paragraph
+bundle: call_to_action_image
+mode: default
+content:
+  field_paragraph_cta:
+    weight: 0
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_paragraph_media:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: media_thumbnail
+    region: content
+hidden:
+  search_api_excerpt: true

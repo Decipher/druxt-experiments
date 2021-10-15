@@ -1,0 +1,25 @@
+uuid: 2f2b2727-719a-44e5-9c5f-7f257841e01e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.campaign
+    - field.storage.block_content.field_block_cta
+  module:
+    - link
+_core:
+  default_config_hash: B0jVInOfYrW69IkOa1ZeDhP8rf8nUSPUrSQqdZe9mK4
+id: block_content.campaign.field_block_cta
+field_name: field_block_cta
+entity_type: block_content
+bundle: campaign
+label: CTA
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

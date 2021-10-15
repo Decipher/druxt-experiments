@@ -1,0 +1,88 @@
+uuid: 9ce752d3-2d97-418e-99e8-91f8c878ad67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.event_details.field_event_requirements
+    - field.field.paragraph.event_details.field_paragraph_date_range
+    - field.field.paragraph.event_details.field_paragraph_event_price_from
+    - field.field.paragraph.event_details.field_paragraph_event_price_to
+    - field.field.paragraph.event_details.field_paragraph_link
+    - field.field.paragraph.event_details.field_paragraph_location
+    - field.field.paragraph.event_details.field_show_time
+    - paragraphs.paragraphs_type.event_details
+  module:
+    - address
+    - datetime_range
+    - link
+_core:
+  default_config_hash: TdyGl3T6oaS4CGIfSsGHsi4fLhdOBcphixieD26UkAI
+id: paragraph.event_details.default
+targetEntityType: paragraph
+bundle: event_details
+mode: default
+content:
+  field_event_requirements:
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_paragraph_date_range:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_paragraph_event_price_from:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_paragraph_event_price_to:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_paragraph_link:
+    weight: 5
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_paragraph_location:
+    weight: 1
+    settings:
+      default_country: AU
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_show_time:
+    weight: -10
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 6
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

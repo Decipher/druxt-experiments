@@ -1,0 +1,33 @@
+uuid: 15825319-fa11-4667-9660-55ca9e56f5d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_site_footer_logos
+    - paragraphs.paragraphs_type.call_to_action_image
+    - taxonomy.vocabulary.sites
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: 6P4v_97kPGQU8EcNYA2_zXV-3_JfgTNMpE9EJc2fu-U
+id: taxonomy_term.sites.field_site_footer_logos
+field_name: field_site_footer_logos
+entity_type: taxonomy_term
+bundle: sites
+label: 'Footer logos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      call_to_action_image: call_to_action_image
+    target_bundles_drag_drop:
+      call_to_action_image:
+        enabled: true
+        weight: 25
+field_type: entity_reference_revisions

@@ -1,0 +1,30 @@
+uuid: c7ebb850-dab8-49df-9e5b-b20310d69d64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_image
+    - media.type.image
+    - node.type.landing_page
+_core:
+  default_config_hash: eoYzy9Lrm8cnL92Kd1pkzVo4uSDF8_dALbJcku7NC6o
+id: node.landing_page.field_featured_image
+field_name: field_featured_image
+entity_type: node
+bundle: landing_page
+label: 'Feature image'
+description: 'Feature images don''t display on this page. They display in featured card or navigation links to this page. Must be 496px high x 818px wide.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

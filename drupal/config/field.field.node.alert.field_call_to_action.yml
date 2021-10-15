@@ -1,0 +1,25 @@
+uuid: af667d25-ce76-4b8f-93bb-65dbaed0d0ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_call_to_action
+    - node.type.alert
+  module:
+    - link
+_core:
+  default_config_hash: uSs-buDm8B3JyJrJfpkX87vX6M-p-wT9fAg5kSQHfBs
+id: node.alert.field_call_to_action
+field_name: field_call_to_action
+entity_type: node
+bundle: alert
+label: Link
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

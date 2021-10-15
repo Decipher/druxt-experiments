@@ -1,0 +1,41 @@
+uuid: 5fd22590-c915-4eab-b4ab-6fffc078e09c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_keydates.field_paragraph_cta
+    - field.field.paragraph.card_keydates.field_paragraph_keydates
+    - paragraphs.paragraphs_type.card_keydates
+  module:
+    - entity_reference_revisions
+    - link
+_core:
+  default_config_hash: 5Qc5yHaqpcYn3onV20DG7CUXadDUZT4KIGDez6TEzKE
+id: paragraph.card_keydates.default
+targetEntityType: paragraph
+bundle: card_keydates
+mode: default
+content:
+  field_paragraph_cta:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_paragraph_keydates:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

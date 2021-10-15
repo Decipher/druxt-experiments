@@ -1,0 +1,33 @@
+uuid: 22454a9d-6614-4654-8f34-f9babe7cd64e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_topic
+    - paragraphs.paragraphs_type.news_listing
+    - taxonomy.vocabulary.tags
+    - taxonomy.vocabulary.topic
+_core:
+  default_config_hash: Sf3g4uhnDa4CgymiqAJhDf4qVNLtXPMqvx-SRtw1LvE
+id: paragraph.news_listing.field_paragraph_topic
+field_name: field_paragraph_topic
+entity_type: paragraph
+bundle: news_listing
+label: 'Topic / Tag'
+description: 'To display a filtered listing of 6 latest news items, type in the topics and tags you want to filter by. If you don''t enter any topics or tags, all latest news will be displayed.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+      topic: topic
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: tags
+field_type: entity_reference

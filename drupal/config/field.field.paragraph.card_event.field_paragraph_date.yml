@@ -1,0 +1,23 @@
+uuid: 57024038-c388-4634-8744-c123a309af82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_date
+    - paragraphs.paragraphs_type.card_event
+  module:
+    - datetime
+_core:
+  default_config_hash: bHXTAVKa3ugvYAItxDCxHgmqJu99o8OqYTSE_JpmW_4
+id: paragraph.card_event.field_paragraph_date
+field_name: field_paragraph_date
+entity_type: paragraph
+bundle: card_event
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

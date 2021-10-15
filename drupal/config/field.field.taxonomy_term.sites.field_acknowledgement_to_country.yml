@@ -1,0 +1,23 @@
+uuid: 7b21c878-1480-4b81-8dae-afc6b3354a94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_acknowledgement_to_country
+    - taxonomy.vocabulary.sites
+_core:
+  default_config_hash: 6nopkbjN3ciLyUywWczKS48agdN1Ip6HqGGPTRcP5b4
+id: taxonomy_term.sites.field_acknowledgement_to_country
+field_name: field_acknowledgement_to_country
+entity_type: taxonomy_term
+bundle: sites
+label: 'Acknowledgement to Country'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'The Victorian Government acknowledges Aboriginal and Torres Strait Islander people as the Traditional Custodians of the land and acknowledges and pays respect to their Elders, past and present.'
+default_value_callback: ''
+settings: {  }
+field_type: string_long

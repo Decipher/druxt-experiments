@@ -1,4 +1,4 @@
-uuid: c468c7aa-ead1-4f59-9409-bc3606d44b61
+uuid: 963652d9-14f3-41d0-99f2-8383836db451
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - user
 _core:
-  default_config_hash: P7mydegwqGbeXpLHAlS1BTJBFfvX8tQ62dIECLLklb8
+  default_config_hash: 2J0rd5cWfFsdSX-kAb0f9EzvC0_vn4NxGlUpOQAXeOU
 id: block_content
 label: 'Custom block library'
 module: views
@@ -18,7 +18,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Default
+    display_title: Master
     position: 0
     display_options:
       access:
@@ -40,7 +40,7 @@ display:
         type: basic
         options:
           submit_button: Apply
-          reset_button: true
+          reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
           expose_sort_order: true

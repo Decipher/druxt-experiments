@@ -1,0 +1,31 @@
+uuid: a01aa305-b648-477a-9a56-f0f6a53f319a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_audience
+    - media.type.embedded_video
+    - taxonomy.vocabulary.audience
+_core:
+  default_config_hash: oHxF8tjKjOKZiw1D1Wi0MXTR4FUwFMZrxPz6Y0HUxFE
+id: media.embedded_video.field_media_audience
+field_name: field_media_audience
+entity_type: media
+bundle: embedded_video
+label: Audience
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      audience: audience
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

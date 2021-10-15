@@ -1,0 +1,14 @@
+uuid: e1df03b4-7fb2-4cc0-b7a8-58b1a18f8300
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hJQjXsD8A7-V4ndA8m4gdmlj10Et6wwYK94pX_rsq9w
+id: primary_button
+label: 'Primary Button'
+description: ''
+body:
+  value: "<p><a class=\"button\" href=\"Primary-button-link\">Primary button text</a></p>\r\n"
+  format: rich_text
+weight: null
+node_types: {  }

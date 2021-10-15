@@ -1,0 +1,10 @@
+uuid: f965c4b6-6e34-40af-af58-aacc21bc20c2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KcztpKjibSYF8SfLDPbrBIRmzEdt7vanHJnob2xavEA
+id: media_gallery
+label: 'Image Gallery'
+revision: 1
+description: 'Block type used for Image Gallery on Landing pages.'

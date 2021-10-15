@@ -1,0 +1,90 @@
+uuid: e6eb6014-2ec2-4fae-b66c-8d480620146b
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.tide_image_browser
+    - field.field.paragraph.timeline.field_paragraph_body
+    - field.field.paragraph.timeline.field_paragraph_cta_text
+    - field.field.paragraph.timeline.field_paragraph_date_range
+    - field.field.paragraph.timeline.field_paragraph_link
+    - field.field.paragraph.timeline.field_paragraph_media
+    - field.field.paragraph.timeline.field_paragraph_summary
+    - field.field.paragraph.timeline.field_paragraph_title
+    - paragraphs.paragraphs_type.timeline
+  module:
+    - datetime_range
+    - entity_browser
+    - link
+    - text
+_core:
+  default_config_hash: oH6cMI1TnaPSxugVSRmyuQSXiLTczpNNMAVfkiHyPH8
+id: paragraph.timeline.default
+targetEntityType: paragraph
+bundle: timeline
+mode: default
+content:
+  field_paragraph_body:
+    type: text_textarea
+    weight: 5
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_paragraph_cta_text:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_paragraph_date_range:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_paragraph_link:
+    weight: 3
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_paragraph_media:
+    weight: 4
+    settings:
+      entity_browser: tide_image_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      open: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: media_browser_preview
+      field_widget_replace: false
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_paragraph_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_paragraph_summary: true
+  status: true
+  uid: true

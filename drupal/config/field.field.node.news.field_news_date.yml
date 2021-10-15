@@ -1,0 +1,26 @@
+uuid: f5a070b9-1e7b-48e4-8c8a-850c66cd65de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_date
+    - node.type.news
+  module:
+    - datetime
+_core:
+  default_config_hash: 0FyP39Cz5xp7IP6913NIt_h154-TOD7Yw408vx68eUg
+id: node.news.field_news_date
+field_name: field_news_date
+entity_type: node
+bundle: news
+label: Date
+description: 'Date of the news being written.'
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

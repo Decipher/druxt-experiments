@@ -1,76 +1,350 @@
 {
-    "name": "drupal/recommended-project",
-    "description": "Project template for Drupal 9 projects with a relocated document root",
-    "type": "project",
-    "license": "GPL-2.0-or-later",
-    "homepage": "https://www.drupal.org/project/drupal",
-    "support": {
-        "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
-        "chat": "https://www.drupal.org/node/314178"
+    "name":"drupal/recommended-project",
+    "description":"Project template for Drupal 8 projects with a relocated document root",
+    "type":"project",
+    "license":"GPL-2.0-or-later",
+    "homepage":"https://www.drupal.org/project/drupal",
+    "support":{
+       "docs":"https://www.drupal.org/docs/user_guide/en/index.html",
+       "chat":"https://www.drupal.org/node/314178"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
+    "repositories":[
+       {
+          "type":"composer",
+          "url":"https://packages.drupal.org/8"
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"choices/choices",
+             "version":"9.0.1",
+             "type":"drupal-library",
+             "extra":{
+                "installer-name":"choices"
+             },
+             "dist":{
+                "url":"https://github.com/jshjohnson/Choices/archive/v9.0.1.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"ckeditor/fakeobjects",
+             "version":"4.16.1",
+             "type":"drupal-library",
+             "dist":{
+                "url":"https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.16.1.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "package":{
+             "dist":{
+                "reference":"master",
+                "type":"zip",
+                "url":"https://download.ckeditor.com/iframe/releases/iframe_4.5.11.zip"
+             },
+             "name":"ckeditor/iframe",
+             "require":{
+                "composer/installers":"~1.0"
+             },
+             "type":"drupal-library",
+             "version":"4.5.11"
+          },
+          "type":"package"
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"ckeditor/codemirror",
+             "version":"v1.17.12",
+             "type":"drupal-library",
+             "extra":{
+                "installer-name":"ckeditor.codemirror"
+             },
+             "dist":{
+                "url":"https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/releases/download/v1.17.12/CKEditor-CodeMirror-Plugin.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"codemirror/codemirror",
+             "version":"5.53.2",
+             "type":"drupal-library",
+             "extra":{
+                "installer-name":"codemirror"
+             },
+             "dist":{
+                "url":"https://github.com/components/codemirror/archive/5.53.2.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "package":{
+             "dist":{
+                "type":"zip",
+                "url":"https://download.ckeditor.com/liststyle/releases/liststyle_4.8.0.zip"
+             },
+             "extra":{
+                "installer-name":"ckeditor/plugins/liststyle"
+             },
+             "name":"ckeditor/liststyle",
+             "type":"drupal-library",
+             "version":"4.8.0"
+          },
+          "type":"package"
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"jquery/inputmask",
+             "version":"5.0.5",
+             "type":"drupal-library",
+             "extra":{
+                "installer-name":"jquery.inputmask"
+             },
+             "dist":{
+                "url":"https://github.com/RobinHerbots/jquery.inputmask/archive/5.0.5.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"ckeditor/autogrow",
+             "version":"4.16.1",
+             "type":"drupal-library",
+             "dist":{
+                "url":"https://download.ckeditor.com/autogrow/releases/autogrow_4.16.1.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"jquery/intl-tel-input",
+             "version":"16.1.0",
+             "type":"drupal-library",
+             "extra":{
+                "installer-name":"jquery.intl-tel-input"
+             },
+             "dist":{
+                "url":"https://github.com/jackocnr/intl-tel-input/archive/v16.1.0.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"ckeditor/image",
+             "version":"4.16.1",
+             "type":"drupal-library",
+             "dist":{
+                "url":"https://download.ckeditor.com/image/releases/image_4.16.1.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"progress-tracker/progress-tracker",
+             "version":"1.4.0",
+             "type":"drupal-library",
+             "extra":{
+                "installer-name":"progress-tracker"
+             },
+             "dist":{
+                "url":"https://github.com/NigelOToole/progress-tracker/archive/v1.4.0.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"ckeditor/link",
+             "version":"4.16.1",
+             "type":"drupal-library",
+             "dist":{
+                "url":"https://download.ckeditor.com/link/releases/link_4.16.1.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"jquery/timepicker",
+             "version":"1.13.14",
+             "type":"drupal-library",
+             "extra":{
+                "installer-name":"jquery.timepicker"
+             },
+             "dist":{
+                "url":"https://github.com/jonthornton/jquery-timepicker/archive/1.13.14.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "_webform":true,
+          "type":"package",
+          "package":{
+             "name":"jquery/textcounter",
+             "version":"0.9.0",
+             "type":"drupal-library",
+             "extra":{
+                "installer-name":"jquery.textcounter"
+             },
+             "dist":{
+                "url":"https://github.com/ractoon/jQuery-Text-Counter/archive/0.9.0.zip",
+                "type":"zip"
+             },
+             "require":{
+                "composer/installers":"~1.0"
+             }
+          }
+       },
+       {
+          "package":{
+             "dist":{
+                "reference":"master",
+                "type":"zip",
+                "url":"https://download.ckeditor.com/templates/releases/templates_4.5.7.zip"
+             },
+             "name":"ckeditor/templates",
+             "type":"drupal-library",
+             "version":"4.5.7"
+          },
+          "type":"package"
+       }
     ],
-    "require": {
-        "composer/installers": "^1.9",
-        "cweagans/composer-patches": "^1.7",
+    "require":{
+        "composer/installers": "^1.2",
+        "dpc-sdp/tide": "^2.0",
         "drupal-tome/tome_drush": "dev-master",
-        "drupal/core-composer-scaffold": "^9.3",
-        "drupal/core-project-message": "^9.3",
-        "drupal/core-recommended": "^9.3",
+        "drupal/core-composer-scaffold": "^8.8",
+        "drupal/core-project-message": "^8.8",
+        "drupal/core-recommended": "^8.8",
         "drupal/druxt": "^1.0",
         "drupal/tome": "^1.4",
-        "drush/drush": "^10.6"
+        "drush/drush": "9.x"
     },
-    "require-dev": {
-        "drupal/core-dev": "^9.3"
+    "conflict":{
+       "drupal/drupal":"*"
     },
-    "conflict": {
-        "drupal/drupal": "*"
+    "minimum-stability":"dev",
+    "prefer-stable":true,
+    "config":{
+       "sort-packages":true
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "config": {
-        "sort-packages": true
-    },
-    "extra": {
-        "drupal-scaffold": {
-            "locations": {
-                "web-root": "web/"
-            }
-        },
-        "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
-            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
-            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
-            "web/profiles/custom/{$name}": ["type:drupal-custom-profile"],
-            "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
-        },
-        "drupal-core-project-message": {
-            "include-keys": ["homepage", "support"],
-            "post-create-project-cmd-message": [
-                "<bg=blue;fg=white>                                                         </>",
-                "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
-                "<bg=blue;fg=white>  from the drupal/recommended-project template!          </>",
-                "<bg=blue;fg=white>                                                         </>",
-                "",
-                "<bg=yellow;fg=black>Next steps</>:",
-
-                "  * Install the site: https://www.drupal.org/docs/8/install",
-                "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
-                "  * Get support: https://www.drupal.org/support",
-                "  * Get involved with the Drupal community:",
-                "      https://www.drupal.org/getting-involved",
-                "  * Remove the plugin that prints this message:",
-                "      composer remove drupal/core-project-message"
-            ]
-        }
+    "extra":{
+       "drupal-scaffold":{
+          "locations":{
+             "web-root":"web/"
+          }
+       },
+       "installer-paths":{
+          "web/core":[
+             "type:drupal-core"
+          ],
+          "web/libraries/{$name}":[
+             "type:drupal-library"
+          ],
+          "web/modules/contrib/{$name}":[
+             "type:drupal-module"
+          ],
+          "web/profiles/contrib/{$name}":[
+             "type:drupal-profile"
+          ],
+          "web/themes/contrib/{$name}":[
+             "type:drupal-theme"
+          ],
+          "drush/Commands/contrib/{$name}":[
+             "type:drupal-drush"
+          ],
+          "web/modules/custom/{$name}":[
+             "type:drupal-custom-module"
+          ],
+          "web/themes/custom/{$name}":[
+             "type:drupal-custom-theme"
+          ]
+       },
+       "drupal-core-project-message":{
+          "include-keys":[
+             "homepage",
+             "support"
+          ],
+          "post-create-project-cmd-message":[
+             "<bg=blue;fg=white>                                                         </>",
+             "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
+             "<bg=blue;fg=white>  from the drupal/recommended-project template!          </>",
+             "<bg=blue;fg=white>                                                         </>",
+             "",
+             "<bg=yellow;fg=black>Next steps</>:",
+             "  * Install the site: https://www.drupal.org/docs/8/install",
+             "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
+             "  * Get support: https://www.drupal.org/support",
+             "  * Get involved with the Drupal community:",
+             "      https://www.drupal.org/getting-involved",
+             "  * Remove the plugin that prints this message:",
+             "      composer remove drupal/core-project-message"
+          ]
+       }
     }
-}
+ }

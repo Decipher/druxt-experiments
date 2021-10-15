@@ -1,0 +1,21 @@
+uuid: 4a49f8bb-273c-47d3-ab22-c80641975156
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.campaign_with_video
+    - field.storage.block_content.field_block_title
+_core:
+  default_config_hash: 32jHg3QBY1w4q1WY2-jrx7D9PJ5MmQZ3QmXP3_MyXJM
+id: block_content.campaign_with_video.field_block_title
+field_name: field_block_title
+entity_type: block_content
+bundle: campaign_with_video
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

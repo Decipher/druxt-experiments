@@ -1,0 +1,12 @@
+uuid: 6c921323-b85e-4291-88f7-e7b3b659ee56
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _2-uJe7F-XChh3Th9SW4lVAK1_cIylz-vGVyf_zgmns
+id: card_promotion
+label: 'Card promotion'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

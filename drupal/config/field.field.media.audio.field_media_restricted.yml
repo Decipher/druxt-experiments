@@ -1,0 +1,25 @@
+uuid: 5f789bc3-a317-4033-baa7-fefbf6eac09a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_restricted
+    - media.type.audio
+_core:
+  default_config_hash: K9YSTkG3FCyuJ9NGTtBpoEvrUgdKKSL-ruERIV8yqZ4
+id: media.audio.field_media_restricted
+field_name: field_media_restricted
+entity_type: media
+bundle: audio
+label: Restricted
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,25 @@
+uuid: c97fe591-3f7f-40a6-8002-07a6415fca52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_restricted
+    - media.type.file
+_core:
+  default_config_hash: 5KY_brDmjA_jrRQrDlS5UeGxObOb68QTFmT39GMK7jc
+id: media.file.field_media_restricted
+field_name: field_media_restricted
+entity_type: media
+bundle: file
+label: Restricted
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

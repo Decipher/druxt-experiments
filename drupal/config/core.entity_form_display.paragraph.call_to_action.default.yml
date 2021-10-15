@@ -1,0 +1,77 @@
+uuid: 15f6d3e6-7132-42fa-ba97-1bdad99e2405
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.tide_image_browser
+    - field.field.paragraph.call_to_action.field_paragraph_body
+    - field.field.paragraph.call_to_action.field_paragraph_cta
+    - field.field.paragraph.call_to_action.field_paragraph_cta_style
+    - field.field.paragraph.call_to_action.field_paragraph_media
+    - field.field.paragraph.call_to_action.field_paragraph_title
+    - paragraphs.paragraphs_type.call_to_action
+  module:
+    - entity_browser
+    - link
+    - text
+_core:
+  default_config_hash: p38cCDhTpp8t3H_Sj2hynHDF8FV5gCzYHrEdgKKRxgI
+id: paragraph.call_to_action.default
+targetEntityType: paragraph
+bundle: call_to_action
+mode: default
+content:
+  field_paragraph_body:
+    weight: 102
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_paragraph_cta:
+    weight: 104
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_paragraph_cta_style:
+    weight: 105
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_paragraph_media:
+    weight: 103
+    settings:
+      entity_browser: tide_image_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      open: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: media_browser_preview
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_paragraph_title:
+    weight: 101
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

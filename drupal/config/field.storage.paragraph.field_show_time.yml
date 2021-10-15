@@ -1,0 +1,20 @@
+uuid: 63ba7eed-84ea-4a5f-b50c-90ef637f7bc9
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: Qd13gr6eD68pH4k9aLUQkahbhL-mXWIVIyLiR6SL0WI
+id: paragraph.field_show_time
+field_name: field_show_time
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

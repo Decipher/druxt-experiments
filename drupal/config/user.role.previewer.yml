@@ -1,0 +1,14 @@
+uuid: 24c0e004-c7e3-4f23-a925-064ecea80b61
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 9_ljrgkbFCT9becsT9ZPKCXqFUaGikyAXqIUD6BQfoE
+id: previewer
+label: Previewer
+weight: 5
+is_admin: null
+permissions:
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'

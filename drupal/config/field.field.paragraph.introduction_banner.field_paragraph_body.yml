@@ -1,0 +1,29 @@
+uuid: 5be22b30-dbc6-42b0-bd08-dd88a3ac40ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_body
+    - paragraphs.paragraphs_type.introduction_banner
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    rich_text: '0'
+    admin_text: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: O4f-zM4uYOTI1vfo_N28xkl_sRvTFhgGdeiyRbalz4E
+id: paragraph.introduction_banner.field_paragraph_body
+field_name: field_paragraph_body
+entity_type: paragraph
+bundle: introduction_banner
+label: Summary
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

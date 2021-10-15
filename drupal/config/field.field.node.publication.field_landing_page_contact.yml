@@ -1,0 +1,33 @@
+uuid: ad7b50f4-a259-4f98-a2ad-a510df40995c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_contact
+    - node.type.publication
+    - paragraphs.paragraphs_type.contact_us
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: iAmlC024SbORtS1GhmNzP2_ALP2dBno5OBowKo-XeVg
+id: node.publication.field_landing_page_contact
+field_name: field_landing_page_contact
+entity_type: node
+bundle: publication
+label: 'Contact us'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      contact_us: contact_us
+    target_bundles_drag_drop:
+      contact_us:
+        enabled: true
+        weight: 53
+field_type: entity_reference_revisions

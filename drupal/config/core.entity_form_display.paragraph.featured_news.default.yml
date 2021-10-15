@@ -1,0 +1,34 @@
+uuid: 9f3fc9f0-ae02-4544-b780-8050e96dd5c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.featured_news.field_paragraph_news_reference
+    - paragraphs.paragraphs_type.featured_news
+_core:
+  default_config_hash: rxWI7Uove7AAS6-AO_g4eDCBgTqx3d-nLRHk1f5OFFk
+id: paragraph.featured_news.default
+targetEntityType: paragraph
+bundle: featured_news
+mode: default
+content:
+  field_paragraph_news_reference:
+    weight: 101
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

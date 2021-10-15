@@ -1,0 +1,25 @@
+uuid: a93e6e76-fd63-4a5b-bb86-e5a4d09cb72a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.campaign
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: kWhPdLzDn-z6OZ4h0ea6e-vyalbsb5sbm4amGk75oCc
+id: block_content.campaign.body
+field_name: body
+entity_type: block_content
+bundle: campaign
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

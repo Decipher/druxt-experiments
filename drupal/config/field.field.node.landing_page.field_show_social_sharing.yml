@@ -1,0 +1,25 @@
+uuid: b3201c1d-2d42-4190-af66-ff9f495503cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_social_sharing
+    - node.type.landing_page
+_core:
+  default_config_hash: yqsysLRMsk2G6g8VIIdTO3gO9FlBDvCqjUKM6T5My4A
+id: node.landing_page.field_show_social_sharing
+field_name: field_show_social_sharing
+entity_type: node
+bundle: landing_page
+label: 'Social sharing'
+description: 'The social sharing box can be hidden in special circumstances.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

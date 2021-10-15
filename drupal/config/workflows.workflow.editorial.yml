@@ -1,0 +1,124 @@
+uuid: b12440d8-879f-426a-aa82-f28ccb83f436
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.alert
+    - node.type.event
+    - node.type.landing_page
+    - node.type.news
+    - node.type.page
+    - node.type.publication
+    - node.type.publication_page
+  module:
+    - content_moderation
+_core:
+  default_config_hash: Omwp9tADUUAUxXQvZHfghYVz9LdRn6k8RHKOSBeSWCI
+id: editorial
+label: Editorial
+type: content_moderation
+type_settings:
+  states:
+    archive_pending:
+      label: 'Archive pending'
+      published: false
+      default_revision: false
+      weight: -6
+    archived:
+      label: Archived
+      weight: -7
+      published: false
+      default_revision: true
+    draft:
+      label: Draft
+      published: false
+      default_revision: false
+      weight: -10
+    needs_review:
+      published: false
+      default_revision: false
+      label: 'Needs Review'
+      weight: -9
+    published:
+      label: Published
+      published: true
+      default_revision: true
+      weight: -8
+  transitions:
+    archive:
+      label: Archive
+      from:
+        - published
+        - archive_pending
+      to: archived
+      weight: 5
+    archive_pending:
+      label: 'Archive pending'
+      from:
+        - draft
+        - published
+        - needs_review
+      to: archive_pending
+      weight: 4
+    archived_draft:
+      label: 'Restore to Draft'
+      from:
+        - archived
+      to: draft
+      weight: 6
+    archived_published:
+      label: Restore
+      from:
+        - archived
+        - archive_pending
+        - archive_pending
+      to: published
+      weight: -4
+    create_archive_pending:
+      label: 'Archive pending'
+      from:
+        - draft
+        - published
+        - needs_review
+      to: archive_pending
+      weight: 4
+    create_new_draft:
+      label: 'Create New Draft'
+      from:
+        - draft
+        - published
+        - archive_pending
+        - archive_pending
+      to: draft
+      weight: 0
+    needs_review:
+      label: 'Needs Review'
+      from:
+        - draft
+        - archive_pending
+        - archive_pending
+      to: needs_review
+      weight: 1
+    needs_review_draft:
+      label: 'Send back to Draft'
+      from:
+        - needs_review
+      to: draft
+      weight: 2
+    publish:
+      label: Publish
+      from:
+        - draft
+        - needs_review
+        - published
+      to: published
+      weight: 3
+  entity_types:
+    node:
+      - alert
+      - event
+      - landing_page
+      - news
+      - page
+      - publication
+      - publication_page

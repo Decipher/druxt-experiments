@@ -1,0 +1,30 @@
+uuid: 4b346709-e98d-4a8c-9c48-32516688562c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_image
+    - media.type.image
+    - node.type.news
+_core:
+  default_config_hash: pn4Zn0NrjFsh__WnfbHuzTICaA5P1XL9KsyylVQ4kQM
+id: node.news.field_featured_image
+field_name: field_featured_image
+entity_type: node
+bundle: news
+label: 'Featured Image'
+description: 'Feature images appear on your news story below the Date. One image can be added and must be 496px high x 818px wide.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

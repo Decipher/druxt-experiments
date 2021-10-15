@@ -1,0 +1,10 @@
+uuid: 125fcdbe-781a-4319-8f46-0a262ca2f5d9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: l_-OJbNS56QMN32s-Oo18cbN5-r_B4gLtyEmzp4OK60
+name: Sites
+vid: sites
+description: 'Sites and sections'
+weight: 0

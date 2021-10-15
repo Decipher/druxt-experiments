@@ -1,0 +1,33 @@
+uuid: 2cec5788-4653-47b9-a860-e806e6515efd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_related_links
+    - node.type.publication
+    - paragraphs.paragraphs_type.related_links
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: pZYSLhfTBMTrrM6W7YhoM-c-M_DHV5RhWVKEvIPTxco
+id: node.publication.field_related_links
+field_name: field_related_links
+entity_type: node
+bundle: publication
+label: 'Related links'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      related_links: related_links
+    target_bundles_drag_drop:
+      related_links:
+        enabled: true
+        weight: 68
+field_type: entity_reference_revisions

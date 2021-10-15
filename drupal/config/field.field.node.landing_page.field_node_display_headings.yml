@@ -1,0 +1,25 @@
+uuid: cc00aa98-789e-49c7-a5c7-984a6244b2db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_node_display_headings
+    - node.type.landing_page
+  module:
+    - options
+_core:
+  default_config_hash: FiWjPJ7lzyilV7ZrFbE7dxnEEa_yVNRx-53TlcTruP4
+id: node.landing_page.field_node_display_headings
+field_name: field_node_display_headings
+entity_type: node
+bundle: landing_page
+label: 'Display headings'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: showH2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

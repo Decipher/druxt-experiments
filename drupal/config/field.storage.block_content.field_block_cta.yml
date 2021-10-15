@@ -1,0 +1,21 @@
+uuid: 04c7d6b2-7264-461e-80fc-eb2ada9343e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+_core:
+  default_config_hash: lQwOUK2OfBefsPI89IWwiBXapdMIm5FHcDw32DdEzGA
+id: block_content.field_block_cta
+field_name: field_block_cta
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

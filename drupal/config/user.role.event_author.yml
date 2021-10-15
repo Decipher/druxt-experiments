@@ -1,0 +1,23 @@
+uuid: 0a08d5f2-891f-4416-94a5-54dfec722210
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - tide_event
+_core:
+  default_config_hash: sAu4_BRxK47gZZuRW5K_dD9WGTV8e7NjdPVkzz4rkZM
+id: event_author
+label: 'Event Author'
+weight: 99
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access jsonapi resource list'
+  - 'create event content'
+  - 'use draft_needs_review transition'
+  - 'use editorial transition needs_review'
+  - 'use editorial transition needs_review_draft'
+  - 'use needs_review_draft transition'
+  - 'use needs_review_needs_review transition'
+  - 'view media'

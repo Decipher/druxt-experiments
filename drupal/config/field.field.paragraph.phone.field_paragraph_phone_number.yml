@@ -1,0 +1,23 @@
+uuid: f1e9869f-0e1b-4ea9-a24f-598480e9abd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_phone_number
+    - paragraphs.paragraphs_type.phone
+  module:
+    - telephone
+_core:
+  default_config_hash: YVISllW3obLKnHYVMneDUckUdM9vgZaBDk845o6bFmQ
+id: paragraph.phone.field_paragraph_phone_number
+field_name: field_paragraph_phone_number
+entity_type: paragraph
+bundle: phone
+label: 'Phone Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

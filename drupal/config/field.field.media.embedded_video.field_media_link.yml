@@ -1,0 +1,23 @@
+uuid: 259b804c-e7b8-491b-aeb4-38a2000c7ce8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_link
+    - media.type.embedded_video
+_core:
+  default_config_hash: LokQb3bI7RQhT7jZPkND9F7_SkX28nQ8F-dUo_JWItM
+id: media.embedded_video.field_media_link
+field_name: field_media_link
+entity_type: media
+bundle: embedded_video
+label: 'Media Link'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'View transcript'
+default_value_callback: ''
+settings: {  }
+field_type: string

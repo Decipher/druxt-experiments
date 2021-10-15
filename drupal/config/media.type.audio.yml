@@ -1,0 +1,17 @@
+uuid: 7dc5fd1c-7eb7-4625-baaa-0729c204aeb2
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_entity_audio
+_core:
+  default_config_hash: HbW_mKAeUT6vOO4-njjNt54xYCJYIAt0NY4VemkBZ0I
+id: audio
+label: Audio
+description: 'Use local audio for reusable media.'
+source: audio
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map: {  }

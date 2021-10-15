@@ -1,0 +1,10 @@
+uuid: 332486b6-aee6-4d70-8b86-2d007acb76a3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jjHaixHK9fNpznlOyUhu4JfA-SdLhCm7gJquI8N574w
+name: 'License Type'
+vid: license_type
+description: 'License Types for Media'
+weight: 0

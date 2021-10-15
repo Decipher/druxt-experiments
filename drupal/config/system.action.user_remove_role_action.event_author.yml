@@ -1,0 +1,16 @@
+uuid: 58ff5cc5-e154-48f4-9ea7-9a3f8a6e2707
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.event_author
+  module:
+    - user
+_core:
+  default_config_hash: Nx-UWQ0lGQVV7_a4yN-PKkIRURpCknXfv3XEHxGAwoY
+id: user_remove_role_action.event_author
+label: 'Remove the Event Author role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: event_author

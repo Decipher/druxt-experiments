@@ -1,0 +1,78 @@
+uuid: 442cfbec-956f-46e3-adf2-2a9ddc8f6646
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.summary_text
+  module:
+    - ckeditor
+format: summary_text
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Strike
+            - Superscript
+            - Subscript
+            - '-'
+            - RemoveFormat
+            - Copy
+            - Cut
+            - Paste
+            - PasteText
+            - '-'
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - Linkit
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Format
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+            - '-'
+            - Format
+        -
+          name: Tools
+          items:
+            - Undo
+            - Redo
+            - ShowBlocks
+            - Maximize
+            - Source
+            - TemplateSelector
+            - Iframe
+            - tide_media
+  plugins:
+    stylescombo:
+      styles: "p.wysiwyg-callout|Callout\r\nol.wysiwyg-callout|Callout (Ordered list)\r\nul.wysiwyg-callout|Callout (Unordered list)"
+    drupallink:
+      linkit_enabled: true
+      linkit_profile: content
+    language:
+      language_list: un
+    tokenbrowser:
+      token_types: {  }
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

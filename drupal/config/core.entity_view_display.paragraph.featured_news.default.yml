@@ -1,0 +1,25 @@
+uuid: e7b60f26-52f6-49c9-b24d-1213d916cfa3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.featured_news.field_paragraph_news_reference
+    - paragraphs.paragraphs_type.featured_news
+_core:
+  default_config_hash: xS7AG0OWKAWSPG9BNJLfVreZ9NMx5HPYMZdcxFXBTWM
+id: paragraph.featured_news.default
+targetEntityType: paragraph
+bundle: featured_news
+mode: default
+content:
+  field_paragraph_news_reference:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: featured_card
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  search_api_excerpt: true

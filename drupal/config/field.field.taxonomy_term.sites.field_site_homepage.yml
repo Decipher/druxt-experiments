@@ -1,0 +1,42 @@
+uuid: f87c1d9e-8003-4800-b7b7-ae77fa9cbdfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_site_homepage
+    - node.type.alert
+    - node.type.event
+    - node.type.landing_page
+    - node.type.news
+    - node.type.page
+    - node.type.publication
+    - node.type.publication_page
+    - taxonomy.vocabulary.sites
+_core:
+  default_config_hash: T6xcDrb0291MRQev0WfwqZgvm6xlY_TNSXVeWI4t3LY
+id: taxonomy_term.sites.field_site_homepage
+field_name: field_site_homepage
+entity_type: taxonomy_term
+bundle: sites
+label: Homepage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      alert: alert
+      event: event
+      landing_page: landing_page
+      news: news
+      page: page
+      publication_page: publication_page
+      publication: publication
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: landing_page
+field_type: entity_reference

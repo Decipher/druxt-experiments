@@ -1,0 +1,25 @@
+uuid: 0df2f295-a4c4-44ef-a37b-726543b47171
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_whats_next
+    - node.type.page
+_core:
+  default_config_hash: _NqUEDmtOzL0o4R-QCS1VtBb7lGWd2KtrX_bSizLRj0
+id: node.page.field_show_whats_next
+field_name: field_show_whats_next
+entity_type: node
+bundle: page
+label: 'Show What''s Next?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

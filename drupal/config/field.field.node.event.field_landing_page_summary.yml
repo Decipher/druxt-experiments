@@ -1,0 +1,21 @@
+uuid: d6312d33-5f50-4e63-a0bd-c8235db18353
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_summary
+    - node.type.event
+_core:
+  default_config_hash: HILR95FawPavIblbuG5ylEOKqsqFE1bG-lWmdKQm4qQ
+id: node.event.field_landing_page_summary
+field_name: field_landing_page_summary
+entity_type: node
+bundle: event
+label: Summary
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

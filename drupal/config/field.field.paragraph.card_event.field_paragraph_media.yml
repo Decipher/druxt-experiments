@@ -1,0 +1,30 @@
+uuid: dafc49ab-2472-4883-8852-cf8b8eb6ee24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_media
+    - media.type.image
+    - paragraphs.paragraphs_type.card_event
+_core:
+  default_config_hash: RgkyalmFCzaZgdsys3iP8AITDeLEhlUdaCYJIEAFemU
+id: paragraph.card_event.field_paragraph_media
+field_name: field_paragraph_media
+entity_type: paragraph
+bundle: card_event
+label: Media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,36 @@
+uuid: 17331732-eceb-4fdd-9cb6-c931bee7e744
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publication
+    - node.type.publication
+    - node.type.publication_page
+  module:
+    - entity_hierarchy
+_core:
+  default_config_hash: PW0S1sZPxFRa6HdjRXUUjJOpypcqEcKN41BfoCdAGQo
+id: node.publication_page.field_publication
+field_name: field_publication
+entity_type: node
+bundle: publication_page
+label: 'Publication / Parent page'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      publication: publication
+      publication_page: publication_page
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+  weight_min: -1000
+  weight_max: 1000
+  weight_label: Weight
+field_type: entity_reference_hierarchy

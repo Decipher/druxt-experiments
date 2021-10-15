@@ -1,0 +1,25 @@
+uuid: 404693c6-9934-4d5a-950b-191992efe027
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_links
+    - paragraphs.paragraphs_type.introduction_banner
+  module:
+    - link
+_core:
+  default_config_hash: H580EXBMWA2AkvVZzrWafeptIdMIMwHGkTAp_CnoQ0E
+id: paragraph.introduction_banner.field_paragraph_links
+field_name: field_paragraph_links
+entity_type: paragraph
+bundle: introduction_banner
+label: Links
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,21 @@
+uuid: f0620ee8-f05d-4199-b014-a295c3f9ec4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_call_to_action_title
+    - paragraphs.paragraphs_type.introduction_banner
+_core:
+  default_config_hash: Pask3XVqV1mugYqO5E1I3HcdcJjpRaWe4FP1_d5e-sU
+id: paragraph.introduction_banner.field_call_to_action_title
+field_name: field_call_to_action_title
+entity_type: paragraph
+bundle: introduction_banner
+label: 'Button heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

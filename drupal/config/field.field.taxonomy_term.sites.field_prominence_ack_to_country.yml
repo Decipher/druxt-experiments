@@ -1,0 +1,21 @@
+uuid: b478157a-3c5c-4930-a960-4b7fb1305ab3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_prominence_ack_to_country
+    - taxonomy.vocabulary.sites
+_core:
+  default_config_hash: zbTJM9nLZU3_pVZK23I1Yi0VNyttrRJ3PGiVjDwrp9w
+id: taxonomy_term.sites.field_prominence_ack_to_country
+field_name: field_prominence_ack_to_country
+entity_type: taxonomy_term
+bundle: sites
+label: 'Prominence of Acknowledgement of Country'
+description: 'If left empty, the text from the <em>Acknowledgement to Country</em> field will be used.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

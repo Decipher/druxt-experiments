@@ -1,0 +1,25 @@
+uuid: 0114490c-3e4a-4dc1-ab63-15efcc7b6f55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_restricted
+    - media.type.document
+_core:
+  default_config_hash: AuSrCVJOUBFQ_7gWVHJBFuOX9h4VM6smOo3fPsObxT4
+id: media.document.field_media_restricted
+field_name: field_media_restricted
+entity_type: media
+bundle: document
+label: Restricted
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,46 @@
+uuid: 5ec8d7b7-087a-4e79-b68f-0818ca52e197
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_link
+    - paragraphs.paragraphs_type.navigation_card
+  module:
+    - link
+    - link_field_autocomplete_filter
+third_party_settings:
+  link_field_autocomplete_filter:
+    negate: null
+    allowed_content_types:
+      aboriginal_honour_roll: 0
+      alert: 0
+      event: 0
+      fv_recommendation: 0
+      grant: 0
+      landing_page: 0
+      news: 0
+      page: 0
+      profile: 0
+      publication: 0
+      publication_page: 0
+      sr_profile: 0
+      test: 0
+      translated_page: 0
+      vada_profile: 0
+      vdrp_profile: 0
+_core:
+  default_config_hash: 1QAV3R9cZNJ-8IJIIXy7cHB2jyEbDstpyZKjsEI7Krc
+id: paragraph.navigation_card.field_paragraph_link
+field_name: field_paragraph_link
+entity_type: paragraph
+bundle: navigation_card
+label: Link
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

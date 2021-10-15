@@ -1,0 +1,21 @@
+uuid: 67433e9d-5452-42bc-a3d3-0bad48606302
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_landing_page_summary
+    - node.type.news
+_core:
+  default_config_hash: dwFVYRygnGUN6Swn_d8YS-LmobexjI25sDD7guY3Xko
+id: node.news.field_landing_page_summary
+field_name: field_landing_page_summary
+entity_type: node
+bundle: news
+label: Summary
+description: 'Add short summary to introduce your news story. This summary will display on promotional cards or a card carousel.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

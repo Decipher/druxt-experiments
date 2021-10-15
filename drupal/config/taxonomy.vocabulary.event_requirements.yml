@@ -1,0 +1,10 @@
+uuid: a8708d3c-d129-4bb0-a9ce-4600197e0586
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Gc8xpsox8fw58BO6gHSKPulf4isF51OyE78W1NxRBRY
+name: 'Event Requirements'
+vid: event_requirements
+description: 'Event Requirements for events'
+weight: 0

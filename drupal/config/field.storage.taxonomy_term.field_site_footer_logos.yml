@@ -1,0 +1,23 @@
+uuid: 9d5a493e-c7f8-438c-a661-8d596ff7d54f
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+    - taxonomy
+_core:
+  default_config_hash: tvpQ1s2i5ldqru60-46pSTM-8eShm9BAmM05I8j419M
+id: taxonomy_term.field_site_footer_logos
+field_name: field_site_footer_logos
+entity_type: taxonomy_term
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

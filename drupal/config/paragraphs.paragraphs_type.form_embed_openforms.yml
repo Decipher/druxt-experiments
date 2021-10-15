@@ -1,0 +1,14 @@
+uuid: ed86c693-7b49-493f-9831-bcd79ce99a14
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:55da707e-49a8-4f2c-a853-6e67ece6e9ff'
+_core:
+  default_config_hash: gKjvuDK9GH3tWy8rizU9jqGmcU8iwTCpus_7Vl4JAz8
+id: form_embed_openforms
+label: 'Form embed (OpenForms)'
+icon_uuid: 55da707e-49a8-4f2c-a853-6e67ece6e9ff
+icon_default: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjgiIGhlaWdodD0iNzciIHZpZXdCb3g9IjAgMCA2OCA3NyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjY4IiBoZWlnaHQ9Ijc3IiBmaWxsPSJ3aGl0ZSIvPgo8cmVjdCB4PSI4IiB5PSIxOCIgd2lkdGg9IjUyIiBoZWlnaHQ9IjEyIiByeD0iMyIgZmlsbD0id2hpdGUiIHN0cm9rZT0iI0M0QzRDNCIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxyZWN0IHg9IjciIHk9IjUzIiB3aWR0aD0iMzAiIGhlaWdodD0iMTQiIHJ4PSI0IiBmaWxsPSIjQzRDNEM0Ii8+CjxyZWN0IHg9IjciIHk9IjciIHdpZHRoPSIyMCIgaGVpZ2h0PSI2IiBmaWxsPSIjQTFBMUExIi8+CjxyZWN0IHg9IjgiIHk9IjM2IiB3aWR0aD0iNTIiIGhlaWdodD0iMTIiIHJ4PSIzIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSIjQzRDNEM0IiBzdHJva2Utd2lkdGg9IjIiLz4KPC9zdmc+Cg=='
+description: 'Embed an OpenForms form on your page. Users can populate fields and submit their information.'
+behavior_plugins: {  }

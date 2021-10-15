@@ -1,0 +1,21 @@
+uuid: 9e9826bb-94c8-4ffb-aef5-9d0261c4c9e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_complex_image_source
+    - paragraphs.paragraphs_type.complex_image
+_core:
+  default_config_hash: oV_YiV8dMZLCjY5ZoRmPaHpQfF_njLHMngw_UmFPV6A
+id: paragraph.complex_image.field_complex_image_source
+field_name: field_complex_image_source
+entity_type: paragraph
+bundle: complex_image
+label: Source
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

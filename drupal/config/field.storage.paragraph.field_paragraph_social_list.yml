@@ -1,0 +1,38 @@
+uuid: 86eb5d10-5b39-44d7-91a2-5221da8a045b
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: p9PLOEquzXU-HHasUIHosru0jcF14HG9lm6Cevfafac
+id: paragraph.field_paragraph_social_list
+field_name: field_paragraph_social_list
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: twitter
+      label: Twitter
+    -
+      value: facebook
+      label: Facebook
+    -
+      value: linkedin
+      label: LinkedIn
+    -
+      value: instagram
+      label: Instagram
+    -
+      value: youtube_channel
+      label: 'Youtube channel'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

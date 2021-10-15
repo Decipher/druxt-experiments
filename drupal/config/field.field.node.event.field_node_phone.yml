@@ -1,0 +1,23 @@
+uuid: f1629ec9-f36a-4a61-aeaf-ef2f48872de3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_node_phone
+    - node.type.event
+  module:
+    - telephone
+_core:
+  default_config_hash: RH50CxDMCgpyLJQdqAmpicgGtHJ5YuIoNLmwLDIHYHQ
+id: node.event.field_node_phone
+field_name: field_node_phone
+entity_type: node
+bundle: event
+label: 'Contact Phone Number'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

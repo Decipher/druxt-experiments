@@ -1,0 +1,25 @@
+uuid: 7b4df075-49a9-4152-935f-393954ffe460
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_promo_card_display_style
+    - paragraphs.paragraphs_type.promotion_card
+  module:
+    - options
+_core:
+  default_config_hash: 8uGTBNS8BDT-9iXjHcWzFjclbYndeQTJgD8rCszA6aw
+id: paragraph.promotion_card.field_promo_card_display_style
+field_name: field_promo_card_display_style
+entity_type: paragraph
+bundle: promotion_card
+label: 'Card Display Style'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: thumbnail
+default_value_callback: ''
+settings: {  }
+field_type: list_string

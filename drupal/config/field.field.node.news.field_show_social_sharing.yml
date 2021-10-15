@@ -1,0 +1,25 @@
+uuid: ef014851-0313-4100-853e-912f80577e32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_social_sharing
+    - node.type.news
+_core:
+  default_config_hash: HkJPyPmqvAdyv2rTaXkObErRIO8tHMA1diJAGPJT_AU
+id: node.news.field_show_social_sharing
+field_name: field_show_social_sharing
+entity_type: node
+bundle: news
+label: 'Social sharing'
+description: 'The social sharing box can be hidden in special circumstances.'
+required: true
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,394 @@
+uuid: 4bb250b9-8dce-48eb-9195-342c0d6e1792
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.tide_image_browser
+    - field.field.node.news.body
+    - field.field.node.news.field_featured_image
+    - field.field.node.news.field_landing_page_contact
+    - field.field.node.news.field_landing_page_show_contact
+    - field.field.node.news.field_landing_page_summary
+    - field.field.node.news.field_location
+    - field.field.node.news.field_metatags
+    - field.field.node.news.field_news_date
+    - field.field.node.news.field_news_intro_text
+    - field.field.node.news.field_node_department
+    - field.field.node.news.field_node_primary_site
+    - field.field.node.news.field_node_site
+    - field.field.node.news.field_related_links
+    - field.field.node.news.field_show_content_rating
+    - field.field.node.news.field_show_related_content
+    - field.field.node.news.field_show_social_sharing
+    - field.field.node.news.field_tags
+    - field.field.node.news.field_topic
+    - node.type.news
+    - workflows.workflow.editorial
+  module:
+    - content_moderation
+    - datetime
+    - entity_browser
+    - field_group
+    - maxlength
+    - metatag
+    - paragraphs
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_related_links:
+      children:
+        - field_show_related_content
+        - field_related_links
+      parent_name: group_sidebar
+      weight: 10
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: 'Related pages can be linked from this sidebar.'
+        required_fields: true
+        open: false
+      label: 'Related links'
+      region: content
+    group_section_header:
+      label: 'Header Section'
+      parent_name: ''
+      children:
+        - group_header
+      format_type: tabs
+      format_settings:
+        direction: horizontal
+        id: node-form-group-header-section
+        classes: ''
+      region: content
+      weight: -100
+    group_header:
+      label: Header
+      parent_name: group_section_header
+      children:
+        - title
+        - field_landing_page_summary
+        - field_news_intro_text
+      format_type: tab
+      format_settings:
+        description: ''
+        formatter: closed
+        required_fields: true
+        id: ''
+        classes: ''
+      region: content
+      weight: -99
+    group_section_content:
+      label: 'Content Section'
+      parent_name: ''
+      children:
+        - group_content
+        - group_author_detail
+      format_type: tabs
+      format_settings:
+        direction: horizontal
+        id: node-form-group-content-section
+        classes: ''
+      region: content
+      weight: -80
+    group_content:
+      label: 'News content'
+      parent_name: group_section_content
+      children:
+        - field_news_date
+        - body
+      format_type: tab
+      format_settings:
+        description: ''
+        formatter: closed
+        required_fields: true
+        id: ''
+        classes: ''
+      region: content
+      weight: -79
+    group_author_detail:
+      label: 'Author detail'
+      parent_name: group_section_content
+      children:
+        - field_location
+        - field_node_department
+      format_type: tab
+      format_settings:
+        description: ''
+        formatter: closed
+        required_fields: true
+        id: ''
+        classes: ''
+      region: content
+      weight: -78
+    group_section_sidebar:
+      label: 'Sidebar Section'
+      parent_name: ''
+      children:
+        - group_sidebar
+      format_type: tabs
+      format_settings:
+        direction: horizontal
+        id: node-form-group-sidebar-section
+        classes: ''
+      region: content
+      weight: -60
+    group_sidebar:
+      label: Sidebar
+      parent_name: group_section_sidebar
+      children:
+        - group_related_links
+        - group_contact_us
+        - field_show_social_sharing
+      format_type: tab
+      format_settings:
+        description: ''
+        formatter: closed
+        required_fields: true
+        id: ''
+        classes: ''
+      region: content
+      weight: -61
+    group_contact_us:
+      label: Contact
+      parent_name: group_sidebar
+      children:
+        - field_landing_page_show_contact
+        - field_landing_page_contact
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: 'Specific contact details - name, address, phone, email can be added in a block to the sidebar.'
+        required_fields: false
+        open: false
+      region: content
+      weight: 20
+_core:
+  default_config_hash: mxA6Pbu43ZDr9ToyQHlunjP9cEFlxZRvKiM9AWlWwo4
+id: node.news.default
+targetEntityType: node
+bundle: news
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 10
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_featured_image:
+    weight: -90
+    settings:
+      entity_browser: tide_image_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: media_browser_preview
+      open: true
+      field_widget_replace: false
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+  field_landing_page_contact:
+    weight: 10
+    settings:
+      title: 'Contact Us block'
+      title_plural: 'Contact Us blocks'
+      edit_mode: closed
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+  field_landing_page_show_contact:
+    weight: 0
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_landing_page_summary:
+    weight: 10
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 200
+        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
+        maxlength_js_enforce: false
+        maxlength_js_truncate_html: false
+    type: string_textarea
+    region: content
+  field_location:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_metatags:
+    weight: 22
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_news_date:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_news_intro_text:
+    weight: 20
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_node_department:
+    weight: 10
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_related_links:
+    weight: 10
+    settings:
+      title: Link
+      title_plural: Links
+      edit_mode: closed
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+  field_show_content_rating:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_show_related_content:
+    weight: 0
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_show_social_sharing:
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_tags:
+    weight: 18
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_topic:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 17
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 14
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 12
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 13
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 150
+        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
+  uid:
+    type: entity_reference_autocomplete
+    weight: 10
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 15
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_node_primary_site: true
+  field_node_site: true

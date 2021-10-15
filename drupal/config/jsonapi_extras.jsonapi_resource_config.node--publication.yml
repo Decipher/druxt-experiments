@@ -1,0 +1,289 @@
+uuid: c226a37d-f10e-4ce1-a566-1491c34b5fc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.publication
+_core:
+  default_config_hash: nhTYaFRbifl4NVphfxTU7QFk_n4ICFR_RsrcwhTqk38
+id: node--publication
+disabled: false
+path: node/publication
+resourceType: node--publication
+resourceFields:
+  nid:
+    fieldName: nid
+    publicName: nid
+    enhancer:
+      id: ''
+    disabled: false
+  uuid:
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+    disabled: false
+  vid:
+    fieldName: vid
+    publicName: vid
+    enhancer:
+      id: ''
+    disabled: false
+  langcode:
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+    disabled: false
+  type:
+    fieldName: type
+    publicName: type
+    enhancer:
+      id: ''
+    disabled: false
+  revision_timestamp:
+    fieldName: revision_timestamp
+    publicName: revision_timestamp
+    enhancer:
+      id: ''
+    disabled: false
+  revision_uid:
+    fieldName: revision_uid
+    publicName: revision_uid
+    enhancer:
+      id: ''
+    disabled: false
+  revision_log:
+    fieldName: revision_log
+    publicName: revision_log
+    enhancer:
+      id: ''
+    disabled: false
+  status:
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+    disabled: false
+  title:
+    fieldName: title
+    publicName: title
+    enhancer:
+      id: ''
+    disabled: false
+  uid:
+    fieldName: uid
+    publicName: uid
+    enhancer:
+      id: ''
+    disabled: false
+  created:
+    fieldName: created
+    publicName: created
+    enhancer:
+      id: date_time
+      settings:
+        dateTimeFormat: 'Y-m-d\TH:i:sP'
+    disabled: false
+  changed:
+    fieldName: changed
+    publicName: changed
+    enhancer:
+      id: date_time
+      settings:
+        dateTimeFormat: 'Y-m-d\TH:i:sP'
+    disabled: false
+  promote:
+    fieldName: promote
+    publicName: promote
+    enhancer:
+      id: ''
+    disabled: false
+  sticky:
+    fieldName: sticky
+    publicName: sticky
+    enhancer:
+      id: ''
+    disabled: false
+  default_langcode:
+    fieldName: default_langcode
+    publicName: default_langcode
+    enhancer:
+      id: ''
+    disabled: false
+  revision_default:
+    fieldName: revision_default
+    publicName: revision_default
+    enhancer:
+      id: ''
+    disabled: false
+  revision_translation_affected:
+    fieldName: revision_translation_affected
+    publicName: revision_translation_affected
+    enhancer:
+      id: ''
+    disabled: false
+  moderation_state:
+    fieldName: moderation_state
+    publicName: moderation_state
+    enhancer:
+      id: ''
+    disabled: false
+  metatag:
+    fieldName: metatag
+    publicName: metatag
+    enhancer:
+      id: ''
+    disabled: false
+  metatag_normalized:
+    fieldName: metatag_normalized
+    publicName: metatag_normalized
+    enhancer:
+      id: ''
+    disabled: false
+  path:
+    fieldName: path
+    publicName: path
+    enhancer:
+      id: path_enhancer
+    disabled: false
+  menu_link:
+    fieldName: menu_link
+    publicName: menu_link
+    enhancer:
+      id: ''
+    disabled: false
+  field_featured_image:
+    fieldName: field_featured_image
+    publicName: field_featured_image
+    enhancer:
+      id: ''
+    disabled: false
+  field_landing_page_component:
+    fieldName: field_landing_page_component
+    publicName: field_landing_page_component
+    enhancer:
+      id: ''
+    disabled: false
+  field_landing_page_contact:
+    fieldName: field_landing_page_contact
+    publicName: field_landing_page_contact
+    enhancer:
+      id: ''
+    disabled: false
+  field_landing_page_hero_image:
+    fieldName: field_landing_page_hero_image
+    publicName: field_landing_page_hero_image
+    enhancer:
+      id: ''
+    disabled: false
+  field_landing_page_hero_theme:
+    fieldName: field_landing_page_hero_theme
+    publicName: field_landing_page_hero_theme
+    enhancer:
+      id: ''
+    disabled: false
+  field_landing_page_intro_text:
+    fieldName: field_landing_page_intro_text
+    publicName: field_landing_page_intro_text
+    enhancer:
+      id: ''
+    disabled: false
+  field_landing_page_show_contact:
+    fieldName: field_landing_page_show_contact
+    publicName: field_landing_page_show_contact
+    enhancer:
+      id: ''
+    disabled: false
+  field_landing_page_summary:
+    fieldName: field_landing_page_summary
+    publicName: field_landing_page_summary
+    enhancer:
+      id: ''
+    disabled: false
+  field_license_type:
+    fieldName: field_license_type
+    publicName: field_license_type
+    enhancer:
+      id: ''
+    disabled: false
+  field_node_display_headings:
+    fieldName: field_node_display_headings
+    publicName: field_node_display_headings
+    enhancer:
+      id: ''
+    disabled: false
+  field_node_documents:
+    fieldName: field_node_documents
+    publicName: field_node_documents
+    enhancer:
+      id: ''
+    disabled: false
+  field_publication_authors:
+    fieldName: field_publication_authors
+    publicName: field_publication_authors
+    enhancer:
+      id: ''
+    disabled: false
+  field_publication_date:
+    fieldName: field_publication_date
+    publicName: field_publication_date
+    enhancer:
+      id: date_time_from_string
+      settings:
+        dateTimeFormat: 'Y-m-d\TH:i:sP'
+    disabled: false
+  field_related_links:
+    fieldName: field_related_links
+    publicName: field_related_links
+    enhancer:
+      id: ''
+    disabled: false
+  field_show_content_rating:
+    fieldName: field_show_content_rating
+    publicName: field_show_content_rating
+    enhancer:
+      id: ''
+    disabled: false
+  field_show_publication_nav:
+    fieldName: field_show_publication_nav
+    publicName: field_show_publication_nav
+    enhancer:
+      id: ''
+    disabled: false
+  field_show_related_content:
+    fieldName: field_show_related_content
+    publicName: field_show_related_content
+    enhancer:
+      id: ''
+    disabled: false
+  field_show_social_sharing:
+    fieldName: field_show_social_sharing
+    publicName: field_show_social_sharing
+    enhancer:
+      id: ''
+    disabled: false
+  field_show_table_of_content:
+    fieldName: field_show_table_of_content
+    publicName: field_show_table_of_content
+    enhancer:
+      id: ''
+    disabled: false
+  field_topic:
+    fieldName: field_topic
+    publicName: field_topic
+    enhancer:
+      id: ''
+    disabled: false
+  publication_children:
+    fieldName: publication_children
+    publicName: publication_children
+    enhancer:
+      id: entity_reference_site_enhancer
+    disabled: false
+  publication_navigation_next:
+    fieldName: publication_navigation_next
+    publicName: publication_navigation_next
+    enhancer:
+      id: entity_reference_site_enhancer
+    disabled: false

@@ -1,0 +1,67 @@
+uuid: b92e9c3f-f88b-4343-9e8d-ef9a5291e4e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - image
+_core:
+  default_config_hash: pEtYRPEVZG5qpU18uccqaPu5-b1y2StJhN683Kl_7IY
+id: image_style--image_style
+disabled: true
+path: image_style/image_style
+resourceType: image_style--image_style
+resourceFields:
+  name:
+    fieldName: name
+    publicName: name
+    enhancer:
+      id: ''
+    disabled: false
+  uuid:
+    fieldName: uuid
+    publicName: uuid
+    enhancer:
+      id: ''
+    disabled: false
+  langcode:
+    fieldName: langcode
+    publicName: langcode
+    enhancer:
+      id: ''
+    disabled: false
+  status:
+    fieldName: status
+    publicName: status
+    enhancer:
+      id: ''
+    disabled: false
+  dependencies:
+    fieldName: dependencies
+    publicName: dependencies
+    enhancer:
+      id: ''
+    disabled: false
+  third_party_settings:
+    fieldName: third_party_settings
+    publicName: third_party_settings
+    enhancer:
+      id: ''
+    disabled: false
+  _core:
+    fieldName: _core
+    publicName: _core
+    enhancer:
+      id: ''
+    disabled: false
+  label:
+    fieldName: label
+    publicName: label
+    enhancer:
+      id: ''
+    disabled: false
+  effects:
+    fieldName: effects
+    publicName: effects
+    enhancer:
+      id: ''
+    disabled: false

@@ -1,0 +1,21 @@
+uuid: c7f4e995-b359-4ed3-b726-7d02d748aac9
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: 2n7GF4DJKSmBC7qR3DzXgeuN1WUp7nkWdbBA2T7hZ-E
+id: taxonomy_term.field_prominence_ack_to_country
+field_name: field_prominence_ack_to_country
+entity_type: taxonomy_term
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,88 @@
+uuid: 0e6d3330-121d-48f1-bce9-e6f02de55269
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.admin_text
+  module:
+    - ckeditor
+_core:
+  default_config_hash: ufFZ6y7MgdXYHZlcDD2cnZBddVbZC7_Nxfh86TyPyIM
+format: admin_text
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Strike
+            - Styles
+            - Superscript
+            - Subscript
+            - '-'
+            - RemoveFormat
+            - Copy
+            - Cut
+            - Paste
+            - PasteText
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - Linkit
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+            - TideCallout
+            - Table
+            - HorizontalRule
+        -
+          name: Format
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+            - '-'
+            - Outdent
+            - Indent
+            - Format
+        -
+          name: Tools
+          items:
+            - Undo
+            - Redo
+            - ShowBlocks
+            - Maximize
+            - Source
+            - TemplateSelector
+            - Iframe
+            - wenzgmap
+            - tide_media
+  plugins:
+    drupallink:
+      linkit_enabled: true
+      linkit_profile: content
+    stylescombo:
+      styles: "p.wysiwyg-callout|Callout\r\nol.wysiwyg-callout|Callout (Ordered list)\r\nul.wysiwyg-callout|Callout (Unordered list)"
+    language:
+      language_list: un
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

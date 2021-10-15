@@ -1,0 +1,68 @@
+uuid: 510488b2-de6f-4edb-996d-ecbeb1cc7011
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.call_to_action.field_paragraph_body
+    - field.field.paragraph.call_to_action.field_paragraph_cta
+    - field.field.paragraph.call_to_action.field_paragraph_cta_style
+    - field.field.paragraph.call_to_action.field_paragraph_media
+    - field.field.paragraph.call_to_action.field_paragraph_title
+    - paragraphs.paragraphs_type.call_to_action
+  module:
+    - link
+    - media
+    - options
+    - text
+_core:
+  default_config_hash: znZDzGUuO4Rpmla3owH8CeW21-lJok-p-rsb9IlBkck
+id: paragraph.call_to_action.default
+targetEntityType: paragraph
+bundle: call_to_action
+mode: default
+content:
+  field_paragraph_body:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_paragraph_cta:
+    weight: 3
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_paragraph_cta_style:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_paragraph_media:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: media_thumbnail
+    region: content
+  field_paragraph_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

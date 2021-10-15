@@ -1,0 +1,12 @@
+uuid: a64bdba9-f173-483f-9001-c7873375630d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-TDzdCwey8BG9T2H_bsYXE_0AeEKQqlIiSJ_aKApVB8'
+id: phone
+label: Phone
+icon_uuid: null
+icon_default: null
+description: 'Provides a phone number field with an option of adding a title to the number.'
+behavior_plugins: {  }

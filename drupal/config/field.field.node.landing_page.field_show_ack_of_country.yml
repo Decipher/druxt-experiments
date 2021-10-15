@@ -1,0 +1,25 @@
+uuid: 8d29607d-0373-4032-a32c-f374be57edbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_ack_of_country
+    - node.type.landing_page
+_core:
+  default_config_hash: xbVyGntjzQf-gnNSWUr3h426jjDrc3yrioQ-096AntM
+id: node.landing_page.field_show_ack_of_country
+field_name: field_show_ack_of_country
+entity_type: node
+bundle: landing_page
+label: 'Show Acknowledgement of Country?'
+description: 'Check this box if you want to show the Acknowledgement of Country block below the header.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,25 @@
+uuid: 5abb0435-db51-44c8-a0da-af5cd758e029
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_nav_card_display_style
+    - paragraphs.paragraphs_type.navigation_card
+  module:
+    - options
+_core:
+  default_config_hash: jAivKJl_auWGwPZrcCqMRKdONXbenzU2xfMbDewt-dA
+id: paragraph.navigation_card.field_nav_card_display_style
+field_name: field_nav_card_display_style
+entity_type: paragraph
+bundle: navigation_card
+label: 'Card Display Style'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: noImage
+default_value_callback: ''
+settings: {  }
+field_type: list_string

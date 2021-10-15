@@ -1,0 +1,25 @@
+uuid: 2b72811c-7616-47ab-92ac-38a960503287
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_content_rating
+    - node.type.publication_page
+_core:
+  default_config_hash: ELNMMzmR84Ctr0iaidNpuEIohOcr6yZ2cLPsRf9Uc-c
+id: node.publication_page.field_show_content_rating
+field_name: field_show_content_rating
+entity_type: node
+bundle: publication_page
+label: 'Show content rating?'
+description: 'Show ''Was this page helpful?'' feedback form. Do not uncheck this form without admin approval.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
