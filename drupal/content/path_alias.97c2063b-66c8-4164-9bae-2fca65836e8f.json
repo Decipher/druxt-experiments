@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "97c2063b-66c8-4164-9bae-2fca65836e8f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/5"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/topic\/topic"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

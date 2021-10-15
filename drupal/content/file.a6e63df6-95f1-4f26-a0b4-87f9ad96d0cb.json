@@ -1,0 +1,60 @@
+{
+    "uuid": [
+        {
+            "value": "a6e63df6-95f1-4f26-a0b4-87f9ad96d0cb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "b21c07b8-37ec-4545-841f-3ad09d31cd68"
+        }
+    ],
+    "filename": [
+        {
+            "value": "media_gallery-default-icon.svg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/paragraphs_type_icon\/media_gallery-default-icon.svg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/svg+xml"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 868
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-10-15T10:02:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-10-15T10:02:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "url": [
+        {
+            "value": "https:\/\/8080-lime-kangaroo-fk8nl896.ws-us17.gitpod.io\/sites\/default\/files\/paragraphs_type_icon\/media_gallery-default-icon.svg"
+        }
+    ]
+}

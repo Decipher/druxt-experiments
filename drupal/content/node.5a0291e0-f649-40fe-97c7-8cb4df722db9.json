@@ -1,0 +1,154 @@
+{
+    "uuid": [
+        {
+            "value": "5a0291e0-f649-40fe-97c7-8cb4df722db9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "19e8db8b-612d-4010-a985-b38ce7cff229"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2021-10-15T10:04:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "b21c07b8-37ec-4545-841f-3ad09d31cd68"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "b21c07b8-37ec-4545-841f-3ad09d31cd68"
+        }
+    ],
+    "title": [
+        {
+            "value": "Welcome to a Tide page"
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-10-15T10:01:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-10-15T10:04:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "moderation_state": [
+        {
+            "value": "published"
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.<\/strong><\/p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p>\r\n\r\n<p>Pellentesque in ipsum id orci porta dapibus. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus.<\/p>\r\n",
+            "format": "rich_text",
+            "summary": ""
+        }
+    ],
+    "field_featured_image": [],
+    "field_graphical_image": [],
+    "field_metatags": [],
+    "field_node_display_headings": [
+        {
+            "value": "showH2"
+        }
+    ],
+    "field_node_primary_site": [],
+    "field_node_site": [],
+    "field_page_intro_text": [
+        {
+            "value": "This is some introduction text."
+        }
+    ],
+    "field_related_links": [],
+    "field_show_content_rating": [
+        {
+            "value": true
+        }
+    ],
+    "field_show_related_content": [
+        {
+            "value": false
+        }
+    ],
+    "field_show_social_sharing": [
+        {
+            "value": true
+        }
+    ],
+    "field_show_table_of_content": [
+        {
+            "value": false
+        }
+    ],
+    "field_show_topic_term_and_tags": [
+        {
+            "value": true
+        }
+    ],
+    "field_show_whats_next": [
+        {
+            "value": false
+        }
+    ],
+    "field_tags": [],
+    "field_topic": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "80d0edac-9b99-4feb-94d4-15083ac33413"
+        }
+    ],
+    "field_whats_next": []
+}
