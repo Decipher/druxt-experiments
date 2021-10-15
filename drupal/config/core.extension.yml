@@ -13,6 +13,7 @@ module:
   better_exposed_filters: 0
   block: 0
   block_content: 0
+  breakpoint: 0
   ckeditor: 0
   ckeditor_iframe: 0
   ckeditor_liststyle: 0
@@ -28,7 +29,9 @@ module:
   datetime: 0
   datetime_range: 0
   dbal: 0
+  decoupled_router: 0
   diff: 0
+  druxt: 0
   dynamic_entity_reference: 0
   dynamic_page_cache: 0
   editor: 0
@@ -53,6 +56,9 @@ module:
   inline_entity_form: 0
   jsonapi: 0
   jsonapi_extras: 0
+  jsonapi_menu_items: 0
+  jsonapi_resources: 0
+  jsonapi_views: 0
   link: 0
   link_field_autocomplete_filter: 0
   linkit: 0
@@ -108,6 +114,7 @@ module:
   tome_base: 0
   tome_static: 0
   tome_sync: 0
+  toolbar: 0
   twig_field_value: 0
   update: 0
   user: 0
