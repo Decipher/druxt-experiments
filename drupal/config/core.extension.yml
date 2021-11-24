@@ -28,8 +28,10 @@ module:
   jsonapi_resources: 0
   jsonapi_views: 0
   link: 0
+  lupus_ce_renderer: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
   node: 0
   options: 0
   page_cache: 0
@@ -42,6 +44,7 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   tome: 0
   tome_base: 0
   tome_static: 0
@@ -51,6 +54,7 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  custom_elements: 10
   views: 10
   standard: 1000
 theme:

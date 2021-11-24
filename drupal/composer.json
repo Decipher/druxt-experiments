@@ -22,6 +22,7 @@
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/druxt": "^1.0",
+        "drupal/lupus_ce_renderer": "^2.0@beta",
         "drupal/tome": "^1.4",
         "drush/drush": "^10.6"
     },
