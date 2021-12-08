@@ -3319,121 +3319,121 @@ drupal-jsonapi-params@^1.1.12, drupal-jsonapi-params@^1.2.1, drupal-jsonapi-para
   dependencies:
     qs "^6.10.0"
 
-druxt-blocks@^0.13.1:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/druxt-blocks/-/druxt-blocks-0.13.1.tgz#88b6c2617c604986d07cdf51bf6daa43a6ddb82a"
-  integrity sha512-oqv8UWkscRmD/ql8JBjHrvuwtDM5xLtuyzTSLVrLIjIpeITFt8vqVSuHynN+KuybjbMb75cktAbk8EC2+b3H6A==
+druxt-blocks@^0.14.2:
+  version "0.14.2"
+  resolved "https://registry.yarnpkg.com/druxt-blocks/-/druxt-blocks-0.14.2.tgz#5ba19d61575869b2e19593edb8b711f7d2596bca"
+  integrity sha512-zN0PPCrvU+xuBmwyisFp+hiBw4VuRtntVh7yXb/oIUpEN8xnUfF0G83Cig9Cndd3VYO+pmpOZ16tgafCwoYo0Q==
   dependencies:
     axios "^0.21.1"
     drupal-jsonapi-params "^1.1.12"
-    druxt "^0.12.0"
-    druxt-entity "^0.20.0"
-    druxt-router "^0.22.0"
+    druxt "^0.14.0"
+    druxt-entity "^0.21.3"
+    druxt-router "^0.24.1"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-breadcrumb@^0.12.1:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/druxt-breadcrumb/-/druxt-breadcrumb-0.12.1.tgz#943dba753fec37ab2315da7ffde446892009f876"
-  integrity sha512-85Ko5tWXUh5CCA1vlspZk3qVOPBcWpfD9jM0n763e2IpJDw1vSMtf8X7Gwi2hmKPrJutJlzAHuo3W/USzKPaTQ==
+druxt-breadcrumb@^0.13.2:
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/druxt-breadcrumb/-/druxt-breadcrumb-0.13.2.tgz#299663217de546e20076a84c0b108d5fc80cc60e"
+  integrity sha512-PMSop3QeQmsfmd4jHsWkczep7/61CEvncML1iwe8mBopH/n3j3S7KxJ6bYydJHRl8krA3JyIBoEU64GDBZjpcQ==
   dependencies:
-    druxt "^0.12.0"
-    druxt-blocks "^0.13.1"
-    druxt-router "^0.22.0"
+    druxt "^0.14.0"
+    druxt-blocks "^0.14.2"
+    druxt-router "^0.24.1"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-entity@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/druxt-entity/-/druxt-entity-0.20.0.tgz#b44ffc133d8deeebc85fa0475a9e5c031d0036c3"
-  integrity sha512-sdk1nRrdUfQDMlsepXxDsIxMLmRokAH5GYBJunV6ygHMx0EsfuKt/1cOXKJggkKEU9U/PhDDAgo77d5FvrKA7g==
+druxt-entity@^0.21.3:
+  version "0.21.3"
+  resolved "https://registry.yarnpkg.com/druxt-entity/-/druxt-entity-0.21.3.tgz#b7267c6dc8243df42c17c50e031ab12e739cec3b"
+  integrity sha512-7+9AtjyA72tTDRvDYs1fqvCisM2Rv4LJCdBlTuFX1lXoyqYiipmoF1Rc8BBYTQFNRhPrx91Exl0jzymGyJwSZQ==
   dependencies:
     deepmerge "^4.2.2"
     drupal-jsonapi-params "^1.2.2"
-    druxt "^0.12.0"
-    druxt-router "^0.22.0"
-    druxt-schema "^0.8.1"
+    druxt "^0.14.0"
+    druxt-router "^0.24.1"
+    druxt-schema "^0.9.1"
 
-druxt-menu@^0.14.1:
-  version "0.14.3"
-  resolved "https://registry.yarnpkg.com/druxt-menu/-/druxt-menu-0.14.3.tgz#decc4a5e862c55458112a3a12883c2a4f880d61b"
-  integrity sha512-GiC6tJlcas52RQzHOlZR5urpYHQZy92WF1ba/C3j8kT2fVYNG5M6rPCqs1gvmsaXxS5/yNwCXJygixXe1N3vLA==
+druxt-menu@^0.15.1:
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/druxt-menu/-/druxt-menu-0.15.1.tgz#9583dfd3373b53440b2df1d952f8521880b9e1b0"
+  integrity sha512-d1LvMMN8lq21IA1VbveNIGmy4rld9giXzC3z/zo0O0Q2hWVZ5aj6fLXBM0UWyli2dGbXNfX84mKxDd2ojJLoZQ==
   dependencies:
     deepmerge "^4.2.2"
     drupal-jsonapi-params "^1.1.12"
-    druxt "^0.12.0"
-    druxt-blocks "^0.13.1"
+    druxt "^0.14.0"
+    druxt-blocks "^0.14.2"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-router@^0.22.0:
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/druxt-router/-/druxt-router-0.22.0.tgz#5df7775702d41ae533fbb46f6e5b32179d5baf0c"
-  integrity sha512-rKAJ5K5JcQUEOKfl9RrDIK57T4IDe7bke7gljQpkAxadpPKb1ahFWSs9bRDCVp6HPOs2HD6d3Gnll5GEMxcUsQ==
+druxt-router@^0.24.1:
+  version "0.24.1"
+  resolved "https://registry.yarnpkg.com/druxt-router/-/druxt-router-0.24.1.tgz#fa1be632b4386850e9212cde4dc42198466717c8"
+  integrity sha512-Rkp+2E4WH9LLJJE2otinoBjI9kTXOFris5lA058sYq3LejWtA/JqfOTq4rv9wmWt2rUa3NBGqO9gdvB5FthUNQ==
   dependencies:
-    druxt "^0.12.0"
+    druxt "^0.14.0"
     url-parse "^1.4.7"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-schema@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/druxt-schema/-/druxt-schema-0.8.1.tgz#8d92f6ba344ee681463cfca176032a3835abf98b"
-  integrity sha512-Fn2WBqbIlMGJxXf9h28Ub0av6/1Yudmy+Hl41018v/Y/dAp4NYRjsJ5exy6DJM19afA5N/8Q/KZxgwjLgKB5nA==
+druxt-schema@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/druxt-schema/-/druxt-schema-0.9.1.tgz#fc99f36f2c09f673390cd39d93a6de98680a48ab"
+  integrity sha512-eRnhYi9IEf2xXw2m5J/XI3JADxqs+x9NDHuO9R6XcQbU07/IqM4D9YK97E9aw2qmjWbcQEQXIS04VqlQyeHXMw==
   dependencies:
     consola "^2.15.0"
     drupal-jsonapi-params "^1.2.2"
-    druxt "^0.12.0"
+    druxt "^0.14.0"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-site@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/druxt-site/-/druxt-site-0.9.1.tgz#e95672ea926641e522da4f6705f7bfae6b46df4f"
-  integrity sha512-7sL/9Wz6e3PEYKwGoo6UOQYkrfjy6uCqMgrmZ7mmQv+vXB3oXiIrUKW2AYHP0V3YrrmFzA+3RPgCPDYHsJpXbQ==
+druxt-site@0.10.2:
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/druxt-site/-/druxt-site-0.10.2.tgz#23fa7bdeb5ac46862a606cea957486b3da2b235f"
+  integrity sha512-t16RC0zJu1qoLOv1Jx7YAMmSSMMfsLMhMQdFBUbGntdEOjEuF1T+oqyOYBoIUnYIzzyUzkqCkkeFWXWlBo+Rzg==
   dependencies:
-    "@nuxtjs/proxy" "^2.1.0"
     drupal-jsonapi-params "^1.2.2"
-    druxt "^0.12.0"
-    druxt-blocks "^0.13.1"
-    druxt-breadcrumb "^0.12.1"
-    druxt-entity "^0.20.0"
-    druxt-menu "^0.14.1"
-    druxt-router "^0.22.0"
-    druxt-schema "^0.8.1"
-    druxt-views "^0.15.0"
+    druxt "^0.14.0"
+    druxt-blocks "^0.14.2"
+    druxt-breadcrumb "^0.13.2"
+    druxt-entity "^0.21.3"
+    druxt-menu "^0.15.1"
+    druxt-router "^0.24.1"
+    druxt-schema "^0.9.1"
+    druxt-views "^0.16.2"
     md5 "^2.2.1"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-views@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/druxt-views/-/druxt-views-0.15.0.tgz#7e41fc2127c7c62cabe464b3ff0f3698fca9c018"
-  integrity sha512-BjINeoE5mDh3M5oFtbg4zF7/kw1DV3w6bsJyR3Wx7vExAfroWIPxw20R0KNbko76zifZWxalzOHS4Ro3oXU/Hg==
+druxt-views@^0.16.2:
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/druxt-views/-/druxt-views-0.16.2.tgz#aa77e848d7a042025ab02a6c457030ded1aed5b8"
+  integrity sha512-qa4IFOh3scdU0TV3rysqXkpbPZZIHNLcGcJFPhLn+ZW/yvMATP+mVyMV1IuVffXBt41pMES7feBI/gGmKB6GVg==
   dependencies:
     axios "^0.21.1"
     deepmerge "^4.2.2"
     drupal-jsonapi-params "^1.1.12"
-    druxt "^0.12.0"
-    druxt-blocks "^0.13.1"
-    druxt-entity "^0.20.0"
-    druxt-router "^0.22.0"
+    druxt "^0.14.0"
+    druxt-blocks "^0.14.2"
+    druxt-entity "^0.21.3"
+    druxt-router "^0.24.1"
     md5 "^2.3.0"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/druxt/-/druxt-0.12.0.tgz#d4cde116613965f4e85ab10d9191e9f424e916df"
-  integrity sha512-v34uKk7DFthiKVnDnktjt/1Q7ZZ4l76xc/INzWIrei4P5mfvkMcQ4QxT5Sqs1LcPast48C/nYuZV77pKsKbw4A==
+druxt@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/druxt/-/druxt-0.14.0.tgz#7509d8cb1408680670aa24a896e8bfde28951854"
+  integrity sha512-hMczj2prrnB4kEp8bTDJvQpYcvjRTUzbdjJuKIKmmclRkDgL8HfDKHSE0BVJPa64Jmh8sLGrIRnSkhfYJGIJNw==
   dependencies:
+    "@nuxtjs/proxy" "^2.1.0"
     axios "^0.21.1"
     chalk "^4.1.2"
     deepmerge "^4.2.2"
