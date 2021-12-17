@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "d6b93bd2-f7ca-4fd4-b289-c5b3ea70195e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "cd3d7d7f-4527-44f8-a1da-a816385d1cb1"
+        }
+    ],
+    "filename": [
+        {
+            "value": "generateImage_hesgJM.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2021-12\/generateImage_hesgJM.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 5079
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2021-12-12T04:57:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-12-12T04:57:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

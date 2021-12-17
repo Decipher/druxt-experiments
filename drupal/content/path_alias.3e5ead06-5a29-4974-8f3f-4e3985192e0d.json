@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "3e5ead06-5a29-4974-8f3f-4e3985192e0d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/2"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/genitus-jugis-mos-pagus-probo-sudo-ulciscor-usitas."
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
