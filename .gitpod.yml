@@ -46,3 +46,8 @@ github:
     addComment: false
     addBadge: true
     addLabel: true
+
+vscode:
+  extensions:
+    - octref.vetur
+    - editorconfig.editorconfig
