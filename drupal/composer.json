@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^9.3",
         "drupal/druxt": "^1.0",
         "drupal/tome": "^1.4",
+        "drupal/webform": "^6.1",
         "drush/drush": "^10.6"
     },
     "require-dev": {

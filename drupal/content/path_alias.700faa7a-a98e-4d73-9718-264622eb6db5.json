@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "700faa7a-a98e-4d73-9718-264622eb6db5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_input_masks\/drafts"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-input-masks\/drafts"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

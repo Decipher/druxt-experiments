@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "0f80de50-bfd7-4a79-9ab9-414cc48a1664"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_wizard\/submissions"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-wizard\/submissions"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

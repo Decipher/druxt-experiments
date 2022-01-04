@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "775e8eb7-6991-4545-ad86-0d6439ef8b14"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_element_states\/confirmation"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-element-states\/confirmation"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

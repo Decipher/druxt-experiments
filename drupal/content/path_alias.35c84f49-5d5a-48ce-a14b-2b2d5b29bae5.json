@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "35c84f49-5d5a-48ce-a14b-2b2d5b29bae5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_style_guide\/confirmation"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-style-guide\/confirmation"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

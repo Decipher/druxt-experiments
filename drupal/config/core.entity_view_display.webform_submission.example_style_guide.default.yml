@@ -1,0 +1,12 @@
+uuid: 9704ccf7-b2f4-4c3d-98d4-02b1ef5e8f4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.example_style_guide
+id: webform_submission.example_style_guide.default
+targetEntityType: webform_submission
+bundle: example_style_guide
+mode: default
+content: {  }
+hidden: {  }

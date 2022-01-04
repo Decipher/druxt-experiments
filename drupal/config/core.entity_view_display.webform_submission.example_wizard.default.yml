@@ -1,0 +1,12 @@
+uuid: bb1c5214-c6d6-44a1-a246-6384fae777b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.example_wizard
+id: webform_submission.example_wizard.default
+targetEntityType: webform_submission
+bundle: example_wizard
+mode: default
+content: {  }
+hidden: {  }

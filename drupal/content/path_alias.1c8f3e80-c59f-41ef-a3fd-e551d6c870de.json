@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "1c8f3e80-c59f-41ef-a3fd-e551d6c870de"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/contact\/submissions"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/contact\/submissions"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

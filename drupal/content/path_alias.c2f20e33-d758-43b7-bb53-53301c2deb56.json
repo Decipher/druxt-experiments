@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "c2f20e33-d758-43b7-bb53-53301c2deb56"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_computed_elements\/submissions"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-computed-elements\/submissions"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

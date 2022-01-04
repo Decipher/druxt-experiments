@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "21862a78-98c6-4ea9-95c3-c82ca3bff98f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_style_guide\/submissions"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-style-guide\/submissions"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

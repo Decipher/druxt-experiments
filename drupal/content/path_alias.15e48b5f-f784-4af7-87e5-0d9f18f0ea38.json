@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "15e48b5f-f784-4af7-87e5-0d9f18f0ea38"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_computed_elements\/drafts"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-computed-elements\/drafts"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

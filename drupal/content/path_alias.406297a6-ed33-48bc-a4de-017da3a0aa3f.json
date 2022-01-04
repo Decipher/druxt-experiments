@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "406297a6-ed33-48bc-a4de-017da3a0aa3f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_wizard\/confirmation"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-wizard\/confirmation"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

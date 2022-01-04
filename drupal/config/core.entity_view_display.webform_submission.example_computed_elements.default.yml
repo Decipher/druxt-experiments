@@ -1,0 +1,12 @@
+uuid: 87c4aea5-3700-4f7f-843a-e0578e4e3ea5
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.example_computed_elements
+id: webform_submission.example_computed_elements.default
+targetEntityType: webform_submission
+bundle: example_computed_elements
+mode: default
+content: {  }
+hidden: {  }

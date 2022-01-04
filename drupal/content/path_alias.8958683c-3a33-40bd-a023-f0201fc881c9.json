@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "8958683c-3a33-40bd-a023-f0201fc881c9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_input_masks\/submissions"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-input-masks\/submissions"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

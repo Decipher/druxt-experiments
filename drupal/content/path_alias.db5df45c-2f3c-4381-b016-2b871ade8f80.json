@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "db5df45c-2f3c-4381-b016-2b871ade8f80"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_style_guide\/drafts"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-style-guide\/drafts"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

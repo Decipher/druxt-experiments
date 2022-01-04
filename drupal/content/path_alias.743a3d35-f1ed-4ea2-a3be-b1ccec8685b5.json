@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "743a3d35-f1ed-4ea2-a3be-b1ccec8685b5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_flexbox_layout\/confirmation"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-flexbox-layout\/confirmation"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

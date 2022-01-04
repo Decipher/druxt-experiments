@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "a33066bf-6538-4a6f-96f8-88f1a8a5451a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_flexbox_layout\/drafts"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-flexbox-layout\/drafts"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

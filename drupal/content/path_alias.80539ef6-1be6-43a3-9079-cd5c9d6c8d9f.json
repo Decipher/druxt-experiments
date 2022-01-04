@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "80539ef6-1be6-43a3-9079-cd5c9d6c8d9f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_style_guide"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-style-guide"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

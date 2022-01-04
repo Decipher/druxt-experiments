@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "b5ad96ed-4201-4a7d-8a30-6d39b97b5b19"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/webform\/example_input_masks\/confirmation"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/form\/example-input-masks\/confirmation"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
