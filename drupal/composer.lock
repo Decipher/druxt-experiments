@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f00a7fcb618f80a4562f6e14c72ae100",
+    "content-hash": "0e5ff82869fee0a7956c8b31ad41104f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1257,42 +1257,6 @@
             ],
             "abandoned": "roave/better-reflection",
             "time": "2020-10-27T21:46:55+00:00"
-        },
-        {
-            "name": "drupal-tome/tome_drush",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/drupal-tome/tome_drush.git",
-                "reference": "6a66e06184aaf2718326eefdd8d4ba77e49e49dd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/drupal-tome/tome_drush/zipball/6a66e06184aaf2718326eefdd8d4ba77e49e49dd",
-                "reference": "6a66e06184aaf2718326eefdd8d4ba77e49e49dd",
-                "shasum": ""
-            },
-            "require": {
-                "drush/drush": "^9.6.0 || ^10.0"
-            },
-            "default-branch": true,
-            "type": "drupal-drush",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Samuel Mortenson",
-                    "email": "samuel@mortenson.coffee"
-                }
-            ],
-            "description": "Contains global Drush commands for initializing and installing Tome.",
-            "support": {
-                "issues": "https://github.com/drupal-tome/tome_drush/issues",
-                "source": "https://github.com/drupal-tome/tome_drush/tree/master"
-            },
-            "time": "2020-06-06T23:22:43+00:00"
         },
         {
             "name": "drupal/core",
@@ -9723,9 +9687,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "drupal-tome/tome_drush": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
