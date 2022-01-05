@@ -1,0 +1,92 @@
+{
+    "uuid": [
+        {
+            "value": "85b6ae9f-be6a-4a5e-a793-133b8b886c84"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "7a908b47-1848-4557-9a34-bb4c8c5e7aca"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2022-01-05T23:35:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "cd3d7d7f-4527-44f8-a1da-a816385d1cb1"
+        }
+    ],
+    "name": [
+        {
+            "value": "logo.jpg"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Druxt logo",
+            "title": null,
+            "width": 400,
+            "height": 400,
+            "target_type": "file",
+            "target_uuid": "94fd5265-cedb-4016-bb4d-9cf2d2993631"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-01-05T23:35:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-01-05T23:35:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Druxt logo",
+            "title": "",
+            "width": 400,
+            "height": 400,
+            "target_type": "file",
+            "target_uuid": "94fd5265-cedb-4016-bb4d-9cf2d2993631"
+        }
+    ]
+}
