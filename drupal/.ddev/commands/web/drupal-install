@@ -6,5 +6,7 @@
 
 composer install
 drush -y site:install
-drush -y pm:enable druxt webform
-drush -y role:perm:add anonymous  'access druxt resources'
+drush -y pm:enable devel_generate druxt webform_node
+drush -y role:perm:add anonymous 'access druxt resources'
+drush -y role:perm:add anonymous 'access any webform configuration'
+drush devel-generate:content 1 --bundles=webform
