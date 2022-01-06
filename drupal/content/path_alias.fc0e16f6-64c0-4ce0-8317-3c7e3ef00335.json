@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "fc0e16f6-64c0-4ce0-8317-3c7e3ef00335"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "und"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/1"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/hos-inhibeo-ratis."
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

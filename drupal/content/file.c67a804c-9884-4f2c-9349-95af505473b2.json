@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "c67a804c-9884-4f2c-9349-95af505473b2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "cd3d7d7f-4527-44f8-a1da-a816385d1cb1"
+        }
+    ],
+    "filename": [
+        {
+            "value": "generateImage_DYJdQL.gif"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2022-01\/generateImage_DYJdQL.gif"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/gif"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 2508
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-01-06T23:08:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-01-06T23:08:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
