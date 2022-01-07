@@ -7,20 +7,23 @@ export default {
   name: 'DrupalMedia',
 
   props: {
-    'data-entity-type': {
+    dataEntityBundle: {
+      type: String,
+      required: true,
+    },
+    dataEntityType: {
       type: String,
       default: 'media',
     },
-    'data-entity-uuid': {
+    dataEntityUuid: {
       type: String,
       required: true,
     },
   },
 
   computed: {
-    props: ({ dataEntityType, dataEntityUuid }) => ({
-      // @todo - The Bundle is currently hardcoded to 'image'.
-      type: [dataEntityType, 'image'].join('--'),
+    props: ({ dataEntityBundle, dataEntityType, dataEntityUuid }) => ({
+      type: [dataEntityType, dataEntityBundle].join('--'),
       uuid: dataEntityUuid
     })
   }
