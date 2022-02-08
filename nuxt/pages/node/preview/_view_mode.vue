@@ -1,7 +1,8 @@
 <template>
-  <div>
-    {{ url }}
-    {{ entity }}
+  <div v-if="!$fetchState.pending">
+    <DruxtDebug :summary='url' :json="entity" />
+    <!-- @TODO - use v-model to bind preview data. -->
+    <DruxtEntity v-bind="props" />
   </div>
 </template>
 
@@ -23,6 +24,14 @@ export default {
   },
 
   computed: {
+    props: ({ $route, url }) => {
+      const parts = url.split('/')
+      return {
+        mode: $route.params.view_mode,
+        type: [parts[parts.length - 4], parts[parts.length - 3]].join('--'),
+        uuid: parts[parts.length - 2]
+      }
+    },
     url: ({ $route }) => $route.hash.substring(1).replace(':/', '://')
   }
 }
