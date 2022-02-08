@@ -1,3 +1,5 @@
+_core:
+  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
   automated_cron: 0
   big_pipe: 0
@@ -14,6 +16,7 @@ module:
   dblog: 0
   decoupled_router: 0
   druxt: 0
+  druxt_node_preview: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -25,6 +28,7 @@ module:
   image: 0
   jsonapi: 0
   jsonapi_menu_items: 0
+  jsonapi_node_preview: 0
   jsonapi_resources: 0
   jsonapi_views: 0
   link: 0
@@ -57,5 +61,3 @@ theme:
   bartik: 0
   seven: 0
 profile: standard
-_core:
-  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

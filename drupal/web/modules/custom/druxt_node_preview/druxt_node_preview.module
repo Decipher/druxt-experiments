@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Core functions for the Druxt: Node Preview module.
+ */
+
+ /**
+  * Implements hook_theme().
+  */
+function druxt_node_preview_theme($existing, $type, $theme, $path) {
+  return [
+    'druxt_node_preview' => [
+      'variables' => [
+        'druxt_node_preview' => NULL,
+        'jsonapi_node_preview' => NULL,
+        'view_mode_id' => NULL
+      ]
+    ]
+  ];
+}

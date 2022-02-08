@@ -1,0 +1,5 @@
+services:
+  druxt_node_preview.route_subscriber:
+    class: Drupal\druxt_node_preview\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
