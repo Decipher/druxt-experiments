@@ -1,8 +1,8 @@
 <template>
-  <div v-if="!$fetchState.pending">
-    <DruxtDebug :summary='url' :json="entity" />
-    <!-- @TODO - use v-model to bind preview data. -->
-    <DruxtEntity v-bind="props" />
+  <div class="druxt-node-preview">
+    <ClientOnly v-if="!$fetchState.pending">
+      <DruxtEntity v-model="entity" v-bind="props" />
+    </ClientOnly>
   </div>
 </template>
 
@@ -11,27 +11,44 @@ export default {
   layout: 'preview',
 
   data: () => ({
-    entity: null,
+    entity: {},
+    response: null,
   }),
 
+  // Only fetch on client side so that the client session is used.
+  fetchOnServer: false,
+
+  // Fetch the
   async fetch() {
     try {
-      const response = await this.$druxt.axios.get(this.url)
-      this.entity = response.data
+      const { data } = await this.$druxt.axios.get(
+        this.url,
+        { withCredentials: true }
+      )
+      this.entity = (data || {}).data
+      this.response = data
     } catch(err) {
-      console.log('ERR', err)
+      this.response = err.response
     }
   },
 
   computed: {
+    /**
+     * The DruxtEntity props.
+     *
+     * @type {object}
+     */
     props: ({ $route, url }) => {
       const parts = url.split('/')
       return {
         mode: $route.params.view_mode,
-        type: [parts[parts.length - 4], parts[parts.length - 3]].join('--'),
-        uuid: parts[parts.length - 2]
+        type: [parts[parts.length - 4], parts[parts.length - 3]].join('--')
       }
     },
+
+    /**
+     * The JSON:API Node Preview URL.
+     */
     url: ({ $route }) => $route.hash.substring(1).replace(':/', '://')
   }
 }

@@ -13,7 +13,6 @@ class RouteSubscriber extends RouteSubscriberBase {
    * {@inheritdoc}
    */
   protected function alterRoutes(RouteCollection $collection) {
-    // Change path '/user/login' to '/login'.
     if ($route = $collection->get('entity.node.preview')) {
       $route->setDefaults(array(
         '_controller' => '\Drupal\druxt_node_preview\Controller\NodePreviewController::view',

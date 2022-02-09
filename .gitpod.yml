@@ -17,7 +17,7 @@ ports:
     onOpen: ignore
   # Nuxt - Web
   - port: 3000
-    onOpen: open-preview
+    onOpen: ignore
     visibility: public
   # DDev - local db clients
   - port: 3306
