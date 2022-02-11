@@ -30,6 +30,10 @@ class NodePreviewController extends CoreNodePreviewController {
       '#view_mode_id' => $view_mode_id,
     ];
 
+    // Add support for View mode switching via default Node library.
+    $node_preview->preview_view_mode = $view_mode_id;
+    $build['#attached']['library'][] = 'node/drupal.node.preview';
+
     return $build;
   }
 
