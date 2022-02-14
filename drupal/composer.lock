@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ca9d2a81763b33d10cbd7e4f5cc51c7",
+    "content-hash": "d03e66e197132e5d5363531db545ff42",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1814,51 +1814,13 @@
         },
         {
             "name": "drupal/druxt",
-            "version": "1.1.1",
+            "version": "dev-3264181",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/druxt.git",
-                "reference": "1.1.1"
+                "url": "https://github.com/Decipher/druxt_drupal",
+                "reference": "bc5016b11140a5a4f3778d957b28636076b14b5c"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/druxt-1.1.1.zip",
-                "reference": "1.1.1",
-                "shasum": "8307ff2a84de13257e926b722b6f3cd54c5304e2"
-            },
-            "require": {
-                "drupal/core": "^8.8 || ^9",
-                "drupal/decoupled_router": "^2.0",
-                "drupal/jsonapi_menu_items": "^1.0.0",
-                "drupal/jsonapi_views": "^1.0@beta"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "1.1.1",
-                    "datestamp": "1635120618",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Stuart Clark",
-                    "homepage": "https://www.drupal.org/user/103796",
-                    "email": "stuart@realityloop.com"
-                }
-            ],
-            "description": "A bridge between frameworks, Drupal in the back, Nuxt.js in the front.",
-            "homepage": "https://www.drupal.org/project/druxt",
-            "support": {
-                "source": "https://git.drupalcode.org/project/druxt"
-            }
+            "type": "drupal-module"
         },
         {
             "name": "drupal/jsonapi_menu_items",

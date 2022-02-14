@@ -10,6 +10,19 @@
     },
     "repositories": [
         {
+            "type": "package",
+            "package": {
+                "name": "drupal/druxt",
+                "version": "dev-3264181",
+                "type": "drupal-module",
+                "source": {
+                    "url": "https://github.com/Decipher/druxt_drupal",
+                    "type": "git",
+                    "reference": "bc5016b11140a5a4f3778d957b28636076b14b5c"
+                }
+            }
+        },
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
