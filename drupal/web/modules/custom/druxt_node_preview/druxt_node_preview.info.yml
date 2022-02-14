@@ -1,6 +1,7 @@
 name: "Druxt: Node Preview"
 description: JSON:API Node Preview integration for DruxtJS.
 package: Web services
+configure: druxt_node_preview.settings
 
 type: module
 core_version_requirement: ^8.8 || ^9

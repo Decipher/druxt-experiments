@@ -1,0 +1,5 @@
+druxt_node_preview.settings:
+  title: 'Druxt: Node Preview'
+  parent: system.admin_config_services
+  description: "Configure the providers and settings for the Druxt Node Preview."
+  route_name: druxt_node_preview.settings

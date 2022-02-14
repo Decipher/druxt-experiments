@@ -15,18 +15,36 @@ class NodePreviewController extends CoreNodePreviewController {
    * {@inheritdoc}
    */
   public function view(EntityInterface $node_preview, $view_mode_id = 'full', $langcode = NULL) {
-    $host = \Drupal::request()->getHost();
-    $druxt_node_preview = 'https://' . str_replace('8080', '3000', $host) . '/node/preview';
+    // Get frontend from request.
+    $frontends = druxt_node_preview_frontends();
+    $frontend = array_values($frontends)[\Drupal::request()->query->get('frontend')];
+    // Otherwise use the first available frontend.
+    if (!$frontend) {
+      $frontend = array_values($frontends)[0];
+    }
+
+    // Get the JSON:API Node Preview URL.
     $jsonapi_node_preview = Url::fromRoute(
       'jsonapi.node--article.individual.preview',
       ['node_preview' => $node_preview->uuid()],
       ['absolute' => TRUE]
     )->toString();
 
+    // Process the frontend URL.
+    $tokens = [
+      'jsonapi_node_preview' => $jsonapi_node_preview,
+      'view_mode' => $view_mode_id,
+    ];
+    $url = $frontend;
+    foreach ($tokens as $token => $value) {
+      $url = str_replace("[{$token}]", $value, $url);
+    }
+
     $build = [
       '#theme' => 'druxt_node_preview',
-      '#druxt_node_preview' => $druxt_node_preview,
+      '#frontend' => $frontend,
       '#jsonapi_node_preview' => $jsonapi_node_preview,
+      '#url' => $url,
       '#view_mode_id' => $view_mode_id,
     ];
 

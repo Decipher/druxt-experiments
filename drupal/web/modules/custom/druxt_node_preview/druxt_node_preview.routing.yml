@@ -1,0 +1,7 @@
+druxt_node_preview.settings:
+  path: '/admin/config/services/druxt/node_preview'
+  defaults:
+    _form: '\Drupal\druxt_node_preview\Form\DruxtNodePreviewSettingsForm'
+    _title: 'Druxt: Node Preview'
+  requirements:
+    _permission: 'administer site configuration'
