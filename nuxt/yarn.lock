@@ -49,7 +49,7 @@
     json5 "^2.1.2"
     semver "^6.3.0"
 
-"@babel/eslint-parser@^7.12.16", "@babel/eslint-parser@^7.14.7":
+"@babel/eslint-parser@^7.12.16", "@babel/eslint-parser@^7.17.0":
   version "7.17.0"
   resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.17.0.tgz#eabb24ad9f0afa80e5849f8240d0e5facc2d90d6"
   integrity sha512-PUEJ7ZBXbRkbq3qqM/jZ2nIuakUBqCYc7Qf52Lj7dlZ6zERnqisdHioL0l4wwQZnmskMeasqUNzLBFKs3nylXA==
@@ -915,6 +915,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.15.4":
+  version "7.17.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.2.tgz#66f68591605e59da47523c631416b18508779941"
+  integrity sha512-hzeyJyMA1YGdJTuWU0e/j4wKXrU4OMFvY2MSlaI9B7VQb0r5cxTE3EAIS2Q7Tn2RIcDkRvTA/v2JsAEhxe99uw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.16.7":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.16.7.tgz#8d126c8701fde4d66b264b3eba3d96f07666d155"
@@ -1358,6 +1365,17 @@
     webpack-hot-middleware "^2.25.0"
     webpack-node-externals "^3.0.0"
     webpackbar "^4.0.0"
+
+"@nuxtjs/axios@^5.13.6":
+  version "5.13.6"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.13.6.tgz#6f4bbd98a3a7799a5d2c0726c6ad2a98aa111881"
+  integrity sha512-XS+pOE0xsDODs1zAIbo95A0LKlilvJi8YW0NoXYuq3/jjxGgWDxizZ6Yx0AIIjZOoGsXJOPc0/BcnSEUQ2mFBA==
+  dependencies:
+    "@nuxtjs/proxy" "^2.1.0"
+    axios "^0.21.1"
+    axios-retry "^3.1.9"
+    consola "^2.15.3"
+    defu "^5.0.0"
 
 "@nuxtjs/eslint-config@^6.0.1":
   version "6.0.1"
@@ -2054,6 +2072,14 @@ autoprefixer@^9.6.1:
     picocolors "^0.2.1"
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
+
+axios-retry@^3.1.9:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/axios-retry/-/axios-retry-3.2.4.tgz#f447a53c3456f5bfeca18f20c3a3272207d082ae"
+  integrity sha512-Co3UXiv4npi6lM963mfnuH90/YFLKWWDmoBYfxkHT5xtkSSWNqK9zdG3fw5/CP/dsoKB5aMMJCsgab+tp1OxLQ==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    is-retry-allowed "^2.2.0"
 
 axios@^0.21.1:
   version "0.21.4"
@@ -2829,10 +2855,15 @@ core-js@^2.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
   integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
-core-js@^3.15.1, core-js@^3.16.1:
+core-js@^3.16.1:
   version "3.21.0"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.21.0.tgz#f479dbfc3dffb035a0827602dd056839a774aa71"
   integrity sha512-YUdI3fFu4TF/2WykQ2xzSiTQdldLB4KVuL9WeAy5XONZYt5Cun/fpQvctoKbCgvPhmzADeesTk/j2Rdx77AcKQ==
+
+core-js@^3.21.1:
+  version "3.21.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.21.1.tgz#f2e0ddc1fc43da6f904706e8e955bc19d06a0d94"
+  integrity sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -3371,122 +3402,122 @@ drupal-jsonapi-params@^1.1.12, drupal-jsonapi-params@^1.2.1, drupal-jsonapi-para
   dependencies:
     qs "^6.10.0"
 
-druxt-blocks@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/druxt-blocks/-/druxt-blocks-0.15.0.tgz#2d550262b02c77460fa1708ee444477da6287d9d"
-  integrity sha512-DNliU3uYfqyLmzK49DWM+sHsYZw7cAYSypRjfAUOsT3sCJQx+Fv0gUGj/bMq2OKGEiAlXhxcq0XQZ7rCnWCssA==
+druxt-blocks@^0.15.1:
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/druxt-blocks/-/druxt-blocks-0.15.1.tgz#b2c25036477dfa2cb7c819c232352d58ab81677b"
+  integrity sha512-b6PT7y83/lFaPJG2B+bdEjnNWFXXGEMgdUOal8sNbNp+XghS6uFdjihFK5e5cd1lLKhH5Y01xX/Rzgkolpx4MA==
   dependencies:
     axios "^0.21.1"
     drupal-jsonapi-params "^1.1.12"
-    druxt "^0.17.0"
-    druxt-entity "^0.24.0"
-    druxt-router "^0.26.0"
+    druxt "^0.18.0"
+    druxt-entity "^0.24.2"
+    druxt-router "^0.26.1"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-breadcrumb@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/druxt-breadcrumb/-/druxt-breadcrumb-0.14.0.tgz#af114a30384e82dafb1b205a6309ced6283cdd62"
-  integrity sha512-JKWcsJas5Ko/Z5fRtVI9zEaCzFVvOR02Nl48C940cTtGTHe5dLFYS0Ly8d5owE3APe1PK1w/ymBh4a0EQUGiow==
+druxt-breadcrumb@^0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/druxt-breadcrumb/-/druxt-breadcrumb-0.14.1.tgz#61995ab4a5dab375d5903ab90ce7fb65623ed439"
+  integrity sha512-dK1vy0LFjwTG7sqp435fgHJlBPcKri+WSvBxkbNrx09TY2wjtTH9KQKANk1Jq0d6SFwvYyZnL+aeI4/RByJ/Gg==
   dependencies:
-    druxt "^0.17.0"
-    druxt-blocks "^0.15.0"
-    druxt-router "^0.26.0"
+    druxt "^0.18.0"
+    druxt-blocks "^0.15.1"
+    druxt-router "^0.26.1"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-entity@^0.24.0:
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/druxt-entity/-/druxt-entity-0.24.0.tgz#c481a32c1c912e8c7954de8fe1076ff88854b380"
-  integrity sha512-lRCC1Kl3ZpqhCjtWzjAGhVKIymC8Q6CiOukOdTKn4i0HUR4Hy/WkolanI+vbcEko9eA0wHUnCdu/0ie8JLyjFQ==
+druxt-entity@^0.24.2:
+  version "0.24.2"
+  resolved "https://registry.yarnpkg.com/druxt-entity/-/druxt-entity-0.24.2.tgz#aeb7cad51a7b26d1ba4c909ff715aed30cc35de5"
+  integrity sha512-N3O85b7vXz7GaDPa8G2YlPa2L54E0dNxcOsUMHu972peuqE8h0r3iwg/C+mFJUfs8Ke7XmZR3VfU36uU0nCQ7g==
   dependencies:
     deepmerge "^4.2.2"
     drupal-jsonapi-params "^1.2.2"
-    druxt "^0.17.0"
-    druxt-router "^0.26.0"
-    druxt-schema "^0.10.1"
+    druxt "^0.18.0"
+    druxt-router "^0.26.1"
+    druxt-schema "^0.10.2"
 
-druxt-menu@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/druxt-menu/-/druxt-menu-0.16.0.tgz#766ba77441908c8ef95af0add02e2218dc822c65"
-  integrity sha512-QpkfSR1ri7GQ96IzDVTuP0V9rMRzBfd+BqWF0mE5M1DIjzbc/BWBANDAqmlC4C10lzSHbmKOh8yFOfd7vqzHCg==
+druxt-menu@^0.16.1:
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/druxt-menu/-/druxt-menu-0.16.1.tgz#37ebeb2ef8af0654eb10186051d72ade42165d6c"
+  integrity sha512-P4wW4t/wgi73e7EAReZlAOo8Na+h3pSwOkYfYxmfYFIehCA8wWhnK08TeMz17FouIijDzayOFi4p+41hkrQ6CA==
   dependencies:
     deepmerge "^4.2.2"
     drupal-jsonapi-params "^1.1.12"
-    druxt "^0.17.0"
-    druxt-blocks "^0.15.0"
+    druxt "^0.18.0"
+    druxt-blocks "^0.15.1"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-router@^0.26.0:
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/druxt-router/-/druxt-router-0.26.0.tgz#9740f4eabdfded4df51c558b8df6342a6d6b4eab"
-  integrity sha512-LCvgjGKoCKS5D+SU5l2xTz143/nswCQD2tji3M/vQO4DXY1IA/NEwvP4yNa7bvPM6VdSy6Xu61OlE0JMbSWO3Q==
+druxt-router@^0.26.1:
+  version "0.26.1"
+  resolved "https://registry.yarnpkg.com/druxt-router/-/druxt-router-0.26.1.tgz#4e66ee21473ee0d97fac6cca83c845af645983bc"
+  integrity sha512-PsVL/eadw/CFP69WN6fwIj0Vf1FjsjFUMNDYLDIoIl2At8p5DKXyNMTZxKbnuBlscJxHuu5qPXhD0f59UFpcuw==
   dependencies:
-    druxt "^0.17.0"
+    druxt "^0.18.0"
     url-parse "^1.4.7"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-schema@^0.10.1:
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/druxt-schema/-/druxt-schema-0.10.1.tgz#3dcb00d5643492c48815355f9c7c0a0d3b4883ad"
-  integrity sha512-d81bkrqx7DOUWdqn7sd9owROZrf4HzYA49JR550/uuL7H83IiPjya+uvJGjOTPbhfBWessoob2JJIPnWUZ7S0Q==
+druxt-schema@^0.10.2:
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/druxt-schema/-/druxt-schema-0.10.2.tgz#d51f8d023c267a7ee2c5a0c19c4764bd5a67d615"
+  integrity sha512-TRJc5b49mJnpgmal3Kg1lCJbcqiVNPvVjwMFSQj9PebmPvGMKe0XfdrxLzvMFhQYOfk/1R5wPvVwtj21vOV5Vg==
   dependencies:
     consola "^2.15.0"
     drupal-jsonapi-params "^1.2.2"
-    druxt "^0.17.0"
+    druxt "^0.18.0"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-site@0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/druxt-site/-/druxt-site-0.11.0.tgz#a078878582f491dc68a7fb42c89f3c8d52b2c83f"
-  integrity sha512-+vkzbPpbkcmU1MVMHHRLCgVYxlDYSd2Jrd6dyDNZtXod9hr8ubocG8W1sqjcyucyqnpoeKOVmTCBYk6jreFCrA==
+druxt-site@0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/druxt-site/-/druxt-site-0.11.1.tgz#f9e2973ebddd036710f9692e035a7dcb44778f6a"
+  integrity sha512-ma4jZfCGp1Klnqc7trlSJLTUWrCuBc1CGTA/IVw73tIprpT3uLwzPTulmobA2LT96VpLYDbVcH81tnNu0XBR/A==
   dependencies:
     drupal-jsonapi-params "^1.2.2"
-    druxt "^0.17.0"
-    druxt-blocks "^0.15.0"
-    druxt-breadcrumb "^0.14.0"
-    druxt-entity "^0.24.0"
-    druxt-menu "^0.16.0"
-    druxt-router "^0.26.0"
-    druxt-schema "^0.10.1"
-    druxt-views "^0.18.0"
+    druxt "^0.18.0"
+    druxt-blocks "^0.15.1"
+    druxt-breadcrumb "^0.14.1"
+    druxt-entity "^0.24.2"
+    druxt-menu "^0.16.1"
+    druxt-router "^0.26.1"
+    druxt-schema "^0.10.2"
+    druxt-views "^0.18.1"
     md5 "^2.2.1"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt-views@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/druxt-views/-/druxt-views-0.18.0.tgz#3b0d6704f610bdb449466bf1988f6ba512a3dcec"
-  integrity sha512-ATE4aJixzJ33byyGGFAYJhGB+KpDRAoC121X/eS3W3s4lBAYviNCby000t9FJROtgabLLgWfag4aitX3UuFFkg==
+druxt-views@^0.18.1:
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/druxt-views/-/druxt-views-0.18.1.tgz#684d69336194594b5127a6342cdf73a59f89232c"
+  integrity sha512-F1p73sm+32oII+acWWINfdceUYPftzPcY4p+OErznGb7sert9ALUH53s5lANVAFwuES35XYdJbMIE+PnDkd/WQ==
   dependencies:
     axios "^0.21.1"
     deepmerge "^4.2.2"
     drupal-jsonapi-params "^1.1.12"
-    druxt "^0.17.0"
-    druxt-blocks "^0.15.0"
-    druxt-entity "^0.24.0"
-    druxt-router "^0.26.0"
+    druxt "^0.18.0"
+    druxt-blocks "^0.15.1"
+    druxt-entity "^0.24.2"
+    druxt-router "^0.26.1"
     md5 "^2.3.0"
   optionalDependencies:
     vue "^2.6.14"
     vuex "^3.6.2"
 
-druxt@^0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/druxt/-/druxt-0.17.0.tgz#fbef51d4ea6d2f71209718c0ce3b486247a68a7f"
-  integrity sha512-L+JcY4Ic8B8hQn45gafpABWeHbGYaYiTHXtr7PXB+Tu2sdf9toqFoKIpxoSVohsI0vrxcNOKO+FxfSnsFfM6jw==
+druxt@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/druxt/-/druxt-0.18.0.tgz#5f5dfe92aecb3b610e039e7facac144e143bb1d4"
+  integrity sha512-OuvRPE8drLMtp0jEZEHEzH0Bd+jF8P3Cqdy+x34tcp9jrJ2tAUbBVu81NKFXmfIRb9D3zKNKaQdAQPDa1UsBvA==
   dependencies:
+    "@nuxtjs/axios" "^5.13.6"
     "@nuxtjs/proxy" "^2.1.0"
-    axios "^0.21.1"
     chalk "^4.1.2"
     deepmerge "^4.2.2"
     drupal-jsonapi-params "^1.2.1"
@@ -3655,10 +3686,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-prettier@^8.3.0:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
-  integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
+eslint-config-prettier@^8.4.0:
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.4.0.tgz#8e6d17c7436649e98c4c2189868562921ef563de"
+  integrity sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==
 
 eslint-config-standard@^16.0.3:
   version "16.0.3"
@@ -3765,7 +3796,7 @@ eslint-plugin-unicorn@^28.0.2:
     safe-regex "^2.1.1"
     semver "^7.3.4"
 
-eslint-plugin-vue@^7.1.0, eslint-plugin-vue@^7.12.1, eslint-plugin-vue@^7.9.0:
+eslint-plugin-vue@^7.1.0, eslint-plugin-vue@^7.20.0, eslint-plugin-vue@^7.9.0:
   version "7.20.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.20.0.tgz#98c21885a6bfdf0713c3a92957a5afeaaeed9253"
   integrity sha512-oVNDqzBC9h3GO+NTgWeLMhhGigy6/bQaQbHS+0z7C4YEu/qK/yxHvca/2PTZtGNPsCrHwOTgKMrwu02A9iPBmw==
@@ -3838,7 +3869,7 @@ eslint-webpack-plugin@^2.4.1:
     normalize-path "^3.0.0"
     schema-utils "^3.1.1"
 
-eslint@^7.29.0:
+eslint@^7.32.0:
   version "7.32.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.32.0.tgz#c6d328a14be3fb08c8d1d21e12c02fdb7a2a812d"
   integrity sha512-VHZ8gX+EDfz+97jGcgyGCyRia/dPOd6Xh9yPv8Bl1+SoaIwD+a/vlrOmGRUyOYu7MwUhc7CxqeaDZU13S4+EpA==
@@ -5082,6 +5113,11 @@ is-resolvable@^1.0.0:
   resolved "https://registry.yarnpkg.com/is-resolvable/-/is-resolvable-1.1.0.tgz#fb18f87ce1feb925169c9a407c19318a3206ed88"
   integrity sha512-qgDYXFSR5WvEfuS5dMj6oTMEbrrSaM0CrFk2Yiq/gXnBvD9pMa2jGXxyhGLfvhZpuMZe18CJpFxAt3CRs42NMg==
 
+is-retry-allowed@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/is-retry-allowed/-/is-retry-allowed-2.2.0.tgz#88f34cbd236e043e71b6932d09b0c65fb7b4d71d"
+  integrity sha512-XVm7LOeLpTW4jV19QSH38vkswxoLud8sQ57YwJVTPWdiaI9I8keEhGFpBlslyVsgdQy4Opg8QOLb8YRgsyZiQg==
+
 is-shared-array-buffer@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-shared-array-buffer/-/is-shared-array-buffer-1.0.1.tgz#97b0c85fbdacb59c9c446fe653b82cf2b5b7cfe6"
@@ -5973,7 +6009,7 @@ num2fraction@^1.2.2:
   resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
-nuxt@^2.15.7:
+nuxt@^2.15.8:
   version "2.15.8"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.15.8.tgz#946cba46bdaaf0e3918aa27fd9ea0fed8ed303b0"
   integrity sha512-ceK3qLg/Baj7J8mK9bIxqw9AavrF+LXqwYEreBdY/a4Sj8YV4mIvhqea/6E7VTCNNGvKT2sJ/TTJjtfQ597lTA==
@@ -7067,7 +7103,7 @@ prepend-http@^1.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
-"prettier@^1.18.2 || ^2.0.0", prettier@^2.3.2:
+"prettier@^1.18.2 || ^2.0.0", prettier@^2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
   integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
