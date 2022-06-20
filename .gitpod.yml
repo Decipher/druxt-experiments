@@ -9,6 +9,7 @@ tasks:
       .gitpod/scripts/nuxt-setup.sh
     command: |
       .gitpod/scripts/ddev-setup.sh
+      .gitpod/scripts/ddev-config.sh
       cd nuxt && yarn dev
 
 ports:
