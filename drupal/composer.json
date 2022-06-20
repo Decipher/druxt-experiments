@@ -91,6 +91,11 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "pathces": {
+            "drupal/druxt": {
+                "Node Preview": "https://git.drupalcode.org/project/druxt/-/merge_requests/8.diff"
+            }
         }
     }
 }
