@@ -1,0 +1,50 @@
+{
+    "uuid": [
+        {
+            "value": "58c65861-4392-4243-a310-04dc72b434b5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [],
+    "filename": [
+        {
+            "value": "heritage-carrots.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/heritage-carrots.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 36372
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

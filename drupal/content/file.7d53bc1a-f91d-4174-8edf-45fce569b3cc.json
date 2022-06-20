@@ -1,0 +1,50 @@
+{
+    "uuid": [
+        {
+            "value": "7d53bc1a-f91d-4174-8edf-45fce569b3cc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [],
+    "filename": [
+        {
+            "value": "mojito-mocktail.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/mojito-mocktail.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 49938
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

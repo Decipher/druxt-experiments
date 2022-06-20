@@ -1,0 +1,22 @@
+uuid: fd7cf144-9f2b-42a8-a80d-def8a1bec3df
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: sSUIsKTm3XJhfRtHIW_-goM5fEnuJkmpnX1W8YsvL-k
+id: node.field_cooking_time
+field_name: field_cooking_time
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,50 @@
+{
+    "uuid": [
+        {
+            "value": "84b77993-d0a9-419b-879c-52b5247e5c30"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [],
+    "filename": [
+        {
+            "value": "thai-green-curry-umami.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/thai-green-curry-umami.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 38674
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

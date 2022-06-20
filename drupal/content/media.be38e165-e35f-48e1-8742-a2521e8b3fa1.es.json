@@ -1,0 +1,102 @@
+{
+    "uuid": [
+        {
+            "value": "be38e165-e35f-48e1-8742-a2521e8b3fa1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "2574814d-21e0-48c5-9f13-1d0139d5055f"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "3724805a-3b5d-44dd-96ec-aa6594da0695"
+        }
+    ],
+    "name": [
+        {
+            "value": "Pastel Victoria"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Una esponja Victoria cl\u00e1sica, sin cortar, con un relleno profundo de crema de mantequilla y mermelada",
+            "title": null,
+            "width": 768,
+            "height": 512,
+            "target_type": "file",
+            "target_uuid": "84270603-6d81-494b-8a8c-31afe1a99b8e"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": false
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Una esponja Victoria cl\u00e1sica, sin cortar, con un relleno profundo de crema de mantequilla y mermelada",
+            "title": null,
+            "width": 768,
+            "height": 512,
+            "target_type": "file",
+            "target_uuid": "841a5808-1ba5-43c4-bcdb-36ae8c6bfe4a"
+        }
+    ]
+}

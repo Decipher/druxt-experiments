@@ -1,26 +1,26 @@
-uuid: 0fe5f9e8-6652-456b-82f7-502e2a185d60
+uuid: c645f865-ef4c-44ba-a0d4-e3f987f328a7
 langcode: en
 status: true
 dependencies:
   config:
     - filter.format.restricted_html
   module:
-    - comment
     - contact
     - druxt
     - filter
+    - media
     - search
     - system
 _core:
-  default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
+  default_config_hash: Gl1lr_RJQ9pMz_DZhY6pNX94k874Gqh15Gm8Du1EepQ
 id: anonymous
 label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
-  - 'access comments'
   - 'access content'
   - 'access druxt resources'
   - 'access site-wide contact form'
   - 'search content'
   - 'use text format restricted_html'
+  - 'view media'

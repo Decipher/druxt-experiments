@@ -1,0 +1,102 @@
+{
+    "uuid": [
+        {
+            "value": "f81ffa50-2e90-4ff2-b293-5af417cdfd86"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "2574814d-21e0-48c5-9f13-1d0139d5055f"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "3724805a-3b5d-44dd-96ec-aa6594da0695"
+        }
+    ],
+    "name": [
+        {
+            "value": "Gu\u00eda Umami de nuestras setas preferidas"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Una deliciosa selecci\u00f3n de variedades de setas distribuidas en un sencillo plato de madera.",
+            "title": null,
+            "width": 768,
+            "height": 512,
+            "target_type": "file",
+            "target_uuid": "d67c3858-2829-4427-b383-d801b4c381ed"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": false
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Una deliciosa selecci\u00f3n de variedades de setas distribuidas en un sencillo plato de madera.",
+            "title": null,
+            "width": 768,
+            "height": 512,
+            "target_type": "file",
+            "target_uuid": "07b8b7b0-ee92-44e1-886c-89cf82de700c"
+        }
+    ]
+}

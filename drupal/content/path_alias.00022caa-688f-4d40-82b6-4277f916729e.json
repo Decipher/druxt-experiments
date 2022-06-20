@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "00022caa-688f-4d40-82b6-4277f916729e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/6919e700-d367-4929-a1ab-119e19ca0ef8"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/recipes\/thai-green-curry"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "uuid": [
+        {
+            "value": "355c7bbc-7a4f-4ac5-aa58-5c735023f4fb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "2574814d-21e0-48c5-9f13-1d0139d5055f"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "3724805a-3b5d-44dd-96ec-aa6594da0695"
+        }
+    ],
+    "name": [
+        {
+            "value": "Dale a tu avena el cambio de imagen definitivo"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Avena con una mezcla vibrante de bayas, nueces y semillas",
+            "title": null,
+            "width": 768,
+            "height": 512,
+            "target_type": "file",
+            "target_uuid": "681a3372-8391-435e-82f7-f158efded268"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": false
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "es"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Avena con una mezcla vibrante de bayas, nueces y semillas",
+            "title": null,
+            "width": 768,
+            "height": 512,
+            "target_type": "file",
+            "target_uuid": "116416e4-c8d2-4696-b3b2-368e71609206"
+        }
+    ]
+}

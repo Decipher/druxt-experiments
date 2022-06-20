@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "1097f184-d1c1-4038-9845-1c2a73baa027"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/15"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/tags\/saludable"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "10f20553-33e6-41a5-a0ad-2cb87ffeb2b7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/13"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/tags\/egg"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

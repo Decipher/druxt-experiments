@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "dfa9884f-f03a-4d38-817a-ad8734234143"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/35a4f045-f19e-4b2f-8e68-c16e4cfdfeb5"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/acerca-de-umami"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

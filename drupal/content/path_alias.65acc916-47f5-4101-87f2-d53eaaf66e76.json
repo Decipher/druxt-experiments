@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "65acc916-47f5-4101-87f2-d53eaaf66e76"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/18"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/tags\/champi\u00f1ones"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

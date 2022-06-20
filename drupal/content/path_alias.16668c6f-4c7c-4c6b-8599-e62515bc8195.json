@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "16668c6f-4c7c-4c6b-8599-e62515bc8195"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/0f226522-be23-43a1-8a1b-49753c7ba869"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/recipes\/sopa-de-berro"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

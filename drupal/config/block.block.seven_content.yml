@@ -1,4 +1,4 @@
-uuid: 98d46668-00ae-4438-bdf3-9f3a20b1f0ca
+uuid: 04cf2979-a920-4c4d-9e1a-2c7f44ce3cb1
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   theme:
     - seven
 _core:
-  default_config_hash: YRY68JWkaUiGeZlWMv1nzeIgDm0ZZwXYgpqUpLFzwAY
+  default_config_hash: 6_eJxtyfANKFE_nfriHKgrARRIPHH88sI6jvQ4EHbBc
 id: seven_content
 theme: seven
 region: content
@@ -17,6 +17,6 @@ plugin: system_main_block
 settings:
   id: system_main_block
   label: 'Main page content'
-  provider: system
   label_display: '0'
+  provider: system
 visibility: {  }

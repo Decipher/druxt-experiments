@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "00c861e5-1e22-4ea7-9b04-d8e9d9dceb97"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/5"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/tags\/pastel"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

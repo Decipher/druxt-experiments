@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "07eeafdd-4faf-443f-afb1-f9647e1364b9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/1"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/tags\/alcohol-free"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "d3aaa7fd-e18b-40f9-87ad-12b503db49f4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/16"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/tags\/hierbas"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

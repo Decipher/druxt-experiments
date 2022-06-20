@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "b6a5bc0b-7ee0-4b60-8701-743497565469"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/bdb1dd64-a1a4-48ca-a7f2-664bddb235df"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/articles\/el-verdadeo-negocio-para-comprar-en-el-supermercado"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

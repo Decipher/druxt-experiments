@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "546cad70-2123-4882-8cff-3e82aec2a4d1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/32"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/recipe-category\/tentempi\u00e9s"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

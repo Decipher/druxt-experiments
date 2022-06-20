@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "1255c00c-d88c-46c3-85dd-26e890169332"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/22"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/tags\/reposter\u00eda"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "uuid": [
+        {
+            "value": "4a974060-2855-4086-9a8f-593c508ea721"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "recipe",
+            "target_type": "node_type",
+            "target_uuid": "078d2c76-f515-491c-872e-bc58057b2164"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "35678e0e-2c97-4b41-875c-8a5d52039ef5"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "35678e0e-2c97-4b41-875c-8a5d52039ef5"
+        }
+    ],
+    "title": [
+        {
+            "value": "Crema catalana"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "moderation_state": [
+        {
+            "value": "published"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/recipes\/crema-catalana",
+            "langcode": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "field_cooking_time": [
+        {
+            "value": 20
+        }
+    ],
+    "field_difficulty": [
+        {
+            "value": "medium"
+        }
+    ],
+    "field_ingredients": [
+        {
+            "value": "1l milk"
+        },
+        {
+            "value": " 200g sugar"
+        },
+        {
+            "value": " 6 egg yolks"
+        },
+        {
+            "value": " 30g cornstarch"
+        },
+        {
+            "value": " 1 cinnamon stick"
+        },
+        {
+            "value": " 1 piece lemon peel"
+        }
+    ],
+    "field_media_image": [
+        {
+            "target_type": "media",
+            "target_uuid": "cfe06830-9b77-458f-9bcf-cbb6610df55d"
+        }
+    ],
+    "field_number_of_servings": [
+        {
+            "value": 8
+        }
+    ],
+    "field_preparation_time": [
+        {
+            "value": 10
+        }
+    ],
+    "field_recipe_category": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "9146128e-4784-49ac-9b03-bb6b7b555747"
+        }
+    ],
+    "field_recipe_instruction": [
+        {
+            "value": "<ol>\n  <li>Mix the egg yolks, sugar, and cornstarch with 1\/3 of the milk.<\/li>\n  <li>In a saucepan, boil 2\/3 of the milk with the lemon peel and cinnamon.<\/li>\n  <li>After 3 minutes, remove from the heat and take out the lemon and cinnamon.<\/li>\n  <li>Slowly add the egg mixture to the hot milk through a strainer to ensure there are no lumps.<\/li>\n  <li>Return it to the heat until it boils, stirring constantly.<\/li>\n  <li>Once the mixture has begun to thicken, remove from the heat and put it into individual bowls to cool.<\/li>\n  <li>For an authentic finish, sprinkle with sugar and brown with a blowtorch or under a preheated broiler to caramelize.<\/li>\n<\/ol>\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_summary": [
+        {
+            "value": "Enjoy this sweet recipe for one of the oldest desserts in Europe. It requires very few ingredients!",
+            "format": "basic_html"
+        }
+    ],
+    "field_tags": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "90cc63a9-a218-4f78-baa0-a22243143d17"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "3e81beec-71e3-4fb3-92ab-e54446968c77"
+        }
+    ]
+}

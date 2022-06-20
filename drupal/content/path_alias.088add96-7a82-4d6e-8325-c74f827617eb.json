@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "088add96-7a82-4d6e-8325-c74f827617eb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "es"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/11"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/tags\/fiesta-de-cena"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

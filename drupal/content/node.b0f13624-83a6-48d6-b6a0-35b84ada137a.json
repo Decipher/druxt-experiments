@@ -1,0 +1,190 @@
+{
+    "uuid": [
+        {
+            "value": "b0f13624-83a6-48d6-b6a0-35b84ada137a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "recipe",
+            "target_type": "node_type",
+            "target_uuid": "078d2c76-f515-491c-872e-bc58057b2164"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "35678e0e-2c97-4b41-875c-8a5d52039ef5"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "35678e0e-2c97-4b41-875c-8a5d52039ef5"
+        }
+    ],
+    "title": [
+        {
+            "value": "Super easy vegetarian pasta bake"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-06-20T01:55:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [],
+    "moderation_state": [
+        {
+            "value": "published"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/recipes\/super-easy-vegetarian-pasta-bake",
+            "langcode": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false
+        }
+    ],
+    "field_cooking_time": [
+        {
+            "value": 20
+        }
+    ],
+    "field_difficulty": [
+        {
+            "value": "easy"
+        }
+    ],
+    "field_ingredients": [
+        {
+            "value": "400g wholewheat pasta"
+        },
+        {
+            "value": " 1 onion"
+        },
+        {
+            "value": " 2 garlic cloves"
+        },
+        {
+            "value": " 1 pack vegetarian sausages"
+        },
+        {
+            "value": " 400g chopped tomatoes"
+        },
+        {
+            "value": " 50g sliced sun dried tomatoes"
+        },
+        {
+            "value": " 1 pinch sugar"
+        },
+        {
+            "value": " 3 tbsp red pesto"
+        },
+        {
+            "value": " 50g cheddar cheese"
+        },
+        {
+            "value": " Basil or mixed herbs"
+        },
+        {
+            "value": " 100g mozzarella"
+        }
+    ],
+    "field_media_image": [
+        {
+            "target_type": "media",
+            "target_uuid": "7c1c5084-c610-4b08-bdda-abfe4e5a1bb0"
+        }
+    ],
+    "field_number_of_servings": [
+        {
+            "value": 4
+        }
+    ],
+    "field_preparation_time": [
+        {
+            "value": 5
+        }
+    ],
+    "field_recipe_category": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "3777f116-16b6-4d9f-97dc-9997fb289216"
+        }
+    ],
+    "field_recipe_instruction": [
+        {
+            "value": "<ol>\n  <li>In a large pan, boil the pasta in plenty of water until cooked.<\/li>\n  <li>Whilst the pasta is cooking, chop the onion and gently fry it with the garlic in a little oil until soft and the onion looks clear.<\/li>\n  <li>Add the vegetarian sausages. Once browned, remove and chop into chunky bites.<\/li>\n  <li>Pop the sausages back into the pan and add the tomatoes, sugar, pesto and sun dried tomatoes. Season to taste. Simmer until most of the water from the chopped tomatoes has gone.<\/li>\n  <li>Drain the pasta and add to the pan with the sausages and tomatoes. Stir in half of the cheddar and transfer to a shallow dish. Sprinkle with the rest of the cheddar and dot the sliced mozzarella over the top.<\/li>\n  <li>Grill for 10 minutes or until the cheese has melted and started to brown. Serve with basil leaves.<\/li>\n<\/ol>\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_summary": [
+        {
+            "value": "A wholesome pasta bake is the ultimate comfort food. This delicious bake is super quick to prepare and an ideal midweek meal for all the family.",
+            "format": "basic_html"
+        }
+    ],
+    "field_tags": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "3e81beec-71e3-4fb3-92ab-e54446968c77"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "abd061ff-c867-4bdb-8c79-67e07aa8bcdc"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "c90f350f-53fa-46d7-98d7-fd30e6882763"
+        }
+    ]
+}
