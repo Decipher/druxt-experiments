@@ -1,0 +1,115 @@
+{
+    "uuid": [
+        {
+            "value": "3a3bd8d6-5426-4546-82c5-e09fd4eafd6b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article",
+            "target_type": "node_type",
+            "target_uuid": "b0133a42-df46-493e-9bdb-474d4ad3edff"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2022-07-05T08:01:45+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "46976263-fbac-41f0-9543-e5756bce87fc"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "46976263-fbac-41f0-9543-e5756bce87fc"
+        }
+    ],
+    "title": [
+        {
+            "value": "Tego Turpis Ullamcorper"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-06-07T20:39:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-07-05T08:01:45+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "Ea hos jumentum loquor tamen. Distineo populus refero suscipere tation. Amet eum modo olim quae valetudo voco. Bene damnum dignissim eligo euismod macto paratus plaga valde virtus.\r\n\r\nAutem bene eros letalis lucidus vero. Amet blandit haero imputo iustum macto oppeto pagus quae valetudo. Autem diam loquor metuo pala uxor.",
+            "format": "plain_text",
+            "summary": "Ea hos jumentum loquor tamen. Distineo populus refero suscipere tation. Amet eum modo olim quae valetudo voco. Bene damnum dignissim eligo euismod macto paratus plaga valde virtus."
+        }
+    ],
+    "comment": [
+        {
+            "status": 0,
+            "cid": 0,
+            "last_comment_timestamp": 0,
+            "last_comment_name": "",
+            "last_comment_uid": 0,
+            "comment_count": 0
+        }
+    ],
+    "field_image": [
+        {
+            "alt": "Abluo lobortis metuo pertineo tation wisi.",
+            "title": "",
+            "width": 120,
+            "height": 244,
+            "target_type": "file",
+            "target_uuid": "74f5e799-0681-461e-b95d-1e5d4bbeb161"
+        }
+    ],
+    "field_tags": []
+}

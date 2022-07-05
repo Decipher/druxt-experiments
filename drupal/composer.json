@@ -18,10 +18,13 @@
         "composer/installers": "^2.1",
         "cweagans/composer-patches": "^1.7",
         "drupal-tome/tome_drush": "dev-master",
+        "drupal/consumer_image_styles": "^4.0",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
+        "drupal/devel": "^4.1",
         "drupal/druxt": "^1.1",
+        "drupal/jsonapi_node_preview_tab": "^1.0@beta",
         "drupal/tome": "^1.7",
         "drush/drush": "^11.0"
     },

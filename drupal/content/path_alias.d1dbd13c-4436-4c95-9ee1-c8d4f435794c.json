@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "d1dbd13c-4436-4c95-9ee1-c8d4f435794c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/3"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/appellatio-comis-gravis-meus-neo-qui-quidne-similis-sino-usitas."
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

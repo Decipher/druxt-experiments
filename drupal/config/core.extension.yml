@@ -9,11 +9,14 @@ module:
   ckeditor: 0
   comment: 0
   config: 0
+  consumer_image_styles: 0
+  consumers: 0
   contact: 0
   contextual: 0
   datetime: 0
   dblog: 0
   decoupled_router: 0
+  devel_generate: 0
   druxt: 0
   dynamic_page_cache: 0
   editor: 0
@@ -25,7 +28,9 @@ module:
   history: 0
   image: 0
   jsonapi: 0
+  jsonapi_extras: 0
   jsonapi_menu_items: 0
+  jsonapi_node_preview_tab: 0
   jsonapi_resources: 0
   jsonapi_views: 0
   link: 0

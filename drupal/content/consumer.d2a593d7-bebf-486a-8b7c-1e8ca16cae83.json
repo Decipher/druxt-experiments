@@ -1,0 +1,66 @@
+{
+    "uuid": [
+        {
+            "value": "d2a593d7-bebf-486a-8b7c-1e8ca16cae83"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "owner_id": [
+        {
+            "target_type": "user",
+            "target_uuid": "46976263-fbac-41f0-9543-e5756bce87fc"
+        }
+    ],
+    "label": [
+        {
+            "value": "Default Consumer"
+        }
+    ],
+    "description": [
+        {
+            "value": "This is the default consumer. This was created programmatically when the Consumers module was first installed. Feel free to edit, or delete this."
+        }
+    ],
+    "image": [],
+    "third_party": [
+        {
+            "value": true
+        }
+    ],
+    "is_default": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "image_styles": [
+        {
+            "target_id": "large",
+            "target_type": "image_style",
+            "target_uuid": "87b64ea1-832d-4bcb-9b81-f36e4609859e"
+        },
+        {
+            "target_id": "medium",
+            "target_type": "image_style",
+            "target_uuid": "264094b2-64a4-465d-9b58-1c142029b815"
+        },
+        {
+            "target_id": "thumbnail",
+            "target_type": "image_style",
+            "target_uuid": "460cc36a-af8f-4155-97e1-775fb453ae1d"
+        },
+        {
+            "target_id": "wide",
+            "target_type": "image_style",
+            "target_uuid": "dd5ce548-ea7f-4336-8ca1-ceec4ebf84f4"
+        }
+    ]
+}

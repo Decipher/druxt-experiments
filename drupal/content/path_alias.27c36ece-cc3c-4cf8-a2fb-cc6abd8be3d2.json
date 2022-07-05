@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "27c36ece-cc3c-4cf8-a2fb-cc6abd8be3d2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/taxonomy\/term\/4"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/aptent-dolor-os."
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
