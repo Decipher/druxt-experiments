@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "3602c390-1b12-4067-b525-c7a512b14ed7"
+            "value": "9f0dd702-8001-48eb-95d3-af811d8539ac"
         }
     ],
     "langcode": [
@@ -13,7 +13,7 @@
         {
             "target_id": "default",
             "target_type": "shortcut_set",
-            "target_uuid": "e63bd05d-d6b3-4344-83ca-b204036ae49d"
+            "target_uuid": "f51c72d6-5ea8-4750-aad5-866c5094b83a"
         }
     ],
     "title": [
